@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Duck Hunt CAPTCHA</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:#050505;color:#fff;font-family:"Courier New",monospace;overflow:hidden}
+  body{display:flex;justify-content:center;align-items:center}
+  #app{width:min(1180px,100vw);height:min(900px,100vh);display:flex;flex-direction:column;background:#000;border:4px solid #222}
+  header{height:72px;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;background:#050505;border-bottom:4px solid #222}
+  h1{margin:0;font-size:28px;letter-spacing:2px}
+  header small{display:block;color:#aaa;font-size:14px;margin-top:3px}
+  #timer{font-size:38px;font-weight:bold;line-height:1;color:#fff}
+  #timerLabel{color:#8cff00;font-size:13px;text-align:right;margin-bottom:2px}
+  #game{position:relative;flex:1;min-height:360px;background:#47b5f1;overflow:hidden;cursor:default}
+  #game:before{content:"";position:absolute;inset:0;background:
+    radial-gradient(circle at 12% 12%,#8bd62a 0 34px,transparent 35px),
+    linear-gradient(#47b5f1 0 76%,#79d414 76% 100%);
+  }
+  #ground{position:absolute;bottom:0;height:25%;width:100%;background:
+    repeating-linear-gradient(80deg,transparent 0 8px,#0a6b13 8px 11px,transparent 11px 18px),
+    repeating-linear-gradient(100deg,#79d414 0 18px,#a0e62b 18px 28px);
+    border-top:5px solid #20740e}
+  #tree{position:absolute;left:4%;bottom:13%;font-size:120px;filter:saturate(1.1);user-select:none}
+  #bush{position:absolute;right:11%;bottom:13%;font-size:90px;user-select:none}
+  #duck{position:absolute;width:150px;height:115px;user-select:none;z-index:5;display:none}
+  .duck-body{position:absolute;left:38px;top:38px;width:68px;height:42px;background:#222;border-radius:55% 45% 45% 55%;transform:rotate(-8deg)}
+  .duck-head{position:absolute;left:88px;top:12px;width:43px;height:43px;background:#fff;border:5px solid #222;border-radius:50%}
+  .duck-eye{position:absolute;right:10px;top:8px;width:8px;height:8px;background:#000;border-radius:50%}
+  .duck-beak{position:absolute;left:123px;top:28px;width:31px;height:15px;background:#f7941d;border:4px solid #222;transform:skewX(-20deg)}
+  .wing{position:absolute;left:35px;top:18px;width:50px;height:45px;background:#fff;border:5px solid #222;border-radius:70% 20%;transform:rotate(-20deg)}
+  .tail{position:absolute;left:21px;top:39px;width:30px;height:30px;background:#fff;border:5px solid #222;transform:rotate(45deg)}
+  .leg{position:absolute;top:78px;width:7px;height:22px;background:#f7941d;border:2px solid #222}
+  .leg.one{left:60px}.leg.two{left:82px}
+  .cap{position:absolute;left:12px;top:38px;width:137px;height:48px;background:#fafafa;color:#222;border:1px solid #ccc;box-shadow:0 2px 5px #555;transform:rotate(9deg);display:flex;align-items:center;z-index:10;font-family:Arial,sans-serif}
+  .cap-box{width:27px;height:27px;background:#fff;border:2px solid #aaa;margin-left:10px;flex:none}
+  .cap-text{font-size:13px;margin-left:9px;white-space:nowrap}
+  .cap-logo{font-size:21px;color:#4285f4;margin-left:auto;margin-right:7px}
+  #crosshair{position:absolute;width:38px;height:38px;z-index:20;pointer-events:none;display:none}
+  #crosshair:before,#crosshair:after{content:"";position:absolute;background:#b40000}
+  #crosshair:before{left:18px;top:0;width:3px;height:38px}
+  #crosshair:after{top:18px;left:0;width:38px;height:3px}
+  #crosshair{border:3px solid #b40000;border-radius:50%}
+  #hud{height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 34px;background:#050505;border-top:4px solid #222}
+  .score{font-size:25px;font-weight:bold}.green{color:#8cff00}
+  #controls{height:210px;background:#161616;border-top:4px solid #333;display:flex;gap:30px;padding:18px 28px}
+  .valve{flex:1;border:3px solid #555;background:#333;padding:10px;text-align:center;position:relative}
+  .valve h2{font-size:16px;margin:0 0 6px;color:#ddd}
+  .wheel{width:130px;height:130px;margin:auto;border:14px solid #c73d18;border-radius:50%;position:relative;background:#222;box-shadow:inset 0 0 0 4px #74210f}
+  .wheel i{position:absolute;left:50%;top:50%;width:14px;height:108px;background:#c73d18;transform:translate(-50%,-50%);border-radius:8px}
+  .wheel i:nth-child(2){transform:translate(-50%,-50%) rotate(90deg)}
+  .wheel i:nth-child(3){transform:translate(-50%,-50%) rotate(45deg)}
+  .wheel:after{content:"";position:absolute;left:50%;top:50%;width:27px;height:27px;border-radius:50%;background:#444;border:4px solid #111;transform:translate(-50%,-50%)}
+  .turn{font-size:11px;color:#bbb;margin-top:5px}
+  #shootArea{width:240px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+  #shoot{width:190px;height:72px;background:#e33c16;color:#fff;border:4px solid #6e1809;border-radius:8px;font:bold 25px "Courier New";cursor:pointer;box-shadow:0 5px 0 #441008}
+  #shoot:active{transform:translateY(4px);box-shadow:0 1px 0 #441008}
+  #failure{position:absolute;inset:0;background:rgba(0,0,0,.78);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;text-align:center}
+  #failure h2{font-size:44px;margin:0 0 20px;color:#ff3b20}
+  #retry{font:bold 20px "Courier New";padding:13px 25px;background:#fff;color:#111;border:4px solid #777;cursor:pointer}
+  @media(max-height:700px){#controls{height:165px}.wheel{width:95px;height:95px}.wheel i{height:76px}.hud{height:60px}header{height:60px}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div><h1>DUCK HUNT CAPTCHA</h1><small>PROVE YOU'RE HUMAN</small></div>
+    <div><div id="timerLabel">TIME</div><div id="timer">01:00</div></div>
+  </header>
+
+  <main id="game">
+    <div id="tree">🌳</div><div id="bush">🌳</div><div id="ground"></div>
+    <div id="duck">
+      <div class="tail"></div><div class="duck-body"></div><div class="wing"></div>
+      <div class="duck-head"><div class="duck-eye"></div></div><div class="duck-beak"></div>
+      <div class="leg one"></div><div class="leg two"></div>
+      <div class="cap"><div class="cap-box"></div><div class="cap-text">No soy un robot</div><div class="cap-logo">↻</div></div>
+    </div>
+    <div id="crosshair"></div>
+    <div id="failure"><h2>CAPTCHA FALLIDA</h2><button id="retry">INTENTAR DE NUEVO</button></div>
+  </main>
+
+  <div id="hud">
+    <div class="score"><span class="green">HITS</span> 🦆 🦆 🦆</div>
+    <div class="score"><span class="green">SCORE</span> <span id="score">000000</span></div>
+  </div>
+
+  <section id="controls">
+    <div class="valve"><h2>HORIZONTAL</h2><div class="wheel" id="horizontal"><i></i><i></i><i></i></div><div class="turn">GIRE LA VÁLVULA</div></div>
+    <div class="valve"><h2>VERTICAL</h2><div class="wheel" id="vertical"><i></i><i></i><i></i></div><div class="turn">GIRE LA VÁLVULA</div></div>
+    <div id="shootArea"><button id="shoot">SHOOT</button></div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const game=document.getElementById('game'), duck=document.getElementById('duck');
+  const cross=document.getElementById('crosshair'), timerEl=document.getElementById('timer');
+  const failure=document.getElementById('failure'), retry=document.getElementById('retry');
+  const scoreEl=document.getElementById('score'), shoot=document.getElementById('shoot');
+  let x=0.5,y=0.5,h=0,v=0,clicks=[],score=0,active=false,deadline=0,raf=0,moveTick=0;
+
+  function reset(){
+    cancelAnimationFrame(raf); active=true; failure.style.display='none'; score=0; scoreEl.textContent='000000';
+    x=.5;y=.5;h=0;v=0;clicks=[]; deadline=Date.now()+60000;
+    duck.style.display='block'; cross.style.display='block'; loop();
+  }
+  function loop(){
+    if(!active)return;
+    const now=Date.now(), left=Math.max(0,deadline-now);
+    timerEl.textContent='00:'+String(Math.ceil(left/1000)).padStart(2,'0');
+    if(left<=0){fail();return}
+    // movimiento pseudo-orgánico, impredecible y continuo
+    moveTick++;
+    if(moveTick%18===0){
+      x += (Math.random()-.5)*.10;
+      y += (Math.random()-.5)*.13;
+      x=Math.max(.05,Math.min(.90,x)); y=Math.max(.04,Math.min(.70,y));
+    }
+    // la puntería se mueve únicamente mediante las válvulas
+    const maxX=game.clientWidth-38, maxY=game.clientHeight-38;
+    cross.style.left=(h/100*maxX)+'px'; cross.style.top=(v/100*maxY)+'px';
+    duck.style.left=(x*(game.clientWidth-150))+'px';
+    duck.style.top=(y*(game.clientHeight-115))+'px';
+    raf=requestAnimationFrame(loop);
+  }
+  function fail(){active=false;cancelAnimationFrame(raf);duck.style.display='none';cross.style.display='none';timerEl.textContent='00:00';failure.style.display='flex'}
+  function hitTest(){
+    if(!active)return;
+    const r=duck.getBoundingClientRect(), g=game.getBoundingClientRect();
+    const px=g.left+parseFloat(cross.style.left)+19, py=g.top+parseFloat(cross.style.top)+19;
+    const cap={left:r.left+12,top:r.top+38,right:r.left+149,bottom:r.top+86};
+    if(px>=cap.left&&px<=cap.right&&py>=cap.top&&py<=cap.bottom){
+      score+=100;scoreEl.textContent=String(score).padStart(6,'0'); active=false; duck.style.display='none'; cross.style.display='none';
+      setTimeout(()=>{failure.querySelector('h2').textContent='CAPTCHA SUPERADA';failure.querySelector('h2').style.color='#8cff00';failure.style.display='flex'},250);
+    }
+  }
+  // Cada rueda necesita muchas vueltas; horizontal controla X y vertical controla Y.
+  function bindValve(el,axis){
+    let dragging=false,last=0;
+    el.addEventListener('pointerdown',e=>{dragging=true;last=Math.atan2(e.clientY-(el.getBoundingClientRect().top+el.offsetHeight/2),e.clientX-(el.getBoundingClientRect().left+el.offsetWidth/2));el.setPointerCapture(e.pointerId)});
+    el.addEventListener('pointermove',e=>{
+      if(!dragging)return;
+      const r=el.getBoundingClientRect(),a=Math.atan2(e.clientY-(r.top+r.height/2),e.clientX-(r.left+r.width/2));
+      let d=a-last;if(d>Math.PI)d-=2*Math.PI;if(d<-Math.PI)d+=2*Math.PI;last=a;
+      if(axis==='x')h=Math.max(0,Math.min(100,h+d*28));else v=Math.max(0,Math.min(100,v+d*28));
+    });
+    el.addEventListener('pointerup',()=>dragging=false);el.addEventListener('pointercancel',()=>dragging=false);
+  }
+  bindValve(document.getElementById('horizontal'),'x');bindValve(document.getElementById('vertical'),'y');
+
+  shoot.addEventListener('click',()=>{
+    const now=Date.now(); clicks=clicks.filter(t=>now-t<450); clicks.push(now);
+    if(clicks.length>=3){clicks=[];hitTest()}
+  });
+  retry.addEventListener('click',()=>{failure.querySelector('h2').textContent='CAPTCHA FALLIDA';failure.querySelector('h2').style.color='#ff3b20';reset()});
+  reset();
+})();
+</script>
+</body>
+</html>
