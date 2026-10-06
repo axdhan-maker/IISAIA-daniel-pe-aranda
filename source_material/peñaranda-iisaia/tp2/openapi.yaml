@@ -1,0 +1,744 @@
+openapi: 3.1.0
+info:
+  title: Rules Companion 40k — API de reglas y memoria
+  version: 0.3.0
+  description: |
+    Contrato del servicio que usa el agente del Rules Companion de Warhammer 40k.
+
+    ## Capas de reglas y precedencia
+
+    Las reglas viven en tres capas, cada una con su propio path:
+
+    | Capa      | Path                                   | Precedencia |
+    |-----------|----------------------------------------|-------------|
+    | `mission` | `/mission-packs/{packId}/rules`        | 3 (gana)    |
+    | `codex`   | `/codices/{codexId}/...`               | 2           |
+    | `core`    | `/core/rules`                          | 1           |
+
+    Si dos reglas de capas distintas se contradicen, gana la de mayor
+    precedencia: **misión > codex > core**. Toda regla devuelve su `layer`
+    para que el agente pueda aplicar ese orden y citarlo.
+
+    Dentro de la capa `codex`, las reglas de un destacamento cuelgan del
+    destacamento (`/codices/{codexId}/detachments/{detachmentId}/rules`),
+    porque sólo aplican si el ejército juega ese destacamento.
+
+    ## Cómo lo usa el agente
+
+    El índice de core rules vive siempre en el contexto del agente. Los
+    índices de codex, destacamento y misión los carga según la pregunta.
+    Una pregunta suele resolverse con varias llamadas independientes.
+    Ejemplo: "¿los Hellblasters pueden disparar estando en Engagement Range?"
+    lleva a pedir las reglas de disparo de core, la datasheet de Hellblaster
+    Squad del codex y, si el usuario nombra un destacamento, las reglas de ese
+    destacamento. En una disputa se consultan los codex de los dos jugadores.
+
+    Cada regla trae `references` con el `href` de las reglas que menciona,
+    para seguir la cadena sin tener que reconstruir paths.
+
+    ## Diagramas
+
+    Algunas core rules tienen diagramas ilustrativos. El servicio no guarda
+    las imágenes: cada figura trae la URL de la imagen en Wahapedia y una
+    descripción textual. Si Wahapedia no trae descripción, se genera al
+    scrapear. **El agente sólo lee la descripción**; la imagen es para que la
+    vea el usuario en la interfaz.
+
+    ## Memoria por usuario
+
+    Antes de que expire la caché del proveedor del modelo, el agente guarda
+    un resumen de la conversación. En una pregunta nueva busca resúmenes
+    previos del mismo usuario y los usa sólo si son relevantes.
+
+    No hay autenticación en esta versión: `userId` es un identificador opaco
+    que asigna la aplicación cliente.
+
+servers:
+  - url: http://localhost:8000
+    description: Desarrollo local
+
+tags:
+  - name: Core
+    description: Reglas base del juego. Capa de menor precedencia.
+  - name: Codices
+    description: Reglas de cada facción, sus datasheets y sus destacamentos
+  - name: Missions
+    description: Reglas de misión. Capa de mayor precedencia.
+  - name: Syncs
+    description: Corridas de scraping contra Wahapedia
+  - name: Contexts
+    description: Resúmenes de conversación guardados por usuario
+
+paths:
+  # ---------- Core ----------
+  /core/rules:
+    get:
+      tags: [Core]
+      operationId: listCoreRules
+      summary: Devuelve el índice de core rules
+      description: Sólo resúmenes, sin texto. Es el índice que vive siempre en el contexto del agente.
+      responses:
+        '200':
+          description: Índice de core rules
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RuleSummary'
+
+  /core/rules/{ruleId}:
+    parameters:
+      - $ref: '#/components/parameters/RuleId'
+    get:
+      tags: [Core]
+      operationId: getCoreRule
+      summary: Devuelve una core rule completa, con sus diagramas si los tiene
+      responses:
+        '200':
+          description: La regla
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CoreRule'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ---------- Codices ----------
+  /codices:
+    get:
+      tags: [Codices]
+      operationId: listCodices
+      summary: Lista los codex disponibles
+      responses:
+        '200':
+          description: Lista de codex
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Source'
+
+  /codices/{codexId}/rules:
+    parameters:
+      - $ref: '#/components/parameters/CodexId'
+    get:
+      tags: [Codices]
+      operationId: listCodexRules
+      summary: Devuelve el índice de reglas de un codex
+      description: |
+        Army rules y datasheets del codex. Las reglas de destacamento no
+        están acá: se piden por destacamento.
+      parameters:
+        - name: kind
+          in: query
+          required: false
+          description: Filtra por tipo de regla
+          schema:
+            type: string
+            enum: [army_rule, datasheet]
+      responses:
+        '200':
+          description: Índice de reglas del codex
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RuleSummary'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /codices/{codexId}/rules/{ruleId}:
+    parameters:
+      - $ref: '#/components/parameters/CodexId'
+      - $ref: '#/components/parameters/RuleId'
+    get:
+      tags: [Codices]
+      operationId: getCodexRule
+      summary: Devuelve una regla completa de un codex
+      description: Una army rule o una datasheet (por ejemplo `hellblaster-squad`).
+      responses:
+        '200':
+          description: La regla
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Rule'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /codices/{codexId}/detachments:
+    parameters:
+      - $ref: '#/components/parameters/CodexId'
+    get:
+      tags: [Codices]
+      operationId: listDetachments
+      summary: Lista los destacamentos de un codex
+      responses:
+        '200':
+          description: Destacamentos del codex
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Detachment'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /codices/{codexId}/detachments/{detachmentId}/rules:
+    parameters:
+      - $ref: '#/components/parameters/CodexId'
+      - $ref: '#/components/parameters/DetachmentId'
+    get:
+      tags: [Codices]
+      operationId: listDetachmentRules
+      summary: Devuelve el índice de reglas de un destacamento
+      description: Regla del destacamento, estratagemas y mejoras.
+      responses:
+        '200':
+          description: Índice de reglas del destacamento
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RuleSummary'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /codices/{codexId}/detachments/{detachmentId}/rules/{ruleId}:
+    parameters:
+      - $ref: '#/components/parameters/CodexId'
+      - $ref: '#/components/parameters/DetachmentId'
+      - $ref: '#/components/parameters/RuleId'
+    get:
+      tags: [Codices]
+      operationId: getDetachmentRule
+      summary: Devuelve una regla completa de un destacamento
+      responses:
+        '200':
+          description: La regla
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Rule'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ---------- Missions ----------
+  /mission-packs:
+    get:
+      tags: [Missions]
+      operationId: listMissionPacks
+      summary: Lista los mission packs disponibles
+      responses:
+        '200':
+          description: Lista de mission packs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Source'
+
+  /mission-packs/{packId}/rules:
+    parameters:
+      - $ref: '#/components/parameters/PackId'
+    get:
+      tags: [Missions]
+      operationId: listMissionRules
+      summary: Devuelve el índice de reglas de un mission pack
+      responses:
+        '200':
+          description: Índice de reglas de misión
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RuleSummary'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /mission-packs/{packId}/rules/{ruleId}:
+    parameters:
+      - $ref: '#/components/parameters/PackId'
+      - $ref: '#/components/parameters/RuleId'
+    get:
+      tags: [Missions]
+      operationId: getMissionRule
+      summary: Devuelve una regla de misión completa
+      responses:
+        '200':
+          description: La regla
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Rule'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ---------- Syncs ----------
+  /syncs:
+    post:
+      tags: [Syncs]
+      operationId: startSync
+      summary: Lanza el scraping de una fuente de Wahapedia
+      description: |
+        Asíncrono: responde de inmediato con un sync en estado `queued`.
+        Si la fuente no existía (un codex o mission pack nuevo), el sync la crea.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SyncInput'
+      responses:
+        '202':
+          description: Sync aceptado y encolado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sync'
+        '400':
+          description: Falta un campo o `source_url` no es una página de wahapedia.ru de esa capa
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '409':
+          description: Ya hay un sync en curso para esa fuente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /syncs/{syncId}:
+    parameters:
+      - name: syncId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags: [Syncs]
+      operationId: getSync
+      summary: Devuelve el estado de un sync
+      responses:
+        '200':
+          description: Estado del sync
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sync'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ---------- Contexts ----------
+  /users/{userId}/contexts:
+    parameters:
+      - $ref: '#/components/parameters/UserId'
+    get:
+      tags: [Contexts]
+      operationId: searchContexts
+      summary: Busca resúmenes previos del usuario relevantes para una pregunta
+      description: |
+        Devuelve los resúmenes ordenados por relevancia respecto de `q`.
+        El servicio sólo ordena y filtra por `min_relevance`; decidir si un
+        resultado se usa o no es tarea del agente.
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: La pregunta nueva del usuario
+          schema:
+            type: string
+            minLength: 1
+        - name: min_relevance
+          in: query
+          required: false
+          schema:
+            type: number
+            format: float
+            minimum: 0
+            maximum: 1
+            default: 0.5
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 20
+            default: 3
+      responses:
+        '200':
+          description: Resúmenes relevantes, de mayor a menor relevancia. Vacío si ninguno supera el umbral.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ContextMatch'
+        '400':
+          description: Falta `q` o algún parámetro está fuera de rango
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      tags: [Contexts]
+      operationId: saveContext
+      summary: Guarda el resumen de una conversación del usuario
+      description: |
+        El agente lo llama antes de que expire la caché del proveedor del
+        modelo. El servidor genera el `id` y `created_at`.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ContextInput'
+      responses:
+        '201':
+          description: Resumen guardado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Context'
+        '400':
+          description: Falta `summary` o `mode`, o alguna referencia de regla está mal formada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /users/{userId}/contexts/{contextId}:
+    parameters:
+      - $ref: '#/components/parameters/UserId'
+      - name: contextId
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    delete:
+      tags: [Contexts]
+      operationId: deleteContext
+      summary: Borra un resumen guardado
+      responses:
+        '204':
+          description: Resumen borrado, sin cuerpo
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+components:
+  parameters:
+    RuleId:
+      name: ruleId
+      in: path
+      required: true
+      description: Slug de la regla, derivado del ancla de Wahapedia
+      schema:
+        $ref: '#/components/schemas/Slug'
+    CodexId:
+      name: codexId
+      in: path
+      required: true
+      schema:
+        $ref: '#/components/schemas/Slug'
+      examples:
+        space-marines:
+          value: space-marines
+    DetachmentId:
+      name: detachmentId
+      in: path
+      required: true
+      schema:
+        $ref: '#/components/schemas/Slug'
+      examples:
+        gladius:
+          value: gladius-task-force
+    PackId:
+      name: packId
+      in: path
+      required: true
+      schema:
+        $ref: '#/components/schemas/Slug'
+      examples:
+        pariah-nexus:
+          value: pariah-nexus
+    UserId:
+      name: userId
+      in: path
+      required: true
+      description: Identificador opaco del usuario, asignado por la aplicación cliente
+      schema:
+        type: string
+        minLength: 1
+
+  responses:
+    NotFound:
+      description: El recurso, o alguno de sus padres en el path, no existe
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+
+  schemas:
+    Slug:
+      type: string
+      pattern: '^[a-z0-9]+(-[a-z0-9]+)*$'
+
+    Layer:
+      type: string
+      enum: [mission, codex, core]
+      description: |
+        Capa de la regla. Precedencia ante conflicto: mission > codex > core.
+
+    RuleKind:
+      type: string
+      enum:
+        - core_rule
+        - army_rule
+        - datasheet
+        - detachment_rule
+        - stratagem
+        - enhancement
+        - mission_rule
+
+    Source:
+      type: object
+      description: Un codex o un mission pack scrapeado de Wahapedia
+      required: [id, name, source_url, rule_count]
+      properties:
+        id:
+          $ref: '#/components/schemas/Slug'
+        name:
+          type: string
+          examples: [Space Marines]
+        source_url:
+          type: string
+          format: uri
+        rule_count:
+          type: integer
+          minimum: 0
+        last_synced_at:
+          type: [string, 'null']
+          format: date-time
+
+    Detachment:
+      type: object
+      required: [id, codex_id, name]
+      properties:
+        id:
+          $ref: '#/components/schemas/Slug'
+        codex_id:
+          $ref: '#/components/schemas/Slug'
+        name:
+          type: string
+          examples: [Gladius Task Force]
+
+    RuleRef:
+      type: object
+      required: [layer, rule_id, href]
+      properties:
+        layer:
+          $ref: '#/components/schemas/Layer'
+        rule_id:
+          $ref: '#/components/schemas/Slug'
+        name:
+          type: string
+        href:
+          type: string
+          description: Path de esta API para pedir la regla completa
+          examples: [/core/rules/big-guns-never-tire]
+
+    RuleSummary:
+      type: object
+      required: [id, layer, kind, name, section, href]
+      properties:
+        id:
+          $ref: '#/components/schemas/Slug'
+        layer:
+          $ref: '#/components/schemas/Layer'
+        kind:
+          $ref: '#/components/schemas/RuleKind'
+        name:
+          type: string
+          examples: [Big Guns Never Tire]
+        section:
+          type: array
+          description: Ruta dentro del índice de Wahapedia, de lo general a lo particular
+          items:
+            type: string
+          examples: [[Shooting Phase, Big Guns Never Tire]]
+        href:
+          type: string
+          examples: [/core/rules/big-guns-never-tire]
+
+    Rule:
+      allOf:
+        - $ref: '#/components/schemas/RuleSummary'
+        - type: object
+          required: [text, references, source_url, scraped_at]
+          properties:
+            text:
+              type: string
+              description: Texto de la regla en Markdown, tal como figura en Wahapedia
+            references:
+              type: array
+              description: Reglas que este texto menciona, en el orden en que aparecen
+              items:
+                $ref: '#/components/schemas/RuleRef'
+            source_url:
+              type: string
+              format: uri
+              description: URL de Wahapedia con el ancla exacta de la regla, para citarla
+            scraped_at:
+              type: string
+              format: date-time
+
+    CoreRule:
+      allOf:
+        - $ref: '#/components/schemas/Rule'
+        - type: object
+          required: [figures]
+          properties:
+            figures:
+              type: array
+              description: Diagramas de la regla, en el orden en que aparecen. Vacío si no tiene.
+              items:
+                $ref: '#/components/schemas/Figure'
+
+    Figure:
+      type: object
+      required: [id, description, description_source, image_url]
+      properties:
+        id:
+          $ref: '#/components/schemas/Slug'
+        caption:
+          type: [string, 'null']
+          description: Pie de figura tal como figura en Wahapedia, si lo tiene
+        description:
+          type: string
+          minLength: 1
+          description: |
+            Descripción textual del diagrama. Es lo único de la figura que
+            lee el agente.
+          examples: ['Dos unidades enfrentadas. Un círculo de 1" alrededor de cada peana marca el Engagement Range; la unidad de la derecha queda dentro.']
+        description_source:
+          type: string
+          enum: [wahapedia, generated]
+          description: wahapedia = texto original de la página; generated = generada al scrapear
+        image_url:
+          type: string
+          format: uri
+          description: URL de la imagen en Wahapedia. La muestra la interfaz al usuario; el servicio no la guarda.
+
+    SyncInput:
+      type: object
+      required: [layer, source_url]
+      properties:
+        layer:
+          $ref: '#/components/schemas/Layer'
+        source_url:
+          type: string
+          format: uri
+          examples: ['https://wahapedia.ru/wh40k10ed/factions/space-marines/']
+
+    Sync:
+      type: object
+      required: [id, layer, source_url, status, created_at]
+      properties:
+        id:
+          type: string
+          format: uuid
+        layer:
+          $ref: '#/components/schemas/Layer'
+        source_url:
+          type: string
+          format: uri
+        source_id:
+          type: [string, 'null']
+          description: Id del codex o mission pack. null para core o mientras no se conoce.
+        status:
+          type: string
+          enum: [queued, running, succeeded, failed]
+        created_at:
+          type: string
+          format: date-time
+        finished_at:
+          type: [string, 'null']
+          format: date-time
+        rules_added:
+          type: integer
+          minimum: 0
+        rules_updated:
+          type: integer
+          minimum: 0
+        rules_removed:
+          type: integer
+          minimum: 0
+        error:
+          type: [string, 'null']
+          description: Motivo de la falla, sólo si `status` es `failed`
+
+    ContextInput:
+      type: object
+      required: [summary, mode]
+      properties:
+        summary:
+          type: string
+          minLength: 1
+          description: Resumen de la conversación generado por el agente
+        mode:
+          type: string
+          enum: [question, dispute]
+          description: question = consulta de reglas; dispute = arbitraje entre jugadores
+        cited_rules:
+          type: array
+          description: Reglas citadas en la conversación. Ayudan a medir relevancia.
+          items:
+            $ref: '#/components/schemas/RuleRef'
+
+    Context:
+      allOf:
+        - $ref: '#/components/schemas/ContextInput'
+        - type: object
+          required: [id, user_id, created_at]
+          properties:
+            id:
+              type: string
+              format: uuid
+            user_id:
+              type: string
+            created_at:
+              type: string
+              format: date-time
+
+    ContextMatch:
+      type: object
+      required: [context, relevance]
+      properties:
+        context:
+          $ref: '#/components/schemas/Context'
+        relevance:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+          examples: [rule_not_found]
+        message:
+          type: string
