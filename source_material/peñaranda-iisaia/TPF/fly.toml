@@ -1,0 +1,42 @@
+# Despliegue en Fly.io (ver DEPLOY.md). `app` tiene que ser un nombre unico
+# en Fly: `fly launch` lo cambia si hace falta.
+app = "rules-companion"
+
+# iad (Virginia) queda al lado de Azure East US, donde corre el modelo: cada
+# consulta hace varias idas y vueltas, asi que importa mas que la cercania
+# al usuario.
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8080"
+  DATA_DIR = "/data"
+
+[mounts]
+  source = "rules_companion_data"
+  destination = "/data"
+  initial_size = "1gb"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  # se apaga sola sin trafico y arranca con la primera visita (~10-20 s):
+  # se paga solo el tiempo encendida. Para que responda siempre al instante,
+  # min_machines_running = 1
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "60s"
+    method = "GET"
+    path = "/_stcore/health"
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1

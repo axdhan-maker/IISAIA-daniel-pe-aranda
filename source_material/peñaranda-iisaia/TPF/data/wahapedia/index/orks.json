@@ -1,0 +1,1916 @@
+[
+ {
+  "id": "waaagh",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Waaagh!",
+  "section": [
+   "Army Rules",
+   "Waaagh!"
+  ],
+  "href": "/codices/orks/rules/waaagh"
+ },
+ {
+  "id": "da-boss",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Da Boss",
+  "section": [
+   "Army Rules",
+   "Da Boss"
+  ],
+  "href": "/codices/orks/rules/da-boss"
+ },
+ {
+  "id": "unstable-energies",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Unstable Energies",
+  "section": [
+   "Army Rules",
+   "Unstable Energies"
+  ],
+  "href": "/codices/orks/rules/unstable-energies"
+ },
+ {
+  "id": "special-move-types",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Special Move Types",
+  "section": [
+   "Army Rules",
+   "Special Move Types"
+  ],
+  "href": "/codices/orks/rules/special-move-types"
+ },
+ {
+  "id": "pulse-jet-move",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Pulse Jet Move",
+  "section": [
+   "Army Rules",
+   "Special Move Types",
+   "Pulse Jet Move"
+  ],
+  "href": "/codices/orks/rules/pulse-jet-move"
+ },
+ {
+  "id": "assault-disembark-move",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Assault Disembark Move",
+  "section": [
+   "Army Rules",
+   "Special Move Types",
+   "Assault Disembark Move"
+  ],
+  "href": "/codices/orks/rules/assault-disembark-move"
+ },
+ {
+  "id": "get-stuck-in",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Get Stuck In",
+  "section": [
+   "War Horde",
+   "Detachment Rules",
+   "Get Stuck In"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/get-stuck-in"
+ },
+ {
+  "id": "headwoppas-killchoppa",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Headwoppa's Killchoppa",
+  "section": [
+   "War Horde",
+   "Enhancements",
+   "Headwoppa's Killchoppa"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/headwoppas-killchoppa"
+ },
+ {
+  "id": "da-boss-is-watchin",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Da Boss is Watchin'",
+  "section": [
+   "War Horde",
+   "Enhancements",
+   "Da Boss is Watchin'"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/da-boss-is-watchin"
+ },
+ {
+  "id": "kunnin-but-brutal",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Kunnin' But Brutal",
+  "section": [
+   "War Horde",
+   "Enhancements",
+   "Kunnin' But Brutal"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/kunnin-but-brutal"
+ },
+ {
+  "id": "follow-me-ladz",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Follow Me Ladz",
+  "section": [
+   "War Horde",
+   "Enhancements",
+   "Follow Me Ladz"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/follow-me-ladz"
+ },
+ {
+  "id": "breakin-heads",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Breakin' Heads",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Breakin' Heads"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/breakin-heads"
+ },
+ {
+  "id": "hit-em-harder",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hit 'Em Harder",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Hit 'Em Harder"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/hit-em-harder"
+ },
+ {
+  "id": "orks-is-never-beaten",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Orks Is Never Beaten",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Orks Is Never Beaten"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/orks-is-never-beaten"
+ },
+ {
+  "id": "mow-em-down",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mow 'Em Down",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Mow 'Em Down"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/mow-em-down"
+ },
+ {
+  "id": "fungus-fuel-injection",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Fungus-Fuel Injection",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Fungus-Fuel Injection"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/fungus-fuel-injection"
+ },
+ {
+  "id": "close-range-dakka",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Close-Range Dakka",
+  "section": [
+   "War Horde",
+   "Stratagems",
+   "Close-Range Dakka"
+  ],
+  "href": "/codices/orks/detachments/war-horde/rules/close-range-dakka"
+ },
+ {
+  "id": "mob-handed-brutality",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Mob-handed Brutality",
+  "section": [
+   "Green Tide",
+   "Detachment Rules",
+   "Mob-handed Brutality"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/mob-handed-brutality"
+ },
+ {
+  "id": "ferocious-show-off",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Ferocious Show-off",
+  "section": [
+   "Green Tide",
+   "Enhancements",
+   "Ferocious Show-off"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/ferocious-show-off"
+ },
+ {
+  "id": "ardboyz",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "'Ardboyz",
+  "section": [
+   "Green Tide",
+   "Enhancements",
+   "'Ardboyz"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/ardboyz"
+ },
+ {
+  "id": "unbridled-carnage",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unbridled Carnage",
+  "section": [
+   "Green Tide",
+   "Stratagems",
+   "Unbridled Carnage"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/unbridled-carnage"
+ },
+ {
+  "id": "mob-mentality",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mob Mentality",
+  "section": [
+   "Green Tide",
+   "Stratagems",
+   "Mob Mentality"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/mob-mentality"
+ },
+ {
+  "id": "ere-we-go",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "'Ere We Go",
+  "section": [
+   "Green Tide",
+   "Stratagems",
+   "'Ere We Go"
+  ],
+  "href": "/codices/orks/detachments/green-tide/rules/ere-we-go"
+ },
+ {
+  "id": "displays-of-savagery",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Displays of Savagery",
+  "section": [
+   "Bully Boyz",
+   "Detachment Rules",
+   "Displays of Savagery"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/displays-of-savagery"
+ },
+ {
+  "id": "wimp-kickaz",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Wimp-kickaz",
+  "section": [
+   "Bully Boyz",
+   "Enhancements",
+   "Wimp-kickaz"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/wimp-kickaz"
+ },
+ {
+  "id": "tellyporta-boss",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Tellyporta Boss",
+  "section": [
+   "Bully Boyz",
+   "Enhancements",
+   "Tellyporta Boss"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/tellyporta-boss"
+ },
+ {
+  "id": "too-arrogant-to-die",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Too Arrogant To Die",
+  "section": [
+   "Bully Boyz",
+   "Stratagems",
+   "Too Arrogant To Die"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/too-arrogant-to-die"
+ },
+ {
+  "id": "armed-to-da-teef",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armed To Da Teef",
+  "section": [
+   "Bully Boyz",
+   "Stratagems",
+   "Armed To Da Teef"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/armed-to-da-teef"
+ },
+ {
+  "id": "hulking-brutes",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hulking Brutes",
+  "section": [
+   "Bully Boyz",
+   "Stratagems",
+   "Hulking Brutes"
+  ],
+  "href": "/codices/orks/detachments/bully-boyz/rules/hulking-brutes"
+ },
+ {
+  "id": "sneaky-little-gitz",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Sneaky Little Gitz",
+  "section": [
+   "Runt Swarm",
+   "Sneaky Little Gitz"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/sneaky-little-gitz"
+ },
+ {
+  "id": "extra-sneaky",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Extra Sneaky",
+  "section": [
+   "Runt Swarm",
+   "Enhancements",
+   "Extra Sneaky"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/extra-sneaky"
+ },
+ {
+  "id": "minefield-detail",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Minefield Detail",
+  "section": [
+   "Runt Swarm",
+   "Enhancements",
+   "Minefield Detail"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/minefield-detail"
+ },
+ {
+  "id": "infested-war-zone",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Infested War Zone",
+  "section": [
+   "Runt Swarm",
+   "Stratagems",
+   "Infested War Zone"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/infested-war-zone"
+ },
+ {
+  "id": "scarper",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Scarper!",
+  "section": [
+   "Runt Swarm",
+   "Stratagems",
+   "Scarper!"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/scarper"
+ },
+ {
+  "id": "grot-shields",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Grot Shields",
+  "section": [
+   "Runt Swarm",
+   "Stratagems",
+   "Grot Shields"
+  ],
+  "href": "/codices/orks/detachments/runt-swarm/rules/grot-shields"
+ },
+ {
+  "id": "dakka-dakka-dakka",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Dakka! Dakka! Dakka!",
+  "section": [
+   "Shoota Boyz",
+   "Dakka! Dakka! Dakka!"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/dakka-dakka-dakka"
+ },
+ {
+  "id": "supa-glowy-fing",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Supa-glowy Fing",
+  "section": [
+   "Shoota Boyz",
+   "Enhancements",
+   "Supa-glowy Fing"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/supa-glowy-fing"
+ },
+ {
+  "id": "targetin-squigs",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Targetin' Squigs",
+  "section": [
+   "Shoota Boyz",
+   "Enhancements",
+   "Targetin' Squigs"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/targetin-squigs"
+ },
+ {
+  "id": "kustom-dakka",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Kustom Dakka",
+  "section": [
+   "Shoota Boyz",
+   "Stratagems",
+   "Kustom Dakka"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/kustom-dakka"
+ },
+ {
+  "id": "glowin-dakka",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Glowin' Dakka",
+  "section": [
+   "Shoota Boyz",
+   "Stratagems",
+   "Glowin' Dakka"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/glowin-dakka"
+ },
+ {
+  "id": "never-enough-dakka",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Never Enough Dakka",
+  "section": [
+   "Shoota Boyz",
+   "Stratagems",
+   "Never Enough Dakka"
+  ],
+  "href": "/codices/orks/detachments/shoota-boyz/rules/never-enough-dakka"
+ },
+ {
+  "id": "suspiciously-well-organised",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Suspiciously Well Organised",
+  "section": [
+   "Taktikal Brigade",
+   "Detachment Rules",
+   "Suspiciously Well Organised"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/suspiciously-well-organised"
+ },
+ {
+  "id": "kill-kommanda",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Kill Kommanda",
+  "section": [
+   "Taktikal Brigade",
+   "Enhancements",
+   "Kill Kommanda"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/kill-kommanda"
+ },
+ {
+  "id": "throat-slittas",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Throat-slittas",
+  "section": [
+   "Taktikal Brigade",
+   "Enhancements",
+   "Throat-slittas"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/throat-slittas"
+ },
+ {
+  "id": "dubious-restraint",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dubious Restraint",
+  "section": [
+   "Taktikal Brigade",
+   "Stratagems",
+   "Dubious Restraint"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/dubious-restraint"
+ },
+ {
+  "id": "mind-mostly-on-the-mission",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mind Mostly On The Mission",
+  "section": [
+   "Taktikal Brigade",
+   "Stratagems",
+   "Mind Mostly On The Mission"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/mind-mostly-on-the-mission"
+ },
+ {
+  "id": "while-their-backs-are-turned",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "While Their Backs Are Turned",
+  "section": [
+   "Taktikal Brigade",
+   "Stratagems",
+   "While Their Backs Are Turned"
+  ],
+  "href": "/codices/orks/detachments/taktikal-brigade/rules/while-their-backs-are-turned"
+ },
+ {
+  "id": "wreckin-and-lootin",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Wreckin’ and Lootin’",
+  "section": [
+   "Wreckas",
+   "Wreckin’ and Lootin’"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/wreckin-and-lootin"
+ },
+ {
+  "id": "kaptins-hat",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Kaptin's Hat",
+  "section": [
+   "Wreckas",
+   "Enhancements",
+   "Kaptin's Hat"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/kaptins-hat"
+ },
+ {
+  "id": "supa-snazz-dakka",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Supa-snazz Dakka",
+  "section": [
+   "Wreckas",
+   "Enhancements",
+   "Supa-snazz Dakka"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/supa-snazz-dakka"
+ },
+ {
+  "id": "drive-by-bustin",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Drive-By Bustin'",
+  "section": [
+   "Wreckas",
+   "Stratagems",
+   "Drive-By Bustin'"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/drive-by-bustin"
+ },
+ {
+  "id": "grab-it",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Grab It",
+  "section": [
+   "Wreckas",
+   "Stratagems",
+   "Grab It"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/grab-it"
+ },
+ {
+  "id": "gun-crazy-show-offs",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Gun-Crazy Show-Offs",
+  "section": [
+   "Wreckas",
+   "Stratagems",
+   "Gun-Crazy Show-Offs"
+  ],
+  "href": "/codices/orks/detachments/wreckas/rules/gun-crazy-show-offs"
+ },
+ {
+  "id": "da-hunt-is-on",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Da Hunt is On",
+  "section": [
+   "Da Big Hunt",
+   "Detachment Rules",
+   "Da Hunt is On"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/da-hunt-is-on"
+ },
+ {
+  "id": "glory-hog",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Glory Hog",
+  "section": [
+   "Da Big Hunt",
+   "Enhancements",
+   "Glory Hog"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/glory-hog"
+ },
+ {
+  "id": "it-came-from-da-drops",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "It Came from da Drops",
+  "section": [
+   "Da Big Hunt",
+   "Enhancements",
+   "It Came from da Drops"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/it-came-from-da-drops"
+ },
+ {
+  "id": "where-dya-fink-youre-going",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Where D'Ya Fink You'Re Going?",
+  "section": [
+   "Da Big Hunt",
+   "Stratagems",
+   "Where D'Ya Fink You'Re Going?"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/where-dya-fink-youre-going"
+ },
+ {
+  "id": "goaded-into-action",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Goaded Into Action",
+  "section": [
+   "Da Big Hunt",
+   "Stratagems",
+   "Goaded Into Action"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/goaded-into-action"
+ },
+ {
+  "id": "instinctive-hunters",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Instinctive Hunters",
+  "section": [
+   "Da Big Hunt",
+   "Stratagems",
+   "Instinctive Hunters"
+  ],
+  "href": "/codices/orks/detachments/da-big-hunt/rules/instinctive-hunters"
+ },
+ {
+  "id": "unpredictable-genius",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Unpredictable Genius",
+  "section": [
+   "Madcap Meks",
+   "Unpredictable Genius"
+  ],
+  "href": "/codices/orks/detachments/madcap-meks/rules/unpredictable-genius"
+ },
+ {
+  "id": "vindictive-artillerists",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Vindictive Artillerists",
+  "section": [
+   "Madcap Meks",
+   "Stratagems",
+   "Vindictive Artillerists"
+  ],
+  "href": "/codices/orks/detachments/madcap-meks/rules/vindictive-artillerists"
+ },
+ {
+  "id": "mekwaaagh-mastermind",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Mekwaaagh! Mastermind",
+  "section": [
+   "Madcap Meks",
+   "Enhancements",
+   "Mekwaaagh! Mastermind"
+  ],
+  "href": "/codices/orks/detachments/madcap-meks/rules/mekwaaagh-mastermind"
+ },
+ {
+  "id": "temperamental-shokka",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Temperamental Shokka",
+  "section": [
+   "Madcap Meks",
+   "Enhancements",
+   "Temperamental Shokka"
+  ],
+  "href": "/codices/orks/detachments/madcap-meks/rules/temperamental-shokka"
+ },
+ {
+  "id": "enhanced-runt-maw",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Enhanced Runt-maw",
+  "section": [
+   "Madcap Meks",
+   "Enhancements",
+   "Enhanced Runt-maw"
+  ],
+  "href": "/codices/orks/detachments/madcap-meks/rules/enhanced-runt-maw"
+ },
+ {
+  "id": "try-dat-button",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Try Dat Button!",
+  "section": [
+   "Dread Mob",
+   "Detachment Rules",
+   "Try Dat Button!"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/try-dat-button"
+ },
+ {
+  "id": "cybork-boosta",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Cybork Boosta",
+  "section": [
+   "Dread Mob",
+   "Enhancements",
+   "Cybork Boosta"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/cybork-boosta"
+ },
+ {
+  "id": "dreadherder",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Dreadherder",
+  "section": [
+   "Dread Mob",
+   "Enhancements",
+   "Dreadherder"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/dreadherder"
+ },
+ {
+  "id": "crazed-rampage",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Crazed Rampage",
+  "section": [
+   "Dread Mob",
+   "Stratagems",
+   "Crazed Rampage"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/crazed-rampage"
+ },
+ {
+  "id": "dread-power",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dread Power",
+  "section": [
+   "Dread Mob",
+   "Stratagems",
+   "Dread Power"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/dread-power"
+ },
+ {
+  "id": "stomping-juggernaut",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Stomping Juggernaut",
+  "section": [
+   "Dread Mob",
+   "Stratagems",
+   "Stomping Juggernaut"
+  ],
+  "href": "/codices/orks/detachments/dread-mob/rules/stomping-juggernaut"
+ },
+ {
+  "id": "unstoppable-momentum",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Unstoppable Momentum",
+  "section": [
+   "Blitz Brigade",
+   "Detachment Rules",
+   "Unstoppable Momentum"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/unstoppable-momentum"
+ },
+ {
+  "id": "targetin-gizmos",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Targetin' Gizmos",
+  "section": [
+   "Blitz Brigade",
+   "Enhancements",
+   "Targetin' Gizmos"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/targetin-gizmos"
+ },
+ {
+  "id": "boss-boomer",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Boss Boomer",
+  "section": [
+   "Blitz Brigade",
+   "Enhancements",
+   "Boss Boomer"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/boss-boomer"
+ },
+ {
+  "id": "keep-it-runnin",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Keep It Runnin'",
+  "section": [
+   "Blitz Brigade",
+   "Stratagems",
+   "Keep It Runnin'"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/keep-it-runnin"
+ },
+ {
+  "id": "readied-brawlers",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Readied Brawlers",
+  "section": [
+   "Blitz Brigade",
+   "Stratagems",
+   "Readied Brawlers"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/readied-brawlers"
+ },
+ {
+  "id": "impending-krunch",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Impending Krunch",
+  "section": [
+   "Blitz Brigade",
+   "Stratagems",
+   "Impending Krunch"
+  ],
+  "href": "/codices/orks/detachments/blitz-brigade/rules/impending-krunch"
+ },
+ {
+  "id": "adrenaline-junkies",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Adrenaline Junkies",
+  "section": [
+   "Kult of Speed",
+   "Detachment Rules",
+   "Adrenaline Junkies"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/adrenaline-junkies"
+ },
+ {
+  "id": "smoky-gubbinz",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Smoky Gubbinz",
+  "section": [
+   "Kult of Speed",
+   "Enhancements",
+   "Smoky Gubbinz"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/smoky-gubbinz"
+ },
+ {
+  "id": "competitive-streak",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Competitive Streak",
+  "section": [
+   "Kult of Speed",
+   "Enhancements",
+   "Competitive Streak"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/competitive-streak"
+ },
+ {
+  "id": "delicious-eating-squigs",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Delicious Eating Squigs",
+  "section": [
+   "Kult of Speed",
+   "Stratagems",
+   "Delicious Eating Squigs"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/delicious-eating-squigs"
+ },
+ {
+  "id": "dakkastorm",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dakkastorm",
+  "section": [
+   "Kult of Speed",
+   "Stratagems",
+   "Dakkastorm"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/dakkastorm"
+ },
+ {
+  "id": "speediest-freeks",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Speediest Freeks",
+  "section": [
+   "Kult of Speed",
+   "Stratagems",
+   "Speediest Freeks"
+  ],
+  "href": "/codices/orks/detachments/kult-of-speed/rules/speediest-freeks"
+ },
+ {
+  "id": "skyborne-loons",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Skyborne Loons",
+  "section": [
+   "Flyboyz",
+   "Skyborne Loons"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/skyborne-loons"
+ },
+ {
+  "id": "flyboss",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Flyboss",
+  "section": [
+   "Flyboyz",
+   "Enhancements",
+   "Flyboss"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/flyboss"
+ },
+ {
+  "id": "impulsive-recon",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Impulsive Recon",
+  "section": [
+   "Flyboyz",
+   "Enhancements",
+   "Impulsive Recon"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/impulsive-recon"
+ },
+ {
+  "id": "flyin-headbutt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Flyin' Headbutt",
+  "section": [
+   "Flyboyz",
+   "Stratagems",
+   "Flyin' Headbutt"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/flyin-headbutt"
+ },
+ {
+  "id": "long-uncontrolled-bursts",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Long, Uncontrolled Bursts",
+  "section": [
+   "Flyboyz",
+   "Stratagems",
+   "Long, Uncontrolled Bursts"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/long-uncontrolled-bursts"
+ },
+ {
+  "id": "whirligig-evasion",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Whirligig Evasion",
+  "section": [
+   "Flyboyz",
+   "Stratagems",
+   "Whirligig Evasion"
+  ],
+  "href": "/codices/orks/detachments/flyboyz/rules/whirligig-evasion"
+ },
+ {
+  "id": "ard-as-nails",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "’Ard as Nails",
+  "section": [
+   "Brute Bosses",
+   "’Ard as Nails"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/ard-as-nails"
+ },
+ {
+  "id": "surly-as-a-squiggoth",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Surly as a Squiggoth",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Surly as a Squiggoth"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/surly-as-a-squiggoth"
+ },
+ {
+  "id": "brutal-but-kunnin",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Brutal But Kunnin'",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Brutal But Kunnin'"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/brutal-but-kunnin"
+ },
+ {
+  "id": "blitzboss",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Blitzboss",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Blitzboss"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/blitzboss"
+ },
+ {
+  "id": "proper-killy",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Proper Killy",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Proper Killy"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/proper-killy"
+ },
+ {
+  "id": "morgogs-finkin-cap",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Morgog's Finkin' Cap",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Morgog's Finkin' Cap"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/morgogs-finkin-cap"
+ },
+ {
+  "id": "da-gobshot-thunderbuss",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Da Gobshot Thunderbuss",
+  "section": [
+   "Brute Bosses",
+   "Enhancements",
+   "Da Gobshot Thunderbuss"
+  ],
+  "href": "/codices/orks/detachments/brute-bosses/rules/da-gobshot-thunderbuss"
+ },
+ {
+  "id": "powers-of-da-waaagh",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Powers of da Waaagh!",
+  "section": [
+   "Wurrband",
+   "Powers of da Waaagh!"
+  ],
+  "href": "/codices/orks/detachments/wurrband/rules/powers-of-da-waaagh"
+ },
+ {
+  "id": "da-krunch",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Da Krunch",
+  "section": [
+   "Wurrband",
+   "Enhancements",
+   "Da Krunch"
+  ],
+  "href": "/codices/orks/detachments/wurrband/rules/da-krunch"
+ },
+ {
+  "id": "eadbanger",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "'Eadbanger",
+  "section": [
+   "Wurrband",
+   "Enhancements",
+   "'Eadbanger"
+  ],
+  "href": "/codices/orks/detachments/wurrband/rules/eadbanger"
+ },
+ {
+  "id": "warphead",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Warphead",
+  "section": [
+   "Wurrband",
+   "Enhancements",
+   "Warphead"
+  ],
+  "href": "/codices/orks/detachments/wurrband/rules/warphead"
+ },
+ {
+  "id": "boyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Boyz",
+  "section": [
+   "Datasheets",
+   "Boyz"
+  ],
+  "href": "/codices/orks/rules/boyz"
+ },
+ {
+  "id": "beast-snagga-boyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Beast Snagga Boyz",
+  "section": [
+   "Datasheets",
+   "Beast Snagga Boyz"
+  ],
+  "href": "/codices/orks/rules/beast-snagga-boyz"
+ },
+ {
+  "id": "meganobz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Meganobz",
+  "section": [
+   "Datasheets",
+   "Meganobz"
+  ],
+  "href": "/codices/orks/rules/meganobz"
+ },
+ {
+  "id": "nobz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Nobz",
+  "section": [
+   "Datasheets",
+   "Nobz"
+  ],
+  "href": "/codices/orks/rules/nobz"
+ },
+ {
+  "id": "gretchin",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gretchin",
+  "section": [
+   "Datasheets",
+   "Gretchin"
+  ],
+  "href": "/codices/orks/rules/gretchin"
+ },
+ {
+  "id": "weirdboy",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Weirdboy",
+  "section": [
+   "Datasheets",
+   "Weirdboy"
+  ],
+  "href": "/codices/orks/rules/weirdboy"
+ },
+ {
+  "id": "bigboss",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Bigboss",
+  "section": [
+   "Datasheets",
+   "Bigboss"
+  ],
+  "href": "/codices/orks/rules/bigboss"
+ },
+ {
+  "id": "stormboyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Stormboyz",
+  "section": [
+   "Datasheets",
+   "Stormboyz"
+  ],
+  "href": "/codices/orks/rules/stormboyz"
+ },
+ {
+  "id": "kommandos",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kommandos",
+  "section": [
+   "Datasheets",
+   "Kommandos"
+  ],
+  "href": "/codices/orks/rules/kommandos"
+ },
+ {
+  "id": "breaka-boyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Breaka Boyz",
+  "section": [
+   "Datasheets",
+   "Breaka Boyz"
+  ],
+  "href": "/codices/orks/rules/breaka-boyz"
+ },
+ {
+  "id": "flash-gitz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Flash Gitz",
+  "section": [
+   "Datasheets",
+   "Flash Gitz"
+  ],
+  "href": "/codices/orks/rules/flash-gitz"
+ },
+ {
+  "id": "tankbustas",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Tankbustas",
+  "section": [
+   "Datasheets",
+   "Tankbustas"
+  ],
+  "href": "/codices/orks/rules/tankbustas"
+ },
+ {
+  "id": "beastboss-on-squigosaur",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Beastboss on Squigosaur",
+  "section": [
+   "Datasheets",
+   "Beastboss on Squigosaur"
+  ],
+  "href": "/codices/orks/rules/beastboss-on-squigosaur"
+ },
+ {
+  "id": "mek-gunz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mek Gunz",
+  "section": [
+   "Datasheets",
+   "Mek Gunz"
+  ],
+  "href": "/codices/orks/rules/mek-gunz"
+ },
+ {
+  "id": "morkanaut",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Morkanaut",
+  "section": [
+   "Datasheets",
+   "Morkanaut"
+  ],
+  "href": "/codices/orks/rules/morkanaut"
+ },
+ {
+  "id": "wazbom-blastajet",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wazbom Blastajet",
+  "section": [
+   "Datasheets",
+   "Wazbom Blastajet"
+  ],
+  "href": "/codices/orks/rules/wazbom-blastajet"
+ },
+ {
+  "id": "big-mek-with-shokk-attack-gun",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big Mek With Shokk Attack Gun",
+  "section": [
+   "Datasheets",
+   "Big Mek With Shokk Attack Gun"
+  ],
+  "href": "/codices/orks/rules/big-mek-with-shokk-attack-gun"
+ },
+ {
+  "id": "mek",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mek",
+  "section": [
+   "Datasheets",
+   "Mek"
+  ],
+  "href": "/codices/orks/rules/mek"
+ },
+ {
+  "id": "warbikers",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Warbikers",
+  "section": [
+   "Datasheets",
+   "Warbikers"
+  ],
+  "href": "/codices/orks/rules/warbikers"
+ },
+ {
+  "id": "deffkilla-wartrike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deffkilla Wartrike",
+  "section": [
+   "Datasheets",
+   "Deffkilla Wartrike"
+  ],
+  "href": "/codices/orks/rules/deffkilla-wartrike"
+ },
+ {
+  "id": "rukkatrukk-squigbuggies",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Rukkatrukk Squigbuggies",
+  "section": [
+   "Datasheets",
+   "Rukkatrukk Squigbuggies"
+  ],
+  "href": "/codices/orks/rules/rukkatrukk-squigbuggies"
+ },
+ {
+  "id": "deffkoptas",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deffkoptas",
+  "section": [
+   "Datasheets",
+   "Deffkoptas"
+  ],
+  "href": "/codices/orks/rules/deffkoptas"
+ },
+ {
+  "id": "beastboss",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Beastboss",
+  "section": [
+   "Datasheets",
+   "Beastboss"
+  ],
+  "href": "/codices/orks/rules/beastboss"
+ },
+ {
+  "id": "boss-snikrot",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Boss Snikrot",
+  "section": [
+   "Datasheets",
+   "Boss Snikrot"
+  ],
+  "href": "/codices/orks/rules/boss-snikrot"
+ },
+ {
+  "id": "painboss",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Painboss",
+  "section": [
+   "Datasheets",
+   "Painboss"
+  ],
+  "href": "/codices/orks/rules/painboss"
+ },
+ {
+  "id": "zodgrod-wortsnagga",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Zodgrod Wortsnagga",
+  "section": [
+   "Datasheets",
+   "Zodgrod Wortsnagga"
+  ],
+  "href": "/codices/orks/rules/zodgrod-wortsnagga"
+ },
+ {
+  "id": "burna-boyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Burna Boyz",
+  "section": [
+   "Datasheets",
+   "Burna Boyz"
+  ],
+  "href": "/codices/orks/rules/burna-boyz"
+ },
+ {
+  "id": "big-mek-in-mega-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big Mek In Mega Armour",
+  "section": [
+   "Datasheets",
+   "Big Mek In Mega Armour"
+  ],
+  "href": "/codices/orks/rules/big-mek-in-mega-armour"
+ },
+ {
+  "id": "blitza-bommer",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Blitza-bommer",
+  "section": [
+   "Datasheets",
+   "Blitza-bommer"
+  ],
+  "href": "/codices/orks/rules/blitza-bommer"
+ },
+ {
+  "id": "burna-bommer",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Burna-bommer",
+  "section": [
+   "Datasheets",
+   "Burna-bommer"
+  ],
+  "href": "/codices/orks/rules/burna-bommer"
+ },
+ {
+  "id": "dakkajet",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Dakkajet",
+  "section": [
+   "Datasheets",
+   "Dakkajet"
+  ],
+  "href": "/codices/orks/rules/dakkajet"
+ },
+ {
+  "id": "mozrog-skragbad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mozrog Skragbad",
+  "section": [
+   "Datasheets",
+   "Mozrog Skragbad"
+  ],
+  "href": "/codices/orks/rules/mozrog-skragbad"
+ },
+ {
+  "id": "hunta-rig",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Hunta Rig",
+  "section": [
+   "Datasheets",
+   "Hunta Rig"
+  ],
+  "href": "/codices/orks/rules/hunta-rig"
+ },
+ {
+  "id": "kill-rig",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kill Rig",
+  "section": [
+   "Datasheets",
+   "Kill Rig"
+  ],
+  "href": "/codices/orks/rules/kill-rig"
+ },
+ {
+  "id": "squighog-boyz",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Squighog Boyz",
+  "section": [
+   "Datasheets",
+   "Squighog Boyz"
+  ],
+  "href": "/codices/orks/rules/squighog-boyz"
+ },
+ {
+  "id": "big-mek",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big Mek",
+  "section": [
+   "Datasheets",
+   "Big Mek"
+  ],
+  "href": "/codices/orks/rules/big-mek"
+ },
+ {
+  "id": "big-mek-dakkarig",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big Mek Dakkarig",
+  "section": [
+   "Datasheets",
+   "Big Mek Dakkarig"
+  ],
+  "href": "/codices/orks/rules/big-mek-dakkarig"
+ },
+ {
+  "id": "ghazghkull-thraka",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ghazghkull Thraka",
+  "section": [
+   "Datasheets",
+   "Ghazghkull Thraka"
+  ],
+  "href": "/codices/orks/rules/ghazghkull-thraka"
+ },
+ {
+  "id": "nazdreg",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Nazdreg",
+  "section": [
+   "Datasheets",
+   "Nazdreg"
+  ],
+  "href": "/codices/orks/rules/nazdreg"
+ },
+ {
+  "id": "boss-zagstruk",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Boss Zagstruk",
+  "section": [
+   "Datasheets",
+   "Boss Zagstruk"
+  ],
+  "href": "/codices/orks/rules/boss-zagstruk"
+ },
+ {
+  "id": "kaptin-badrukk",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kaptin Badrukk",
+  "section": [
+   "Datasheets",
+   "Kaptin Badrukk"
+  ],
+  "href": "/codices/orks/rules/kaptin-badrukk"
+ },
+ {
+  "id": "mad-dok-grotsnik",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mad Dok Grotsnik",
+  "section": [
+   "Datasheets",
+   "Mad Dok Grotsnik"
+  ],
+  "href": "/codices/orks/rules/mad-dok-grotsnik"
+ },
+ {
+  "id": "wazdakka-gutsmek",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wazdakka Gutsmek",
+  "section": [
+   "Datasheets",
+   "Wazdakka Gutsmek"
+  ],
+  "href": "/codices/orks/rules/wazdakka-gutsmek"
+ },
+ {
+  "id": "bannernob",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Bannernob",
+  "section": [
+   "Datasheets",
+   "Bannernob"
+  ],
+  "href": "/codices/orks/rules/bannernob"
+ },
+ {
+  "id": "painboy",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Painboy",
+  "section": [
+   "Datasheets",
+   "Painboy"
+  ],
+  "href": "/codices/orks/rules/painboy"
+ },
+ {
+  "id": "runtherd",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Runtherd",
+  "section": [
+   "Datasheets",
+   "Runtherd"
+  ],
+  "href": "/codices/orks/rules/runtherd"
+ },
+ {
+  "id": "warboss",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Warboss",
+  "section": [
+   "Datasheets",
+   "Warboss"
+  ],
+  "href": "/codices/orks/rules/warboss"
+ },
+ {
+  "id": "warboss-in-mega-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Warboss In Mega Armour",
+  "section": [
+   "Datasheets",
+   "Warboss In Mega Armour"
+  ],
+  "href": "/codices/orks/rules/warboss-in-mega-armour"
+ },
+ {
+  "id": "warboss-on-warbike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Warboss on Warbike",
+  "section": [
+   "Datasheets",
+   "Warboss on Warbike"
+  ],
+  "href": "/codices/orks/rules/warboss-on-warbike"
+ },
+ {
+  "id": "trukk",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Trukk",
+  "section": [
+   "Datasheets",
+   "Trukk"
+  ],
+  "href": "/codices/orks/rules/trukk"
+ },
+ {
+  "id": "warbuggies",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Warbuggies",
+  "section": [
+   "Datasheets",
+   "Warbuggies"
+  ],
+  "href": "/codices/orks/rules/warbuggies"
+ },
+ {
+  "id": "big-ed-bossbunka",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big’ed Bossbunka",
+  "section": [
+   "Datasheets",
+   "Big’ed Bossbunka"
+  ],
+  "href": "/codices/orks/rules/big-ed-bossbunka"
+ },
+ {
+  "id": "mekboy-workshop",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mekboy Workshop",
+  "section": [
+   "Datasheets",
+   "Mekboy Workshop"
+  ],
+  "href": "/codices/orks/rules/mekboy-workshop"
+ },
+ {
+  "id": "gargantuan-squiggoth",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gargantuan Squiggoth",
+  "section": [
+   "Datasheets",
+   "Gargantuan Squiggoth"
+  ],
+  "href": "/codices/orks/rules/gargantuan-squiggoth"
+ },
+ {
+  "id": "stompa",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Stompa",
+  "section": [
+   "Datasheets",
+   "Stompa"
+  ],
+  "href": "/codices/orks/rules/stompa"
+ },
+ {
+  "id": "battlewagon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Battlewagon",
+  "section": [
+   "Datasheets",
+   "Battlewagon"
+  ],
+  "href": "/codices/orks/rules/battlewagon"
+ },
+ {
+  "id": "gunwagon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gunwagon",
+  "section": [
+   "Datasheets",
+   "Gunwagon"
+  ],
+  "href": "/codices/orks/rules/gunwagon"
+ },
+ {
+  "id": "big-trakk",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Big Trakk",
+  "section": [
+   "Datasheets",
+   "Big Trakk"
+  ],
+  "href": "/codices/orks/rules/big-trakk"
+ },
+ {
+  "id": "kill-tank",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kill Tank",
+  "section": [
+   "Datasheets",
+   "Kill Tank"
+  ],
+  "href": "/codices/orks/rules/kill-tank"
+ },
+ {
+  "id": "grot-mega-tank",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Grot Mega-tank",
+  "section": [
+   "Datasheets",
+   "Grot Mega-tank"
+  ],
+  "href": "/codices/orks/rules/grot-mega-tank"
+ },
+ {
+  "id": "grot-tanks",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Grot Tanks",
+  "section": [
+   "Datasheets",
+   "Grot Tanks"
+  ],
+  "href": "/codices/orks/rules/grot-tanks"
+ },
+ {
+  "id": "lifta-wagon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lifta Wagon",
+  "section": [
+   "Datasheets",
+   "Lifta Wagon"
+  ],
+  "href": "/codices/orks/rules/lifta-wagon"
+ },
+ {
+  "id": "killa-kans",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Killa Kans",
+  "section": [
+   "Datasheets",
+   "Killa Kans"
+  ],
+  "href": "/codices/orks/rules/killa-kans"
+ },
+ {
+  "id": "lootas",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lootas",
+  "section": [
+   "Datasheets",
+   "Lootas"
+  ],
+  "href": "/codices/orks/rules/lootas"
+ },
+ {
+  "id": "wartrakks",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wartrakks",
+  "section": [
+   "Datasheets",
+   "Wartrakks"
+  ],
+  "href": "/codices/orks/rules/wartrakks"
+ },
+ {
+  "id": "gorkanaut",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gorkanaut",
+  "section": [
+   "Datasheets",
+   "Gorkanaut"
+  ],
+  "href": "/codices/orks/rules/gorkanaut"
+ },
+ {
+  "id": "deff-dread",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deff Dread",
+  "section": [
+   "Datasheets",
+   "Deff Dread"
+  ],
+  "href": "/codices/orks/rules/deff-dread"
+ }
+]

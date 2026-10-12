@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.env
+# scraping de Wahapedia: cache de HTML y textos completos (regenerables con
+# python -m wahapedia sync). El indice (data/wahapedia/index/) si se versiona.
+data/wahapedia/raw/
+data/wahapedia/core.json
+data/wahapedia/codices/
+# Auth0: credenciales (ver .streamlit/secrets.toml.example)
+.streamlit/secrets.toml
+# base de datos de usuarios e interacciones
+data/*.db
+data/*.db-*
+# credenciales del panel de admin y secreto de cookie (generados en runtime)
+data/admin_credentials.json
+data/cookie_secret
+# exploracion: el HTML se regenera con python exploracion/grafo_reglas.py
+exploracion/grafo_reglas.html

@@ -1,0 +1,4033 @@
+[
+ {
+  "id": "introduction",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Introduction",
+  "section": [
+   "Introduction"
+  ],
+  "href": "/core/rules/introduction"
+ },
+ {
+  "id": "core-concepts",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Core Concepts",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts"
+  ],
+  "href": "/core/rules/core-concepts",
+  "number": "01"
+ },
+ {
+  "id": "armies",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Armies",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Armies"
+  ],
+  "href": "/core/rules/armies",
+  "number": "01.01"
+ },
+ {
+  "id": "units-and-models",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Units and Models",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Units and Models"
+  ],
+  "href": "/core/rules/units-and-models",
+  "number": "01.02"
+ },
+ {
+  "id": "active-player-and-opposing-player",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Active Player and Opposing Player",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Active Player and Opposing Player"
+  ],
+  "href": "/core/rules/active-player-and-opposing-player",
+  "number": "01.03"
+ },
+ {
+  "id": "measuring-distances",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Measuring Distances",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Measuring Distances"
+  ],
+  "href": "/core/rules/measuring-distances",
+  "number": "01.04"
+ },
+ {
+  "id": "dice",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Dice",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Dice"
+  ],
+  "href": "/core/rules/dice",
+  "number": "01.05"
+ },
+ {
+  "id": "leadership-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Leadership Rolls",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Leadership Rolls"
+  ],
+  "href": "/core/rules/leadership-rolls",
+  "number": "01.06"
+ },
+ {
+  "id": "leadership-test",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Leadership Test",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Leadership Rolls",
+   "Leadership Test"
+  ],
+  "href": "/core/rules/leadership-test",
+  "number": "01.06.01"
+ },
+ {
+  "id": "battle-shock-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Battle-shock Rolls",
+  "section": [
+   "BASIC RULES",
+   "Core Concepts",
+   "Battle-shock Rolls"
+  ],
+  "href": "/core/rules/battle-shock-rolls",
+  "number": "01.07"
+ },
+ {
+  "id": "datasheets",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Datasheets",
+  "section": [
+   "BASIC RULES",
+   "Datasheets"
+  ],
+  "href": "/core/rules/datasheets",
+  "number": "02"
+ },
+ {
+  "id": "1-datasheet-name",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Datasheet Name",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "1. Datasheet Name"
+  ],
+  "href": "/core/rules/1-datasheet-name",
+  "number": "02.01"
+ },
+ {
+  "id": "2-profiles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Profiles",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "2. Profiles"
+  ],
+  "href": "/core/rules/2-profiles",
+  "number": "02.02"
+ },
+ {
+  "id": "3-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. Abilities",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "3. Abilities"
+  ],
+  "href": "/core/rules/3-abilities",
+  "number": "02.03"
+ },
+ {
+  "id": "4-weapons",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "4. Weapons",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "4. Weapons"
+  ],
+  "href": "/core/rules/4-weapons",
+  "number": "02.04"
+ },
+ {
+  "id": "5-keywords",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "5. Keywords",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "5. Keywords"
+  ],
+  "href": "/core/rules/5-keywords",
+  "number": "02.05"
+ },
+ {
+  "id": "6-unit-composition-and-other-rules",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "6. Unit Composition and Other Rules",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "6. Unit Composition and Other Rules"
+  ],
+  "href": "/core/rules/6-unit-composition-and-other-rules",
+  "number": "02.06"
+ },
+ {
+  "id": "7-wargear-options",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "7. Wargear Options",
+  "section": [
+   "BASIC RULES",
+   "Datasheets",
+   "7. Wargear Options"
+  ],
+  "href": "/core/rules/7-wargear-options",
+  "number": "02.07"
+ },
+ {
+  "id": "moving",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving",
+  "section": [
+   "BASIC RULES",
+   "Moving"
+  ],
+  "href": "/core/rules/moving",
+  "number": "03"
+ },
+ {
+  "id": "moving-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving Units",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Moving Units"
+  ],
+  "href": "/core/rules/moving-units",
+  "number": "03.01"
+ },
+ {
+  "id": "moving-a-model-in-a-straight-line",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving a Model in a Straight Line",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Moving Units",
+   "Moving a Model in a Straight Line"
+  ],
+  "href": "/core/rules/moving-a-model-in-a-straight-line"
+ },
+ {
+  "id": "rotating-a-model",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Rotating a Model",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Moving Units",
+   "Rotating a Model"
+  ],
+  "href": "/core/rules/rotating-a-model"
+ },
+ {
+  "id": "ending-a-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Ending a Move",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Moving Units",
+   "Ending a Move"
+  ],
+  "href": "/core/rules/ending-a-move"
+ },
+ {
+  "id": "set-up",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Set Up",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Set Up"
+  ],
+  "href": "/core/rules/set-up",
+  "number": "03.02"
+ },
+ {
+  "id": "coherency",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Coherency",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Coherency"
+  ],
+  "href": "/core/rules/coherency",
+  "number": "03.03"
+ },
+ {
+  "id": "what-is-coherency",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "What Is Coherency",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Coherency",
+   "What Is Coherency"
+  ],
+  "href": "/core/rules/what-is-coherency",
+  "number": "03.03.01"
+ },
+ {
+  "id": "engagement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Engagement",
+  "section": [
+   "BASIC RULES",
+   "Moving",
+   "Engagement"
+  ],
+  "href": "/core/rules/engagement",
+  "number": "03.04"
+ },
+ {
+  "id": "making-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Making Attacks",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks"
+  ],
+  "href": "/core/rules/making-attacks",
+  "number": "04"
+ },
+ {
+  "id": "1-select-weapons",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Select Weapons",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks",
+   "1. Select Weapons"
+  ],
+  "href": "/core/rules/1-select-weapons",
+  "number": "04.01"
+ },
+ {
+  "id": "2-select-targets",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Select Targets",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks",
+   "2. Select Targets"
+  ],
+  "href": "/core/rules/2-select-targets",
+  "number": "04.02"
+ },
+ {
+  "id": "3-resolve-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. Resolve Attacks",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks",
+   "3. Resolve Attacks"
+  ],
+  "href": "/core/rules/3-resolve-attacks",
+  "number": "04.03"
+ },
+ {
+  "id": "identical-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Identical Attacks",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks",
+   "Identical Attacks"
+  ],
+  "href": "/core/rules/identical-attacks"
+ },
+ {
+  "id": "splitting-melee-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Splitting Melee Attacks",
+  "section": [
+   "BASIC RULES",
+   "Making Attacks",
+   "Splitting Melee Attacks"
+  ],
+  "href": "/core/rules/splitting-melee-attacks"
+ },
+ {
+  "id": "attack-sequence",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attack Sequence",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence"
+  ],
+  "href": "/core/rules/attack-sequence",
+  "number": "05"
+ },
+ {
+  "id": "1-hit-roll",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Hit Roll",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "1. Hit Roll"
+  ],
+  "href": "/core/rules/1-hit-roll",
+  "number": "05.01"
+ },
+ {
+  "id": "critical-hits-and-critical-wounds",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Critical Hits and Critical Wounds",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "1. Hit Roll",
+   "Critical Hits and Critical Wounds"
+  ],
+  "href": "/core/rules/critical-hits-and-critical-wounds",
+  "number": "05.01.01"
+ },
+ {
+  "id": "2-wound-roll",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Wound Roll",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "2. Wound Roll"
+  ],
+  "href": "/core/rules/2-wound-roll",
+  "number": "05.02"
+ },
+ {
+  "id": "3-save-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. Save Rolls",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "3. Save Rolls"
+  ],
+  "href": "/core/rules/3-save-rolls",
+  "number": "05.03"
+ },
+ {
+  "id": "saving-throw",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Saving Throw",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "3. Save Rolls",
+   "Saving Throw"
+  ],
+  "href": "/core/rules/saving-throw",
+  "number": "05.03.01"
+ },
+ {
+  "id": "attacks-modified-during-hit-and-wound-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attacks Modified during Hit and Wound rolls",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "3. Save Rolls",
+   "Attacks Modified during Hit and Wound rolls"
+  ],
+  "href": "/core/rules/attacks-modified-during-hit-and-wound-rolls",
+  "number": "05.03.02"
+ },
+ {
+  "id": "4-inflict-damage",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "4. Inflict Damage",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "4. Inflict Damage"
+  ],
+  "href": "/core/rules/4-inflict-damage",
+  "number": "05.04"
+ },
+ {
+  "id": "suffers-damage",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Suffers Damage",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Suffers Damage"
+  ],
+  "href": "/core/rules/suffers-damage",
+  "number": "05.04.03"
+ },
+ {
+  "id": "attack-sequence-examples",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attack Sequence Examples",
+  "section": [
+   "BASIC RULES",
+   "Attack Sequence",
+   "Attack Sequence Examples"
+  ],
+  "href": "/core/rules/attack-sequence-examples"
+ },
+ {
+  "id": "other-concepts",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Other Concepts",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts"
+  ],
+  "href": "/core/rules/other-concepts",
+  "number": "06"
+ },
+ {
+  "id": "visibility",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Visibility",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts",
+   "Visibility"
+  ],
+  "href": "/core/rules/visibility",
+  "number": "06.01"
+ },
+ {
+  "id": "describing-visible-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Describing Visible Units",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts",
+   "Visibility",
+   "Describing Visible Units"
+  ],
+  "href": "/core/rules/describing-visible-units",
+  "number": "06.01.01"
+ },
+ {
+  "id": "mortal-wounds",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Mortal Wounds",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts",
+   "Mortal Wounds"
+  ],
+  "href": "/core/rules/mortal-wounds",
+  "number": "06.02"
+ },
+ {
+  "id": "hazard-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hazard Rolls",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts",
+   "Hazard Rolls"
+  ],
+  "href": "/core/rules/hazard-rolls",
+  "number": "06.03"
+ },
+ {
+  "id": "hazardous-test",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hazardous Test",
+  "section": [
+   "BASIC RULES",
+   "Other Concepts",
+   "Hazard Rolls",
+   "Hazardous Test"
+  ],
+  "href": "/core/rules/hazardous-test",
+  "number": "06.03.01"
+ },
+ {
+  "id": "the-battle-round-1",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "The Battle Round",
+  "section": [
+   "THE BATTLE ROUND",
+   "The Battle Round"
+  ],
+  "href": "/core/rules/the-battle-round-1",
+  "number": "07"
+ },
+ {
+  "id": "1-start-of-battle-round",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Battle Round",
+  "section": [
+   "THE BATTLE ROUND",
+   "The Battle Round",
+   "1. Start of Battle Round"
+  ],
+  "href": "/core/rules/1-start-of-battle-round",
+  "number": "07.01"
+ },
+ {
+  "id": "2-player-turns",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Player Turns",
+  "section": [
+   "THE BATTLE ROUND",
+   "The Battle Round",
+   "2. Player Turns"
+  ],
+  "href": "/core/rules/2-player-turns",
+  "number": "07.02"
+ },
+ {
+  "id": "3-end-of-battle-round",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. End of Battle Round",
+  "section": [
+   "THE BATTLE ROUND",
+   "The Battle Round",
+   "3. End of Battle Round"
+  ],
+  "href": "/core/rules/3-end-of-battle-round",
+  "number": "07.03"
+ },
+ {
+  "id": "command-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Command Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase"
+  ],
+  "href": "/core/rules/command-phase",
+  "number": "08"
+ },
+ {
+  "id": "1-start-of-command-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Command Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase",
+   "1. Start of Command Phase"
+  ],
+  "href": "/core/rules/1-start-of-command-phase",
+  "number": "08.01"
+ },
+ {
+  "id": "2-gain-core-cp",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Gain Core CP",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase",
+   "2. Gain Core CP"
+  ],
+  "href": "/core/rules/2-gain-core-cp",
+  "number": "08.02"
+ },
+ {
+  "id": "3-battle-shock-step",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. Battle-shock Step",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase",
+   "3. Battle-shock Step"
+  ],
+  "href": "/core/rules/3-battle-shock-step",
+  "number": "08.03"
+ },
+ {
+  "id": "4-command-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "4. Command Abilities",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase",
+   "4. Command Abilities"
+  ],
+  "href": "/core/rules/4-command-abilities",
+  "number": "08.04"
+ },
+ {
+  "id": "5-end-of-command-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "5. End of Command Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Command Phase",
+   "5. End of Command Phase"
+  ],
+  "href": "/core/rules/5-end-of-command-phase",
+  "number": "08.05"
+ },
+ {
+  "id": "movement-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Movement Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase"
+  ],
+  "href": "/core/rules/movement-phase",
+  "number": "09"
+ },
+ {
+  "id": "1-start-of-movement-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Movement Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "1. Start of Movement Phase"
+  ],
+  "href": "/core/rules/1-start-of-movement-phase",
+  "number": "09.01"
+ },
+ {
+  "id": "2-move-units-step",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Move Units Step",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "2. Move Units Step"
+  ],
+  "href": "/core/rules/2-move-units-step",
+  "number": "09.02"
+ },
+ {
+  "id": "3-end-of-movement-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. End of Movement Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "3. End of Movement Phase"
+  ],
+  "href": "/core/rules/3-end-of-movement-phase",
+  "number": "09.03"
+ },
+ {
+  "id": "remain-stationary",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Remain Stationary",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "3. End of Movement Phase",
+   "Remain Stationary"
+  ],
+  "href": "/core/rules/remain-stationary",
+  "number": "09.04"
+ },
+ {
+  "id": "normal-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Normal Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "3. End of Movement Phase",
+   "Normal Move"
+  ],
+  "href": "/core/rules/normal-move",
+  "number": "09.05"
+ },
+ {
+  "id": "advance-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Advance Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "3. End of Movement Phase",
+   "Advance Move"
+  ],
+  "href": "/core/rules/advance-move",
+  "number": "09.06"
+ },
+ {
+  "id": "fall-back-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fall-Back Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "3. End of Movement Phase",
+   "Fall-Back Move"
+  ],
+  "href": "/core/rules/fall-back-move",
+  "number": "09.07"
+ },
+ {
+  "id": "desperate-escape-test",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Desperate Escape Test",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "Desperate Escape Test"
+  ],
+  "href": "/core/rules/desperate-escape-test",
+  "number": "09.07.01"
+ },
+ {
+  "id": "desperate-escape",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Desperate Escape",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "Desperate Escape"
+  ],
+  "href": "/core/rules/desperate-escape",
+  "number": "09.07.01"
+ },
+ {
+  "id": "selecting-modes",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Selecting Modes",
+  "section": [
+   "THE BATTLE ROUND",
+   "Movement Phase",
+   "Selecting Modes"
+  ],
+  "href": "/core/rules/selecting-modes"
+ },
+ {
+  "id": "shooting-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shooting Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase"
+  ],
+  "href": "/core/rules/shooting-phase",
+  "number": "10"
+ },
+ {
+  "id": "1-start-of-shooting-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Shooting Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "1. Start of Shooting Phase"
+  ],
+  "href": "/core/rules/1-start-of-shooting-phase",
+  "number": "10.01"
+ },
+ {
+  "id": "2-shoot",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Shoot",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "2. Shoot"
+  ],
+  "href": "/core/rules/2-shoot",
+  "number": "10.02"
+ },
+ {
+  "id": "3-end-of-shooting-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. End of Shooting Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "3. End of Shooting Phase"
+  ],
+  "href": "/core/rules/3-end-of-shooting-phase",
+  "number": "10.03"
+ },
+ {
+  "id": "normal-shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Normal Shooting",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "3. End of Shooting Phase",
+   "Normal Shooting"
+  ],
+  "href": "/core/rules/normal-shooting",
+  "number": "10.04"
+ },
+ {
+  "id": "assault-shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Assault Shooting",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "3. End of Shooting Phase",
+   "Assault Shooting"
+  ],
+  "href": "/core/rules/assault-shooting",
+  "number": "10.05"
+ },
+ {
+  "id": "close-quarters-shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Close-Quarters Shooting",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "3. End of Shooting Phase",
+   "Close-Quarters Shooting"
+  ],
+  "href": "/core/rules/close-quarters-shooting",
+  "number": "10.06"
+ },
+ {
+  "id": "indirect-shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Indirect Shooting",
+  "section": [
+   "THE BATTLE ROUND",
+   "Shooting Phase",
+   "3. End of Shooting Phase",
+   "Indirect Shooting"
+  ],
+  "href": "/core/rules/indirect-shooting",
+  "number": "10.07"
+ },
+ {
+  "id": "charge-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Charge Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Charge Phase"
+  ],
+  "href": "/core/rules/charge-phase",
+  "number": "11"
+ },
+ {
+  "id": "1-start-of-charge-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Charge Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Charge Phase",
+   "1. Start of Charge Phase"
+  ],
+  "href": "/core/rules/1-start-of-charge-phase",
+  "number": "11.01"
+ },
+ {
+  "id": "2-charge-step",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Charge Step",
+  "section": [
+   "THE BATTLE ROUND",
+   "Charge Phase",
+   "2. Charge Step"
+  ],
+  "href": "/core/rules/2-charge-step",
+  "number": "11.02"
+ },
+ {
+  "id": "3-end-of-charge-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. End of Charge Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Charge Phase",
+   "3. End of Charge Phase"
+  ],
+  "href": "/core/rules/3-end-of-charge-phase",
+  "number": "11.03"
+ },
+ {
+  "id": "charge-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Charge Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Charge Phase",
+   "3. End of Charge Phase",
+   "Charge Move"
+  ],
+  "href": "/core/rules/charge-move",
+  "number": "11.04"
+ },
+ {
+  "id": "fight-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fight Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase"
+  ],
+  "href": "/core/rules/fight-phase",
+  "number": "12"
+ },
+ {
+  "id": "1-start-of-fight-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "1. Start of Fight Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "1. Start of Fight Phase"
+  ],
+  "href": "/core/rules/1-start-of-fight-phase",
+  "number": "12.01"
+ },
+ {
+  "id": "2-pile-in",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "2. Pile In",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "2. Pile In"
+  ],
+  "href": "/core/rules/2-pile-in",
+  "number": "12.02"
+ },
+ {
+  "id": "pile-in-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Pile-In Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "2. Pile In",
+   "Pile-In Move"
+  ],
+  "href": "/core/rules/pile-in-move",
+  "number": "12.03"
+ },
+ {
+  "id": "3-fight-step",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "3. Fight Step",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "3. Fight Step"
+  ],
+  "href": "/core/rules/3-fight-step",
+  "number": "12.04"
+ },
+ {
+  "id": "when-a-unit-is-selected-to-fight",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "When a Unit is Selected to Fight",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "3. Fight Step",
+   "When a Unit is Selected to Fight"
+  ],
+  "href": "/core/rules/when-a-unit-is-selected-to-fight"
+ },
+ {
+  "id": "normal-fight",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Normal Fight",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "3. Fight Step",
+   "Normal Fight"
+  ],
+  "href": "/core/rules/normal-fight",
+  "number": "12.05"
+ },
+ {
+  "id": "overrun-fight",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Overrun Fight",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "3. Fight Step",
+   "Overrun Fight"
+  ],
+  "href": "/core/rules/overrun-fight",
+  "number": "12.06"
+ },
+ {
+  "id": "4-consolidate",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "4. Consolidate",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "4. Consolidate"
+  ],
+  "href": "/core/rules/4-consolidate",
+  "number": "12.07"
+ },
+ {
+  "id": "consolidation-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Consolidation Move",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "4. Consolidate",
+   "Consolidation Move"
+  ],
+  "href": "/core/rules/consolidation-move",
+  "number": "12.08"
+ },
+ {
+  "id": "5-end-of-fight-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "5. End of Fight Phase",
+  "section": [
+   "THE BATTLE ROUND",
+   "Fight Phase",
+   "5. End of Fight Phase"
+  ],
+  "href": "/core/rules/5-end-of-fight-phase",
+  "number": "12.09"
+ },
+ {
+  "id": "terrain",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Terrain",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain"
+  ],
+  "href": "/core/rules/terrain",
+  "number": "13"
+ },
+ {
+  "id": "placing-terrain",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Placing Terrain",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Placing Terrain"
+  ],
+  "href": "/core/rules/placing-terrain",
+  "number": "13.01"
+ },
+ {
+  "id": "terrain-categories",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Terrain Categories",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain Categories"
+  ],
+  "href": "/core/rules/terrain-categories",
+  "number": "13.02"
+ },
+ {
+  "id": "exposed",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Exposed",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain Categories",
+   "Exposed"
+  ],
+  "href": "/core/rules/exposed",
+  "number": "13.03"
+ },
+ {
+  "id": "light",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Light",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain Categories",
+   "Light"
+  ],
+  "href": "/core/rules/light",
+  "number": "13.04"
+ },
+ {
+  "id": "dense",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Dense",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain Categories",
+   "Dense"
+  ],
+  "href": "/core/rules/dense",
+  "number": "13.05"
+ },
+ {
+  "id": "terrain-and-movement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Terrain and Movement",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Movement"
+  ],
+  "href": "/core/rules/terrain-and-movement",
+  "number": "13.06"
+ },
+ {
+  "id": "moving-vertically",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving Vertically",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Movement",
+   "Moving Vertically"
+  ],
+  "href": "/core/rules/moving-vertically"
+ },
+ {
+  "id": "setting-up-or-ending-a-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Setting Up or Ending a Move",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Movement",
+   "Setting Up or Ending a Move"
+  ],
+  "href": "/core/rules/setting-up-or-ending-a-move"
+ },
+ {
+  "id": "terrain-and-visibility",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Terrain and Visibility",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility"
+  ],
+  "href": "/core/rules/terrain-and-visibility",
+  "number": "13.07"
+ },
+ {
+  "id": "benefit-of-cover",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Benefit of Cover",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Benefit of Cover"
+  ],
+  "href": "/core/rules/benefit-of-cover",
+  "number": "13.08"
+ },
+ {
+  "id": "hidden",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hidden",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Hidden"
+  ],
+  "href": "/core/rules/hidden",
+  "number": "13.09"
+ },
+ {
+  "id": "hidden-and-the-first-turn",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hidden and the First Turn",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Hidden",
+   "Hidden and the First Turn"
+  ],
+  "href": "/core/rules/hidden-and-the-first-turn",
+  "number": "13.09.01"
+ },
+ {
+  "id": "obscuring",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Obscuring",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Obscuring"
+  ],
+  "href": "/core/rules/obscuring",
+  "number": "13.10"
+ },
+ {
+  "id": "solid",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Solid",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Solid"
+  ],
+  "href": "/core/rules/solid",
+  "number": "13.11"
+ },
+ {
+  "id": "gone-to-ground",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Gone to Ground",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Terrain",
+   "Terrain and Visibility",
+   "Solid",
+   "Gone to Ground"
+  ],
+  "href": "/core/rules/gone-to-ground",
+  "number": "13.11.01"
+ },
+ {
+  "id": "objectives",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Objectives",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives"
+  ],
+  "href": "/core/rules/objectives",
+  "number": "14"
+ },
+ {
+  "id": "terrain-objectives",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Terrain Objectives",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives",
+   "Terrain Objectives"
+  ],
+  "href": "/core/rules/terrain-objectives",
+  "number": "14.01"
+ },
+ {
+  "id": "objectives-not-within-a-terrain-area",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Objectives Not Within A Terrain Area",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives",
+   "Terrain Objectives",
+   "Objectives Not Within A Terrain Area"
+  ],
+  "href": "/core/rules/objectives-not-within-a-terrain-area",
+  "number": "14.01.01"
+ },
+ {
+  "id": "level-of-control",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Level of Control",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives",
+   "Level of Control"
+  ],
+  "href": "/core/rules/level-of-control",
+  "number": "14.02"
+ },
+ {
+  "id": "controlling-an-objective-at-the-end-of-a-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Controlling an Objective at the End of a Phase",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives",
+   "Level of Control",
+   "Controlling an Objective at the End of a Phase"
+  ],
+  "href": "/core/rules/controlling-an-objective-at-the-end-of-a-phase",
+  "number": "14.02.01"
+ },
+ {
+  "id": "secured-objectives",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Secured Objectives",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Objectives",
+   "Secured Objectives"
+  ],
+  "href": "/core/rules/secured-objectives",
+  "number": "14.03"
+ },
+ {
+  "id": "stratagems",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagems",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems"
+  ],
+  "href": "/core/rules/stratagems",
+  "number": "15"
+ },
+ {
+  "id": "using-stratagems",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Using Stratagems",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Using Stratagems"
+  ],
+  "href": "/core/rules/using-stratagems",
+  "number": "15.01"
+ },
+ {
+  "id": "core-stratagems",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Core Stratagems",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems"
+  ],
+  "href": "/core/rules/core-stratagems"
+ },
+ {
+  "id": "stratagems-key",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagems Key",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Stratagems Key"
+  ],
+  "href": "/core/rules/stratagems-key"
+ },
+ {
+  "id": "command-re-roll",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Command Re-Roll",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Command Re-Roll"
+  ],
+  "href": "/core/rules/command-re-roll",
+  "number": "15.02"
+ },
+ {
+  "id": "epic-challenge",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Epic Challenge",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Epic Challenge"
+  ],
+  "href": "/core/rules/epic-challenge",
+  "number": "15.03"
+ },
+ {
+  "id": "insane-bravery",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Insane Bravery",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Insane Bravery"
+  ],
+  "href": "/core/rules/insane-bravery",
+  "number": "15.04"
+ },
+ {
+  "id": "explosives",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Explosives",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Explosives"
+  ],
+  "href": "/core/rules/explosives",
+  "number": "15.05"
+ },
+ {
+  "id": "crushing-impact",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Crushing Impact",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Crushing Impact"
+  ],
+  "href": "/core/rules/crushing-impact",
+  "number": "15.06"
+ },
+ {
+  "id": "rapid-ingress",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Rapid Ingress",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Rapid Ingress"
+  ],
+  "href": "/core/rules/rapid-ingress",
+  "number": "15.07"
+ },
+ {
+  "id": "fire-overwatch",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fire Overwatch",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Fire Overwatch"
+  ],
+  "href": "/core/rules/fire-overwatch",
+  "number": "15.08"
+ },
+ {
+  "id": "snap-shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Snap Shooting",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Snap Shooting"
+  ],
+  "href": "/core/rules/snap-shooting",
+  "number": "15.09"
+ },
+ {
+  "id": "smokescreen",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Smokescreen",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Smokescreen"
+  ],
+  "href": "/core/rules/smokescreen",
+  "number": "15.10"
+ },
+ {
+  "id": "heroic-intervention",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Heroic Intervention",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Heroic Intervention"
+  ],
+  "href": "/core/rules/heroic-intervention",
+  "number": "15.11"
+ },
+ {
+  "id": "counteroffensive",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Counteroffensive",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Stratagems",
+   "Core Stratagems",
+   "Counteroffensive"
+  ],
+  "href": "/core/rules/counteroffensive",
+  "number": "15.12"
+ },
+ {
+  "id": "actions",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Actions",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Actions"
+  ],
+  "href": "/core/rules/actions",
+  "number": "16"
+ },
+ {
+  "id": "performing-actions",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Performing Actions",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Actions",
+   "Performing Actions"
+  ],
+  "href": "/core/rules/performing-actions",
+  "number": "16.01"
+ },
+ {
+  "id": "starting-an-action",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Starting an Action",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Actions",
+   "Performing Actions",
+   "Starting an Action"
+  ],
+  "href": "/core/rules/starting-an-action"
+ },
+ {
+  "id": "completing-an-action",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Completing an Action",
+  "section": [
+   "BATTLEFIELDS AND TACTICS",
+   "Actions",
+   "Performing Actions",
+   "Completing an Action"
+  ],
+  "href": "/core/rules/completing-an-action"
+ },
+ {
+  "id": "monsters-and-vehicles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Monsters and Vehicles",
+  "section": [
+   "ADVANCED RULES",
+   "Monsters and Vehicles"
+  ],
+  "href": "/core/rules/monsters-and-vehicles",
+  "number": "17"
+ },
+ {
+  "id": "moving-monsters-and-vehicles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving Monsters and Vehicles",
+  "section": [
+   "ADVANCED RULES",
+   "Monsters and Vehicles",
+   "Moving Monsters and Vehicles"
+  ],
+  "href": "/core/rules/moving-monsters-and-vehicles",
+  "number": "17.01"
+ },
+ {
+  "id": "frame",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Frame",
+  "section": [
+   "ADVANCED RULES",
+   "Monsters and Vehicles",
+   "Frame"
+  ],
+  "href": "/core/rules/frame",
+  "number": "17.02"
+ },
+ {
+  "id": "shooting-at-engaged-monsters-and-vehicles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shooting at Engaged Monsters and Vehicles",
+  "section": [
+   "ADVANCED RULES",
+   "Monsters and Vehicles",
+   "Shooting at Engaged Monsters and Vehicles"
+  ],
+  "href": "/core/rules/shooting-at-engaged-monsters-and-vehicles",
+  "number": "17.03"
+ },
+ {
+  "id": "transports",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Transports",
+  "section": [
+   "ADVANCED RULES",
+   "Transports"
+  ],
+  "href": "/core/rules/transports",
+  "number": "18"
+ },
+ {
+  "id": "transport-capacity",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Transport Capacity",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Transport Capacity"
+  ],
+  "href": "/core/rules/transport-capacity",
+  "number": "18.01"
+ },
+ {
+  "id": "embarking",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Embarking",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Embarking"
+  ],
+  "href": "/core/rules/embarking",
+  "number": "18.02"
+ },
+ {
+  "id": "able-to-embark",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Able To Embark",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Embarking",
+   "Able To Embark"
+  ],
+  "href": "/core/rules/able-to-embark",
+  "number": "18.02.01"
+ },
+ {
+  "id": "disembarking",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Disembarking",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Disembarking"
+  ],
+  "href": "/core/rules/disembarking",
+  "number": "18.03"
+ },
+ {
+  "id": "disembark-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Disembark Move",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Disembarking",
+   "Disembark Move"
+  ],
+  "href": "/core/rules/disembark-move",
+  "number": "18.04"
+ },
+ {
+  "id": "emergency-disembark-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Emergency Disembark Move",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Disembarking",
+   "Emergency Disembark Move"
+  ],
+  "href": "/core/rules/emergency-disembark-move",
+  "number": "18.05"
+ },
+ {
+  "id": "assault-disembark-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Assault Disembark Move",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Disembarking",
+   "Assault Disembark Move"
+  ],
+  "href": "/core/rules/assault-disembark-move",
+  "number": "18.06"
+ },
+ {
+  "id": "shock-disembark-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shock Disembark Move",
+  "section": [
+   "ADVANCED RULES",
+   "Transports",
+   "Disembarking",
+   "Shock Disembark Move"
+  ],
+  "href": "/core/rules/shock-disembark-move",
+  "number": "18.07"
+ },
+ {
+  "id": "forming-attached-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Forming Attached Units",
+  "section": [
+   "ADVANCED RULES",
+   "Attached Units",
+   "Forming Attached Units"
+  ],
+  "href": "/core/rules/forming-attached-units",
+  "number": "19.01"
+ },
+ {
+  "id": "attacking-attached-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attacking Attached Units",
+  "section": [
+   "ADVANCED RULES",
+   "Attached Units",
+   "Attacking Attached Units"
+  ],
+  "href": "/core/rules/attacking-attached-units",
+  "number": "19.02"
+ },
+ {
+  "id": "keywords-in-attached-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Keywords in Attached Units",
+  "section": [
+   "ADVANCED RULES",
+   "Attached Units",
+   "Keywords in Attached Units"
+  ],
+  "href": "/core/rules/keywords-in-attached-units",
+  "number": "19.03"
+ },
+ {
+  "id": "abilities-in-attached-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Abilities in Attached Units",
+  "section": [
+   "ADVANCED RULES",
+   "Attached Units",
+   "Abilities in Attached Units"
+  ],
+  "href": "/core/rules/abilities-in-attached-units",
+  "number": "19.04"
+ },
+ {
+  "id": "strategic-reserves",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Strategic Reserves",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves"
+  ],
+  "href": "/core/rules/strategic-reserves",
+  "number": "20"
+ },
+ {
+  "id": "placing-units-in-strategic-reserves",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Placing Units in Strategic Reserves",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves",
+   "Placing Units in Strategic Reserves"
+  ],
+  "href": "/core/rules/placing-units-in-strategic-reserves",
+  "number": "20.01"
+ },
+ {
+  "id": "strategic-reserves-at-the-end-of-the-battle",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Strategic Reserves at the End of the Battle",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves",
+   "Strategic Reserves at the End of the Battle"
+  ],
+  "href": "/core/rules/strategic-reserves-at-the-end-of-the-battle",
+  "number": "20.01.02"
+ },
+ {
+  "id": "repositioned-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Repositioned Units",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves",
+   "Repositioned Units"
+  ],
+  "href": "/core/rules/repositioned-units",
+  "number": "20.02"
+ },
+ {
+  "id": "arriving-from-strategic-reserves",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Arriving from Strategic Reserves",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves",
+   "Arriving from Strategic Reserves"
+  ],
+  "href": "/core/rules/arriving-from-strategic-reserves",
+  "number": "20.03"
+ },
+ {
+  "id": "ingress-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Ingress Move",
+  "section": [
+   "ADVANCED RULES",
+   "Strategic Reserves",
+   "Arriving from Strategic Reserves",
+   "Ingress Move"
+  ],
+  "href": "/core/rules/ingress-move",
+  "number": "20.04"
+ },
+ {
+  "id": "flying-and-surging",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Flying and Surging",
+  "section": [
+   "ADVANCED RULES",
+   "Flying and Surging"
+  ],
+  "href": "/core/rules/flying-and-surging",
+  "number": "21"
+ },
+ {
+  "id": "surge-moves",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Surge Moves",
+  "section": [
+   "ADVANCED RULES",
+   "Flying and Surging",
+   "Surge Moves"
+  ],
+  "href": "/core/rules/surge-moves",
+  "number": "21.01"
+ },
+ {
+  "id": "surge-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Surge Move",
+  "section": [
+   "ADVANCED RULES",
+   "Flying and Surging",
+   "Surge Moves",
+   "Surge Move"
+  ],
+  "href": "/core/rules/surge-move",
+  "number": "21.02"
+ },
+ {
+  "id": "flying-models",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Flying Models",
+  "section": [
+   "ADVANCED RULES",
+   "Flying and Surging",
+   "Flying Models"
+  ],
+  "href": "/core/rules/flying-models",
+  "number": "21.03"
+ },
+ {
+  "id": "other-rules-and-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Other Rules and Abilities",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities"
+  ],
+  "href": "/core/rules/other-rules-and-abilities",
+  "number": "22"
+ },
+ {
+  "id": "aura-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Aura Abilities",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities",
+   "Aura Abilities"
+  ],
+  "href": "/core/rules/aura-abilities",
+  "number": "22.01"
+ },
+ {
+  "id": "faction-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Faction Abilities",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities",
+   "Faction Abilities"
+  ],
+  "href": "/core/rules/faction-abilities",
+  "number": "22.02"
+ },
+ {
+  "id": "psychic-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Psychic Abilities",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities",
+   "Psychic Abilities"
+  ],
+  "href": "/core/rules/psychic-abilities",
+  "number": "22.03"
+ },
+ {
+  "id": "wargear-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Wargear Abilities",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities",
+   "Wargear Abilities"
+  ],
+  "href": "/core/rules/wargear-abilities",
+  "number": "22.04"
+ },
+ {
+  "id": "plunging-fire",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Plunging Fire",
+  "section": [
+   "ADVANCED RULES",
+   "Other Rules and Abilities",
+   "Plunging Fire"
+  ],
+  "href": "/core/rules/plunging-fire",
+  "number": "22.05"
+ },
+ {
+  "id": "aircraft",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Aircraft",
+  "section": [
+   "ADVANCED RULES",
+   "Aircraft"
+  ],
+  "href": "/core/rules/aircraft",
+  "number": "23"
+ },
+ {
+  "id": "deployment",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Deployment",
+  "section": [
+   "ADVANCED RULES",
+   "Aircraft",
+   "Deployment"
+  ],
+  "href": "/core/rules/deployment",
+  "number": "23.01"
+ },
+ {
+  "id": "movement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Movement",
+  "section": [
+   "ADVANCED RULES",
+   "Aircraft",
+   "Movement"
+  ],
+  "href": "/core/rules/movement",
+  "number": "23.02"
+ },
+ {
+  "id": "shooting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shooting",
+  "section": [
+   "ADVANCED RULES",
+   "Aircraft",
+   "Shooting"
+  ],
+  "href": "/core/rules/shooting",
+  "number": "23.03"
+ },
+ {
+  "id": "charging-and-fighting",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Charging and Fighting",
+  "section": [
+   "ADVANCED RULES",
+   "Aircraft",
+   "Charging and Fighting"
+  ],
+  "href": "/core/rules/charging-and-fighting",
+  "number": "23.04"
+ },
+ {
+  "id": "core-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Core Abilities",
+  "section": [
+   "REFERENCE",
+   "Core Abilities"
+  ],
+  "href": "/core/rules/core-abilities",
+  "number": "24"
+ },
+ {
+  "id": "abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Abilities",
+  "section": [
+   "REFERENCE",
+   "Core Abilities",
+   "Abilities"
+  ],
+  "href": "/core/rules/abilities",
+  "number": "24.01"
+ },
+ {
+  "id": "duplicated-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Duplicated Abilities",
+  "section": [
+   "REFERENCE",
+   "Core Abilities",
+   "Duplicated Abilities"
+  ],
+  "href": "/core/rules/duplicated-abilities",
+  "number": "24.02"
+ },
+ {
+  "id": "scout-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Scout Move",
+  "section": [
+   "REFERENCE",
+   "Core Abilities",
+   "Duplicated Abilities",
+   "Scout Move"
+  ],
+  "href": "/core/rules/scout-move",
+  "number": "24.32"
+ },
+ {
+  "id": "muster-armies",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Muster Armies",
+  "section": [
+   "REFERENCE",
+   "Muster Armies"
+  ],
+  "href": "/core/rules/muster-armies",
+  "number": "25"
+ },
+ {
+  "id": "start-your-army-roster",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Start Your Army Roster",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Start Your Army Roster"
+  ],
+  "href": "/core/rules/start-your-army-roster",
+  "number": "25.01"
+ },
+ {
+  "id": "select-army-faction",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Select Army Faction",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Select Army Faction"
+  ],
+  "href": "/core/rules/select-army-faction",
+  "number": "25.02"
+ },
+ {
+  "id": "select-battle-size",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Select Battle Size",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Select Battle Size"
+  ],
+  "href": "/core/rules/select-battle-size",
+  "number": "25.03"
+ },
+ {
+  "id": "fill-your-army-roster",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fill Your Army Roster",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Fill Your Army Roster"
+  ],
+  "href": "/core/rules/fill-your-army-roster",
+  "number": "25.04"
+ },
+ {
+  "id": "select-detachments",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Select Detachments",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Fill Your Army Roster",
+   "Select Detachments"
+  ],
+  "href": "/core/rules/select-detachments"
+ },
+ {
+  "id": "select-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Select Units",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Fill Your Army Roster",
+   "Select Units"
+  ],
+  "href": "/core/rules/select-units"
+ },
+ {
+  "id": "attach-leaders-and-support-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attach Leaders and Support Units",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Fill Your Army Roster",
+   "Attach Leaders and Support Units"
+  ],
+  "href": "/core/rules/attach-leaders-and-support-units"
+ },
+ {
+  "id": "select-enhancements",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Select Enhancements",
+  "section": [
+   "REFERENCE",
+   "Muster Armies",
+   "Fill Your Army Roster",
+   "Select Enhancements"
+  ],
+  "href": "/core/rules/select-enhancements"
+ },
+ {
+  "id": "appendix-you",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "You",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Armies",
+   "You"
+  ],
+  "href": "/core/rules/appendix-you",
+  "number": "01.01.01"
+ },
+ {
+  "id": "appendix-starting-strength-and-half-strength",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Starting Strength and Half-Strength",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Starting Strength and Half-Strength"
+  ],
+  "href": "/core/rules/appendix-starting-strength-and-half-strength",
+  "number": "01.02.01"
+ },
+ {
+  "id": "appendix-persisting-rules-effects",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Persisting Rules Effects",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Persisting Rules Effects"
+  ],
+  "href": "/core/rules/appendix-persisting-rules-effects",
+  "number": "01.02.02"
+ },
+ {
+  "id": "appendix-revived-and-adding-models-to-a-unit",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Revived and Adding Models to a Unit",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Revived and Adding Models to a Unit"
+  ],
+  "href": "/core/rules/appendix-revived-and-adding-models-to-a-unit",
+  "number": "01.02.03"
+ },
+ {
+  "id": "appendix-not-on-the-battlefield",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Not On The Battlefield",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Not On The Battlefield"
+  ],
+  "href": "/core/rules/appendix-not-on-the-battlefield",
+  "number": "01.02.04"
+ },
+ {
+  "id": "appendix-other-model-unit",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Other Model / Unit",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Other Model / Unit"
+  ],
+  "href": "/core/rules/appendix-other-model-unit",
+  "number": "01.02.05"
+ },
+ {
+  "id": "appendix-splitting-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Splitting Units",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Splitting Units"
+  ],
+  "href": "/core/rules/appendix-splitting-units",
+  "number": "01.02.06"
+ },
+ {
+  "id": "appendix-describing-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Describing Units",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Describing Units"
+  ],
+  "href": "/core/rules/appendix-describing-units",
+  "number": "01.02.07"
+ },
+ {
+  "id": "appendix-a-unit-model-object",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "A (Unit/Model/Object)",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "A (Unit/Model/Object)"
+  ],
+  "href": "/core/rules/appendix-a-unit-model-object",
+  "number": "01.02.08"
+ },
+ {
+  "id": "appendix-tokens",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Tokens",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Tokens"
+  ],
+  "href": "/core/rules/appendix-tokens",
+  "number": "01.02.09"
+ },
+ {
+  "id": "appendix-adding-a-new-unit-to-your-army",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Adding a new unit to your army",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "Adding a new unit to your army"
+  ],
+  "href": "/core/rules/appendix-adding-a-new-unit-to-your-army",
+  "number": "01.02.10"
+ },
+ {
+  "id": "appendix-all-types-of-model",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "All Types of Model",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Units and Models",
+   "All Types of Model"
+  ],
+  "href": "/core/rules/appendix-all-types-of-model",
+  "number": "01.02.11"
+ },
+ {
+  "id": "appendix-player-s-rules",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Player’s Rules",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Active Player and Opposing Player",
+   "Player’s Rules"
+  ],
+  "href": "/core/rules/appendix-player-s-rules",
+  "number": "01.03.01"
+ },
+ {
+  "id": "appendix-rules-sequencing",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Rules Sequencing",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Active Player and Opposing Player",
+   "Rules Sequencing"
+  ],
+  "href": "/core/rules/appendix-rules-sequencing",
+  "number": "01.03.02"
+ },
+ {
+  "id": "appendix-within-wholly-within",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Within / Wholly Within",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Measuring Distances",
+   "Within / Wholly Within"
+  ],
+  "href": "/core/rules/appendix-within-wholly-within",
+  "number": "01.04.01"
+ },
+ {
+  "id": "appendix-closest-or-nearest-model-unit",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Closest Or Nearest Model/Unit",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Measuring Distances",
+   "Closest Or Nearest Model/Unit"
+  ],
+  "href": "/core/rules/appendix-closest-or-nearest-model-unit",
+  "number": "01.04.02"
+ },
+ {
+  "id": "appendix-as-close-as-possible",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "As Close As Possible",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Measuring Distances",
+   "As Close As Possible"
+  ],
+  "href": "/core/rules/appendix-as-close-as-possible",
+  "number": "01.04.03"
+ },
+ {
+  "id": "appendix-base-contact-or-base-to-base-contact",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Base Contact or Base to Base Contact",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Measuring Distances",
+   "Base Contact or Base to Base Contact"
+  ],
+  "href": "/core/rules/appendix-base-contact-or-base-to-base-contact",
+  "number": "01.04.04"
+ },
+ {
+  "id": "appendix-table-quarters",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Table Quarters",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Measuring Distances",
+   "Table Quarters"
+  ],
+  "href": "/core/rules/appendix-table-quarters",
+  "number": "01.04.05"
+ },
+ {
+  "id": "appendix-automatically-successful-passes-hits-wounds",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Automatically Successful/Passes/Hits/Wounds",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Automatically Successful/Passes/Hits/Wounds"
+  ],
+  "href": "/core/rules/appendix-automatically-successful-passes-hits-wounds",
+  "number": "01.05.01"
+ },
+ {
+  "id": "appendix-re-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Re-rolls",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Re-rolls"
+  ],
+  "href": "/core/rules/appendix-re-rolls",
+  "number": "01.05.02"
+ },
+ {
+  "id": "appendix-modifying-dice-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Modifying Dice Rolls",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Modifying Dice Rolls"
+  ],
+  "href": "/core/rules/appendix-modifying-dice-rolls",
+  "number": "01.05.03"
+ },
+ {
+  "id": "appendix-ignoring-roll-modifiers",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Ignoring Roll Modifiers",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Ignoring Roll Modifiers"
+  ],
+  "href": "/core/rules/appendix-ignoring-roll-modifiers",
+  "number": "01.05.04"
+ },
+ {
+  "id": "appendix-roll-off",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Roll Off",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Roll Off"
+  ],
+  "href": "/core/rules/appendix-roll-off",
+  "number": "01.05.05"
+ },
+ {
+  "id": "appendix-doubles-or-triples",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Doubles Or Triples",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Doubles Or Triples"
+  ],
+  "href": "/core/rules/appendix-doubles-or-triples",
+  "number": "01.05.06"
+ },
+ {
+  "id": "appendix-highest-or-lowest-dice-result",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Highest or Lowest Dice Result",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Highest or Lowest Dice Result"
+  ],
+  "href": "/core/rules/appendix-highest-or-lowest-dice-result",
+  "number": "01.05.07"
+ },
+ {
+  "id": "appendix-treated-as-set-to-dice-roll",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Treated As, Set To (Dice Roll)",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Dice",
+   "Treated As, Set To (Dice Roll)"
+  ],
+  "href": "/core/rules/appendix-treated-as-set-to-dice-roll",
+  "number": "01.05.08"
+ },
+ {
+  "id": "appendix-battlefield-morale",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Battlefield Morale",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Battle-shock Rolls",
+   "Battlefield Morale"
+  ],
+  "href": "/core/rules/appendix-battlefield-morale",
+  "number": "01.07.01"
+ },
+ {
+  "id": "appendix-battle-shock-test",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Battle-shock Test",
+  "section": [
+   "Rules Appendix",
+   "Core Concepts",
+   "Battle-shock Rolls",
+   "Battle-shock Test"
+  ],
+  "href": "/core/rules/appendix-battle-shock-test",
+  "number": "01.07.02"
+ },
+ {
+  "id": "appendix-datasheet-name-and-keywords",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Datasheet Name and Keywords",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "1. Datasheet Name",
+   "Datasheet Name and Keywords"
+  ],
+  "href": "/core/rules/appendix-datasheet-name-and-keywords",
+  "number": "02.01.01"
+ },
+ {
+  "id": "appendix-what-are-modifiers",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "What are Modifiers?",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "What are Modifiers?"
+  ],
+  "href": "/core/rules/appendix-what-are-modifiers"
+ },
+ {
+  "id": "appendix-applying-modifiers",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Applying Modifiers",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Applying Modifiers"
+  ],
+  "href": "/core/rules/appendix-applying-modifiers"
+ },
+ {
+  "id": "appendix-when-modifying-dice-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "When Modifying Dice Rolls",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "When Modifying Dice Rolls"
+  ],
+  "href": "/core/rules/appendix-when-modifying-dice-rolls"
+ },
+ {
+  "id": "appendix-other-modified-rules",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Other Modified Rules",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Other Modified Rules"
+  ],
+  "href": "/core/rules/appendix-other-modified-rules"
+ },
+ {
+  "id": "appendix-ignore-modifiers",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Ignore Modifiers",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Ignore Modifiers"
+  ],
+  "href": "/core/rules/appendix-ignore-modifiers",
+  "number": "02.02.02"
+ },
+ {
+  "id": "appendix-random-characteristics",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Random Characteristics",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Random Characteristics"
+  ],
+  "href": "/core/rules/appendix-random-characteristics",
+  "number": "02.02.03"
+ },
+ {
+  "id": "appendix-healing-or-regaining-lost-wounds",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Healing Or Regaining Lost Wounds",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Healing Or Regaining Lost Wounds"
+  ],
+  "href": "/core/rules/appendix-healing-or-regaining-lost-wounds",
+  "number": "02.02.04"
+ },
+ {
+  "id": "appendix-full-wounds-remaining",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Full Wounds Remaining",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Full Wounds Remaining"
+  ],
+  "href": "/core/rules/appendix-full-wounds-remaining",
+  "number": "02.02.05"
+ },
+ {
+  "id": "appendix-characteristic-modifiers-modified-characteristics",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Characteristic Modifiers & Modified Characteristics",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "2. Profiles",
+   "Characteristic Modifiers & Modified Characteristics"
+  ],
+  "href": "/core/rules/appendix-characteristic-modifiers-modified-characteristics",
+  "number": "02.02.06"
+ },
+ {
+  "id": "appendix-rules-with-multiple-conditions-and-effects",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Rules With Multiple Conditions And Effects",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "3. Abilities",
+   "Rules With Multiple Conditions And Effects"
+  ],
+  "href": "/core/rules/appendix-rules-with-multiple-conditions-and-effects",
+  "number": "02.03.01"
+ },
+ {
+  "id": "appendix-weapons-with-no-strength",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Weapons With No Strength",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "4. Weapons",
+   "Weapons With No Strength"
+  ],
+  "href": "/core/rules/appendix-weapons-with-no-strength",
+  "number": "02.04.01"
+ },
+ {
+  "id": "appendix-using-keywords-mixed-keywords-in-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Using Keywords & Mixed Keywords in Units",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "5. Keywords",
+   "Using Keywords & Mixed Keywords in Units"
+  ],
+  "href": "/core/rules/appendix-using-keywords-mixed-keywords-in-units",
+  "number": "02.05.01"
+ },
+ {
+  "id": "appendix-bearer",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Bearer",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "6. Unit Composition and Other Rules",
+   "Bearer"
+  ],
+  "href": "/core/rules/appendix-bearer",
+  "number": "02.06.01"
+ },
+ {
+  "id": "appendix-unit-s-equipment",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Unit's Equipment",
+  "section": [
+   "Rules Appendix",
+   "Datasheets",
+   "6. Unit Composition and Other Rules",
+   "Unit's Equipment"
+  ],
+  "href": "/core/rules/appendix-unit-s-equipment",
+  "number": "02.06.02"
+ },
+ {
+  "id": "appendix-different-move-characteristics",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Different Move Characteristics",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Moving Units",
+   "Different Move Characteristics"
+  ],
+  "href": "/core/rules/appendix-different-move-characteristics",
+  "number": "03.01.01"
+ },
+ {
+  "id": "appendix-moving-over-or-through-models",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Moving Over Or Through Models",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Moving Units",
+   "Moving Over Or Through Models"
+  ],
+  "href": "/core/rules/appendix-moving-over-or-through-models",
+  "number": "03.01.02"
+ },
+ {
+  "id": "appendix-random-movement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Random Movement",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Moving Units",
+   "Random Movement"
+  ],
+  "href": "/core/rules/appendix-random-movement",
+  "number": "03.01.03"
+ },
+ {
+  "id": "appendix-when-moving-up-to",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "When Moving Up To",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Moving Units",
+   "When Moving Up To"
+  ],
+  "href": "/core/rules/appendix-when-moving-up-to",
+  "number": "03.01.04"
+ },
+ {
+  "id": "appendix-if-you-cannot-set-up-a-unit",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "If You Cannot Set Up a Unit",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Set Up",
+   "If You Cannot Set Up a Unit"
+  ],
+  "href": "/core/rules/appendix-if-you-cannot-set-up-a-unit",
+  "number": "03.02.01"
+ },
+ {
+  "id": "appendix-setting-up-large-models",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Setting Up Large Models",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Set Up",
+   "Setting Up Large Models"
+  ],
+  "href": "/core/rules/appendix-setting-up-large-models",
+  "number": "03.02.02"
+ },
+ {
+  "id": "appendix-redeployments",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Redeployments",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Set Up",
+   "Redeployments"
+  ],
+  "href": "/core/rules/appendix-redeployments",
+  "number": "03.02.03"
+ },
+ {
+  "id": "appendix-what-is-engagement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "What Is Engagement",
+  "section": [
+   "Rules Appendix",
+   "Moving",
+   "Engagement",
+   "What Is Engagement"
+  ],
+  "href": "/core/rules/appendix-what-is-engagement",
+  "number": "03.04.01"
+ },
+ {
+  "id": "appendix-models-without-ranged-melee-weapons",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Models Without Ranged/Melee Weapons",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "1. Select Weapons",
+   "Models Without Ranged/Melee Weapons"
+  ],
+  "href": "/core/rules/appendix-models-without-ranged-melee-weapons",
+  "number": "04.01.01"
+ },
+ {
+  "id": "appendix-sidearms",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Sidearms",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "1. Select Weapons",
+   "Sidearms"
+  ],
+  "href": "/core/rules/appendix-sidearms",
+  "number": "04.01.02"
+ },
+ {
+  "id": "appendix-multiple-weapon-profiles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Multiple Weapon Profiles",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "1. Select Weapons",
+   "Multiple Weapon Profiles"
+  ],
+  "href": "/core/rules/appendix-multiple-weapon-profiles",
+  "number": "04.01.03"
+ },
+ {
+  "id": "appendix-attack-characteristics-and-abilities",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attack Characteristics and Abilities",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "1. Select Weapons",
+   "Attack Characteristics and Abilities"
+  ],
+  "href": "/core/rules/appendix-attack-characteristics-and-abilities",
+  "number": "04.01.04"
+ },
+ {
+  "id": "appendix-selected-to-attack",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Selected to Attack",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "1. Select Weapons",
+   "Selected to Attack"
+  ],
+  "href": "/core/rules/appendix-selected-to-attack",
+  "number": "04.01.05"
+ },
+ {
+  "id": "appendix-selecting-targets",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Selecting Targets",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "2. Select Targets",
+   "Selecting Targets"
+  ],
+  "href": "/core/rules/appendix-selecting-targets",
+  "number": "04.02.01"
+ },
+ {
+  "id": "appendix-against-an-attack",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Against An Attack",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "2. Select Targets",
+   "Against An Attack"
+  ],
+  "href": "/core/rules/appendix-against-an-attack",
+  "number": "04.02.02"
+ },
+ {
+  "id": "appendix-single-target",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Single Target",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "2. Select Targets",
+   "Single Target"
+  ],
+  "href": "/core/rules/appendix-single-target",
+  "number": "04.02.03"
+ },
+ {
+  "id": "appendix-identical-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Identical Attacks",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Identical Attacks"
+  ],
+  "href": "/core/rules/appendix-identical-attacks",
+  "number": "04.03.01"
+ },
+ {
+  "id": "appendix-splitting-melee-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Splitting Melee Attacks",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Splitting Melee Attacks"
+  ],
+  "href": "/core/rules/appendix-splitting-melee-attacks",
+  "number": "04.03.02"
+ },
+ {
+  "id": "appendix-target-no-longer-eligible-or-viable",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Target No Longer Eligible Or Viable",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Target No Longer Eligible Or Viable"
+  ],
+  "href": "/core/rules/appendix-target-no-longer-eligible-or-viable",
+  "number": "04.03.03"
+ },
+ {
+  "id": "appendix-shot",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shot",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Shot"
+  ],
+  "href": "/core/rules/appendix-shot",
+  "number": "04.03.04"
+ },
+ {
+  "id": "appendix-fought",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fought",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Fought"
+  ],
+  "href": "/core/rules/appendix-fought",
+  "number": "04.03.05"
+ },
+ {
+  "id": "appendix-finished-making-its-attacks",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Finished Making Its Attacks",
+  "section": [
+   "Rules Appendix",
+   "Making Attacks",
+   "3. Resolve Attacks",
+   "Finished Making Its Attacks"
+  ],
+  "href": "/core/rules/appendix-finished-making-its-attacks",
+  "number": "04.03.06"
+ },
+ {
+  "id": "appendix-multiple-toughness-characteristics",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Multiple Toughness Characteristics",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "2. Wound Rolls",
+   "Multiple Toughness Characteristics"
+  ],
+  "href": "/core/rules/appendix-multiple-toughness-characteristics",
+  "number": "05.02.01"
+ },
+ {
+  "id": "appendix-current-allocation-group",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Current Allocation Group",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Current Allocation Group"
+  ],
+  "href": "/core/rules/appendix-current-allocation-group",
+  "number": "05.04.01"
+ },
+ {
+  "id": "appendix-modifying-damage",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Modifying Damage",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Modifying Damage"
+  ],
+  "href": "/core/rules/appendix-modifying-damage",
+  "number": "05.04.02"
+ },
+ {
+  "id": "appendix-destroyed",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Destroyed",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Destroyed"
+  ],
+  "href": "/core/rules/appendix-destroyed",
+  "number": "05.04.04"
+ },
+ {
+  "id": "appendix-fight-on-death",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Fight On Death",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Fight On Death"
+  ],
+  "href": "/core/rules/appendix-fight-on-death",
+  "number": "05.04.05"
+ },
+ {
+  "id": "appendix-measuring-to-a-destroyed-model-or-unit",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Measuring To A Destroyed Model Or Unit",
+  "section": [
+   "Rules Appendix",
+   "Attack Sequence",
+   "4. Inflict Damage",
+   "Measuring To A Destroyed Model Or Unit"
+  ],
+  "href": "/core/rules/appendix-measuring-to-a-destroyed-model-or-unit",
+  "number": "05.04.06"
+ },
+ {
+  "id": "appendix-describing-visible-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Describing Visible Units",
+  "section": [
+   "Rules Appendix",
+   "Other Concepts",
+   "Visibility",
+   "Describing Visible Units"
+  ],
+  "href": "/core/rules/appendix-describing-visible-units",
+  "number": "06.01.01"
+ },
+ {
+  "id": "appendix-normal-damage",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Normal Damage",
+  "section": [
+   "Rules Appendix",
+   "Other Concepts",
+   "Mortal Wounds",
+   "Normal Damage"
+  ],
+  "href": "/core/rules/appendix-normal-damage",
+  "number": "06.02.01"
+ },
+ {
+  "id": "appendix-hazardous-test",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hazardous Test",
+  "section": [
+   "Rules Appendix",
+   "Other Concepts",
+   "Hazard Rolls",
+   "Hazardous Test"
+  ],
+  "href": "/core/rules/appendix-hazardous-test",
+  "number": "06.03.01"
+ },
+ {
+  "id": "appendix-out-of-phase-rules",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Out Of Phase Rules",
+  "section": [
+   "Rules Appendix",
+   "The Battle Round",
+   "2. Player Turns",
+   "Out Of Phase Rules"
+  ],
+  "href": "/core/rules/appendix-out-of-phase-rules",
+  "number": "07.02.01"
+ },
+ {
+  "id": "appendix-battle-round-turn-phase-definitions",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Battle Round/Turn/Phase Definitions",
+  "section": [
+   "Rules Appendix",
+   "The Battle Round",
+   "2. Player Turns",
+   "Battle Round/Turn/Phase Definitions"
+  ],
+  "href": "/core/rules/appendix-battle-round-turn-phase-definitions",
+  "number": "07.02.02"
+ },
+ {
+  "id": "appendix-command-points",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Command Points",
+  "section": [
+   "Rules Appendix",
+   "Command Phase",
+   "2. Gain Core CP",
+   "Command Points"
+  ],
+  "href": "/core/rules/appendix-command-points",
+  "number": "08.02.01"
+ },
+ {
+  "id": "appendix-multiple-battle-shock-rolls",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Multiple Battle-shock Rolls",
+  "section": [
+   "Rules Appendix",
+   "Command Phase",
+   "3. Battle-shock",
+   "Multiple Battle-shock Rolls"
+  ],
+  "href": "/core/rules/appendix-multiple-battle-shock-rolls",
+  "number": "08.03.01"
+ },
+ {
+  "id": "appendix-selecting-units-to-move",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Selecting Units To Move",
+  "section": [
+   "Rules Appendix",
+   "Movement Phase",
+   "2. Move Units",
+   "Selecting Units To Move"
+  ],
+  "href": "/core/rules/appendix-selecting-units-to-move",
+  "number": "09.02.01"
+ },
+ {
+  "id": "appendix-selecting-modes",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Selecting Modes",
+  "section": [
+   "Rules Appendix",
+   "Movement Phase",
+   "2. Move Units",
+   "Selecting Modes"
+  ],
+  "href": "/core/rules/appendix-selecting-modes",
+  "number": "09.02.02"
+ },
+ {
+  "id": "appendix-reinforcements-step",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Reinforcements Step",
+  "section": [
+   "Rules Appendix",
+   "Movement Phase",
+   "2. Move Units",
+   "Reinforcements Step"
+  ],
+  "href": "/core/rules/appendix-reinforcements-step",
+  "number": "09.02.03"
+ },
+ {
+  "id": "appendix-more-than-one-normal-move-in-a-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "More Than One Normal Move in a Phase",
+  "section": [
+   "Rules Appendix",
+   "Movement Phase",
+   "2. Move Units",
+   "More Than One Normal Move in a Phase"
+  ],
+  "href": "/core/rules/appendix-more-than-one-normal-move-in-a-phase",
+  "number": "09.05.01"
+ },
+ {
+  "id": "appendix-failed-charges",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Failed Charges",
+  "section": [
+   "Rules Appendix",
+   "Charge Phase",
+   "2. Charge",
+   "Failed Charges"
+  ],
+  "href": "/core/rules/appendix-failed-charges",
+  "number": "11.02.01"
+ },
+ {
+  "id": "appendix-eligible-to-fight-but-unable-to-fight",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Eligible to fight, but unable to fight",
+  "section": [
+   "Rules Appendix",
+   "Fight Phase",
+   "3. Fight",
+   "Eligible to fight, but unable to fight"
+  ],
+  "href": "/core/rules/appendix-eligible-to-fight-but-unable-to-fight",
+  "number": "12.04.01"
+ },
+ {
+  "id": "appendix-creating-your-own-battlefield",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Creating Your Own Battlefield",
+  "section": [
+   "Rules Appendix",
+   "Terrain",
+   "Terrain Categories",
+   "Creating Your Own Battlefield"
+  ],
+  "href": "/core/rules/appendix-creating-your-own-battlefield",
+  "number": "13.02.01"
+ },
+ {
+  "id": "appendix-solid-terrain-and-movement",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Solid Terrain and Movement",
+  "section": [
+   "Rules Appendix",
+   "Terrain",
+   "Terrain and Movement",
+   "Solid Terrain and Movement"
+  ],
+  "href": "/core/rules/appendix-solid-terrain-and-movement",
+  "number": "13.06.01"
+ },
+ {
+  "id": "appendix-hidden-and-the-first-turn",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Hidden and the First Turn",
+  "section": [
+   "Rules Appendix",
+   "Terrain",
+   "Hidden",
+   "Hidden and the First Turn"
+  ],
+  "href": "/core/rules/appendix-hidden-and-the-first-turn",
+  "number": "13.09.01"
+ },
+ {
+  "id": "appendix-gone-to-ground",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Gone to Ground",
+  "section": [
+   "Rules Appendix",
+   "Terrain",
+   "Solid",
+   "Gone to Ground"
+  ],
+  "href": "/core/rules/appendix-gone-to-ground",
+  "number": "13.11.01"
+ },
+ {
+  "id": "appendix-objectives-not-within-a-terrain-area",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Objectives Not Within A Terrain Area",
+  "section": [
+   "Rules Appendix",
+   "Objectives",
+   "Terrain Objectives",
+   "Objectives Not Within A Terrain Area"
+  ],
+  "href": "/core/rules/appendix-objectives-not-within-a-terrain-area",
+  "number": "14.01.01"
+ },
+ {
+  "id": "appendix-controlling-an-objective-at-the-end-of-a-phase",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Controlling an Objective at the End of a Phase",
+  "section": [
+   "Rules Appendix",
+   "Objectives",
+   "Terrain Objectives",
+   "Controlling an Objective at the End of a Phase"
+  ],
+  "href": "/core/rules/appendix-controlling-an-objective-at-the-end-of-a-phase",
+  "number": "14.02.01"
+ },
+ {
+  "id": "appendix-modifying-cp-cost",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Modifying CP Cost",
+  "section": [
+   "Rules Appendix",
+   "Stratagems",
+   "Using Stratagems",
+   "Modifying CP Cost"
+  ],
+  "href": "/core/rules/appendix-modifying-cp-cost",
+  "number": "15.01.01"
+ },
+ {
+  "id": "appendix-affected-by-a-stratagem",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Affected By A Stratagem",
+  "section": [
+   "Rules Appendix",
+   "Stratagems",
+   "Using Stratagems",
+   "Affected By A Stratagem"
+  ],
+  "href": "/core/rules/appendix-affected-by-a-stratagem",
+  "number": "15.01.02"
+ },
+ {
+  "id": "appendix-stratagem-definitions",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagem Definitions",
+  "section": [
+   "Rules Appendix",
+   "Stratagems",
+   "Using Stratagems",
+   "Stratagem Definitions"
+  ],
+  "href": "/core/rules/appendix-stratagem-definitions",
+  "number": "15.01.03"
+ },
+ {
+  "id": "appendix-shooting-while-engaged-with-monsters-vehicles",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Shooting While Engaged With Monsters/Vehicles",
+  "section": [
+   "Rules Appendix",
+   "Monsters and Vehicles",
+   "Shooting at Engaged Monsters and Vehicles",
+   "Shooting While Engaged With Monsters/Vehicles"
+  ],
+  "href": "/core/rules/appendix-shooting-while-engaged-with-monsters-vehicles",
+  "number": "17.03.01"
+ },
+ {
+  "id": "appendix-able-to-embark",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Able To Embark",
+  "section": [
+   "Rules Appendix",
+   "Transports",
+   "Embarking",
+   "Able To Embark"
+  ],
+  "href": "/core/rules/appendix-able-to-embark",
+  "number": "18.02.01"
+ },
+ {
+  "id": "appendix-rapid-disembark-and-limitations",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Rapid Disembark And Limitations",
+  "section": [
+   "Rules Appendix",
+   "Transports",
+   "Embarking",
+   "Rapid Disembark And Limitations"
+  ],
+  "href": "/core/rules/appendix-rapid-disembark-and-limitations",
+  "number": "18.04.01"
+ },
+ {
+  "id": "appendix-attached-units-after-their-bodyguard-unit-is-destroyed",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attached Units After Their Bodyguard Unit is Destroyed",
+  "section": [
+   "Rules Appendix",
+   "Attached Units",
+   "Forming Attached Units",
+   "Attached Units After Their Bodyguard Unit is Destroyed"
+  ],
+  "href": "/core/rules/appendix-attached-units-after-their-bodyguard-unit-is-destroyed",
+  "number": "19.01.01"
+ },
+ {
+  "id": "appendix-only-in-death-does-duty-end",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Only In Death Does Duty End",
+  "section": [
+   "Rules Appendix",
+   "Attached Units",
+   "Abilities in Attached Units",
+   "Only In Death Does Duty End"
+  ],
+  "href": "/core/rules/appendix-only-in-death-does-duty-end",
+  "number": "19.04.01"
+ },
+ {
+  "id": "appendix-reserves",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Reserves",
+  "section": [
+   "Rules Appendix",
+   "Strategic Reserves",
+   "Placing Units in Strategic Reserves",
+   "Reserves"
+  ],
+  "href": "/core/rules/appendix-reserves",
+  "number": "20.01.01"
+ },
+ {
+  "id": "appendix-strategic-reserves-at-the-end-of-the-battle",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Strategic Reserves at the End of the Battle",
+  "section": [
+   "Rules Appendix",
+   "Strategic Reserves",
+   "Strategic Reserves at the End of the Battle"
+  ],
+  "href": "/core/rules/appendix-strategic-reserves-at-the-end-of-the-battle",
+  "number": "20.01.02"
+ },
+ {
+  "id": "appendix-set-up-as-reinforcements",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Set Up As Reinforcements",
+  "section": [
+   "Rules Appendix",
+   "Strategic Reserves",
+   "Arriving from Strategic Reserves",
+   "Set Up As Reinforcements"
+  ],
+  "href": "/core/rules/appendix-set-up-as-reinforcements",
+  "number": "20.03.01"
+ },
+ {
+  "id": "appendix-psychic-abilities-with-a-psychic-level",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Psychic Abilities with a Psychic Level",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "Abilities",
+   "Psychic Abilities with a Psychic Level"
+  ],
+  "href": "/core/rules/appendix-psychic-abilities-with-a-psychic-level",
+  "number": "22.03.01"
+ },
+ {
+  "id": "appendix-with-the-x-ability",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "With The 'X' Ability",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "Abilities",
+   "With The 'X' Ability"
+  ],
+  "href": "/core/rules/appendix-with-the-x-ability",
+  "number": "24.01.01"
+ },
+ {
+  "id": "appendix-only-extra-attacks-weapons",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Only [EXTRA ATTACKS] weapons",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "[EXTRA ATTACKS]",
+   "Only [EXTRA ATTACKS] weapons"
+  ],
+  "href": "/core/rules/appendix-only-extra-attacks-weapons",
+  "number": "24.11.01"
+ },
+ {
+  "id": "appendix-attached-units-and-lone-operative",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Attached units and Lone Operative",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "Lone Operative",
+   "Attached units and Lone Operative"
+  ],
+  "href": "/core/rules/appendix-attached-units-and-lone-operative",
+  "number": "24.24.01"
+ },
+ {
+  "id": "appendix-multiple-one-shot-weapons",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Multiple [ONE SHOT] Weapons",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "[ONE SHOT]",
+   "Multiple [ONE SHOT] Weapons"
+  ],
+  "href": "/core/rules/appendix-multiple-one-shot-weapons",
+  "number": "24.26.01"
+ },
+ {
+  "id": "appendix-precision-and-devastating-wounds",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Precision and Devastating Wounds",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "[ONE SHOT]",
+   "Precision and Devastating Wounds"
+  ],
+  "href": "/core/rules/appendix-precision-and-devastating-wounds",
+  "number": "24.28.01"
+ },
+ {
+  "id": "appendix-torrent",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "[TORRENT]",
+  "section": [
+   "Rules Appendix",
+   "Core Abilities",
+   "[ONE SHOT]",
+   "[TORRENT]"
+  ],
+  "href": "/core/rules/appendix-torrent",
+  "number": "24.37.01"
+ },
+ {
+  "id": "appendix-universal-rules-updates",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Universal Rules Updates",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates"
+  ],
+  "href": "/core/rules/appendix-universal-rules-updates"
+ },
+ {
+  "id": "appendix-modifying-a-stratagem-s-cp-cost",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Modifying a Stratagem’s CP Cost",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates",
+   "Modifying a Stratagem’s CP Cost"
+  ],
+  "href": "/core/rules/appendix-modifying-a-stratagem-s-cp-cost"
+ },
+ {
+  "id": "appendix-stratagems-that-can-be-used-more-than-once-per-phase-turn",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagems That Can Be Used More Than Once Per Phase/Turn",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates",
+   "Stratagems That Can Be Used More Than Once Per Phase/Turn"
+  ],
+  "href": "/core/rules/appendix-stratagems-that-can-be-used-more-than-once-per-phase-turn"
+ },
+ {
+  "id": "appendix-stratagems-that-prevent-units-from-being-targeted",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagems That Prevent Units From Being Targeted",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates",
+   "Stratagems That Prevent Units From Being Targeted"
+  ],
+  "href": "/core/rules/appendix-stratagems-that-prevent-units-from-being-targeted"
+ },
+ {
+  "id": "appendix-stratagems-that-add-new-units-to-your-army",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Stratagems That Add New Units To Your Army",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates",
+   "Stratagems That Add New Units To Your Army"
+  ],
+  "href": "/core/rules/appendix-stratagems-that-add-new-units-to-your-army"
+ },
+ {
+  "id": "appendix-move-types-for-disembarking-units",
+  "layer": "core",
+  "kind": "core_rule",
+  "name": "Move Types For Disembarking Units",
+  "section": [
+   "Rules Appendix",
+   "Universal Rules Updates",
+   "Move Types For Disembarking Units"
+  ],
+  "href": "/core/rules/appendix-move-types-for-disembarking-units"
+ }
+]

@@ -1,0 +1,5 @@
+# los scripts que corren dentro del contenedor (Linux) tienen que tener
+# saltos de linea LF aunque el repo se edite en Windows
+*.sh text eol=lf
+docker/Caddyfile text eol=lf
+Dockerfile text eol=lf

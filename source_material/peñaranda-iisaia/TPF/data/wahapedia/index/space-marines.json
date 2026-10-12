@@ -1,0 +1,5461 @@
+[
+ {
+  "id": "combat-doctrines",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Combat Doctrines",
+  "section": [
+   "Army Rules",
+   "Combat Doctrines"
+  ],
+  "href": "/codices/space-marines/rules/combat-doctrines"
+ },
+ {
+  "id": "transhuman-strategist",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Transhuman Strategist",
+  "section": [
+   "Army Rules",
+   "Transhuman Strategist"
+  ],
+  "href": "/codices/space-marines/rules/transhuman-strategist"
+ },
+ {
+  "id": "librarius",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Librarius",
+  "section": [
+   "Army Rules",
+   "Librarius"
+  ],
+  "href": "/codices/space-marines/rules/librarius"
+ },
+ {
+  "id": "space-marine-chapters",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Space Marine Chapters",
+  "section": [
+   "Army Rules",
+   "Space Marine Chapters"
+  ],
+  "href": "/codices/space-marines/rules/space-marine-chapters"
+ },
+ {
+  "id": "special-move-types",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Special Move Types",
+  "section": [
+   "Army Rules",
+   "Special Move Types"
+  ],
+  "href": "/codices/space-marines/rules/special-move-types"
+ },
+ {
+  "id": "shock-disembark-move",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Shock Disembark Move",
+  "section": [
+   "Army Rules",
+   "Special Move Types",
+   "Shock Disembark Move"
+  ],
+  "href": "/codices/space-marines/rules/shock-disembark-move"
+ },
+ {
+  "id": "assault-disembark-move",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Assault Disembark Move",
+  "section": [
+   "Army Rules",
+   "Special Move Types",
+   "Assault Disembark Move"
+  ],
+  "href": "/codices/space-marines/rules/assault-disembark-move"
+ },
+ {
+  "id": "heirs-of-sigismund",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Heirs of Sigismund",
+  "section": [
+   "Army Rules",
+   "Heirs of Sigismund"
+  ],
+  "href": "/codices/space-marines/rules/heirs-of-sigismund"
+ },
+ {
+  "id": "the-ravenwing",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "The Ravenwing",
+  "section": [
+   "Army Rules",
+   "The Ravenwing"
+  ],
+  "href": "/codices/space-marines/rules/the-ravenwing"
+ },
+ {
+  "id": "the-deathwing",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "The Deathwing",
+  "section": [
+   "Army Rules",
+   "The Deathwing"
+  ],
+  "href": "/codices/space-marines/rules/the-deathwing"
+ },
+ {
+  "id": "veteran-recruits",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Veteran Recruits",
+  "section": [
+   "Army Rules",
+   "Veteran Recruits"
+  ],
+  "href": "/codices/space-marines/rules/veteran-recruits"
+ },
+ {
+  "id": "curse-of-the-wulfen",
+  "layer": "codex",
+  "kind": "army_rule",
+  "name": "Curse of the Wulfen",
+  "section": [
+   "Army Rules",
+   "Curse of the Wulfen"
+  ],
+  "href": "/codices/space-marines/rules/curse-of-the-wulfen"
+ },
+ {
+  "id": "codex-discipline",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Codex Discipline",
+  "section": [
+   "Gladius Task Force",
+   "Detachment Rules",
+   "Codex Discipline"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/codex-discipline"
+ },
+ {
+  "id": "standard-of-the-emperor-ascendant",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Standard of the Emperor Ascendant",
+  "section": [
+   "Gladius Task Force",
+   "Enhancements",
+   "Standard of the Emperor Ascendant"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/standard-of-the-emperor-ascendant"
+ },
+ {
+  "id": "laurels-of-triumph",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Laurels of Triumph",
+  "section": [
+   "Gladius Task Force",
+   "Enhancements",
+   "Laurels of Triumph"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/laurels-of-triumph"
+ },
+ {
+  "id": "adept-of-the-codex",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Adept of the Codex",
+  "section": [
+   "Gladius Task Force",
+   "Enhancements",
+   "Adept of the Codex"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/adept-of-the-codex"
+ },
+ {
+  "id": "artificer-armour",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Artificer Armour",
+  "section": [
+   "Gladius Task Force",
+   "Enhancements",
+   "Artificer Armour"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/artificer-armour"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/armour-of-contempt"
+ },
+ {
+  "id": "a-worthy-death",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "A Worthy Death",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "A Worthy Death"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/a-worthy-death"
+ },
+ {
+  "id": "might-of-angels",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Might Of Angels",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "Might Of Angels"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/might-of-angels"
+ },
+ {
+  "id": "adaptive-strategy",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Adaptive Strategy",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "Adaptive Strategy"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/adaptive-strategy"
+ },
+ {
+  "id": "storm-of-devastation",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Storm Of Devastation",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "Storm Of Devastation"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/storm-of-devastation"
+ },
+ {
+  "id": "responsive-tactics",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Responsive Tactics",
+  "section": [
+   "Gladius Task Force",
+   "Stratagems",
+   "Responsive Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/gladius-task-force/rules/responsive-tactics"
+ },
+ {
+  "id": "assault-mastery",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Assault Mastery",
+  "section": [
+   "Assault Brethren",
+   "Assault Mastery"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/assault-mastery"
+ },
+ {
+  "id": "imperiums-sword",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Imperium's Sword",
+  "section": [
+   "Assault Brethren",
+   "Enhancements",
+   "Imperium's Sword"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/imperiums-sword"
+ },
+ {
+  "id": "furious-assault",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Furious Assault",
+  "section": [
+   "Assault Brethren",
+   "Enhancements",
+   "Furious Assault"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/furious-assault"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Assault Brethren",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/armour-of-contempt"
+ },
+ {
+  "id": "gene-wrought-might",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Gene-Wrought Might",
+  "section": [
+   "Assault Brethren",
+   "Stratagems",
+   "Gene-Wrought Might"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/gene-wrought-might"
+ },
+ {
+  "id": "duty-in-death",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Duty In Death",
+  "section": [
+   "Assault Brethren",
+   "Stratagems",
+   "Duty In Death"
+  ],
+  "href": "/codices/space-marines/detachments/assault-brethren/rules/duty-in-death"
+ },
+ {
+  "id": "tactical-mastery",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Tactical Mastery",
+  "section": [
+   "Tactical Brethren",
+   "Tactical Mastery"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/tactical-mastery"
+ },
+ {
+  "id": "laurels-of-vigilance",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Laurels of Vigilance",
+  "section": [
+   "Tactical Brethren",
+   "Enhancements",
+   "Laurels of Vigilance"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/laurels-of-vigilance"
+ },
+ {
+  "id": "tactical-insight",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Tactical Insight",
+  "section": [
+   "Tactical Brethren",
+   "Enhancements",
+   "Tactical Insight"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/tactical-insight"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Tactical Brethren",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/armour-of-contempt"
+ },
+ {
+  "id": "domination-fire",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Domination Fire",
+  "section": [
+   "Tactical Brethren",
+   "Stratagems",
+   "Domination Fire"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/domination-fire"
+ },
+ {
+  "id": "masterful-tactics",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Masterful Tactics",
+  "section": [
+   "Tactical Brethren",
+   "Stratagems",
+   "Masterful Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/tactical-brethren/rules/masterful-tactics"
+ },
+ {
+  "id": "devastator-mastery",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Devastator Mastery",
+  "section": [
+   "Devastator Brethren",
+   "Devastator Mastery"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/devastator-mastery"
+ },
+ {
+  "id": "master-forged-firearms",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Master-forged Firearms",
+  "section": [
+   "Devastator Brethren",
+   "Enhancements",
+   "Master-forged Firearms"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/master-forged-firearms"
+ },
+ {
+  "id": "honour-of-vigilance",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Honour of Vigilance",
+  "section": [
+   "Devastator Brethren",
+   "Enhancements",
+   "Honour of Vigilance"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/honour-of-vigilance"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Devastator Brethren",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/armour-of-contempt"
+ },
+ {
+  "id": "storm-of-fire",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Storm Of Fire",
+  "section": [
+   "Devastator Brethren",
+   "Stratagems",
+   "Storm Of Fire"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/storm-of-fire"
+ },
+ {
+  "id": "hail-of-vengeance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hail Of Vengeance",
+  "section": [
+   "Devastator Brethren",
+   "Stratagems",
+   "Hail Of Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/devastator-brethren/rules/hail-of-vengeance"
+ },
+ {
+  "id": "death-blow",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Death Blow",
+  "section": [
+   "Terminator Storm Force",
+   "Death Blow"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/death-blow"
+ },
+ {
+  "id": "champion-of-the-first-company",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Champion of the First Company",
+  "section": [
+   "Terminator Storm Force",
+   "Enhancements",
+   "Champion of the First Company"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/champion-of-the-first-company"
+ },
+ {
+  "id": "corporeum-reliquary",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Corporeum Reliquary",
+  "section": [
+   "Terminator Storm Force",
+   "Enhancements",
+   "Corporeum Reliquary"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/corporeum-reliquary"
+ },
+ {
+  "id": "tactical-dreadnought-fortitude",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Tactical Dreadnought Fortitude",
+  "section": [
+   "Terminator Storm Force",
+   "Stratagems",
+   "Tactical Dreadnought Fortitude"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/tactical-dreadnought-fortitude"
+ },
+ {
+  "id": "merciless-veterans",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Merciless Veterans",
+  "section": [
+   "Terminator Storm Force",
+   "Stratagems",
+   "Merciless Veterans"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/merciless-veterans"
+ },
+ {
+  "id": "gunship-extraction",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Gunship Extraction",
+  "section": [
+   "Terminator Storm Force",
+   "Stratagems",
+   "Gunship Extraction"
+  ],
+  "href": "/codices/space-marines/detachments/terminator-storm-force/rules/gunship-extraction"
+ },
+ {
+  "id": "wrath-of-the-chapter",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Wrath of the Chapter",
+  "section": [
+   "Tacticus Attack Force",
+   "Wrath of the Chapter"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/wrath-of-the-chapter"
+ },
+ {
+  "id": "martial-paragon",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Martial Paragon",
+  "section": [
+   "Tacticus Attack Force",
+   "Enhancements",
+   "Martial Paragon"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/martial-paragon"
+ },
+ {
+  "id": "spearpoint-war-leader",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Spearpoint War Leader",
+  "section": [
+   "Tacticus Attack Force",
+   "Enhancements",
+   "Spearpoint War Leader"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/spearpoint-war-leader"
+ },
+ {
+  "id": "relentless-assault",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Relentless Assault",
+  "section": [
+   "Tacticus Attack Force",
+   "Stratagems",
+   "Relentless Assault"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/relentless-assault"
+ },
+ {
+  "id": "transhuman-swiftness",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Transhuman Swiftness",
+  "section": [
+   "Tacticus Attack Force",
+   "Stratagems",
+   "Transhuman Swiftness"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/transhuman-swiftness"
+ },
+ {
+  "id": "tactical-focus",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Tactical Focus",
+  "section": [
+   "Tacticus Attack Force",
+   "Stratagems",
+   "Tactical Focus"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-attack-force/rules/tactical-focus"
+ },
+ {
+  "id": "codex-fire-patterns",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Codex Fire-patterns",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Codex Fire-patterns"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/codex-fire-patterns"
+ },
+ {
+  "id": "cyber-familiar",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Cyber-familiar",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Enhancements",
+   "Cyber-familiar"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/cyber-familiar"
+ },
+ {
+  "id": "tempered-in-battle-aura",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Tempered in Battle (Aura)",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Enhancements",
+   "Tempered in Battle (Aura)"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/tempered-in-battle-aura"
+ },
+ {
+  "id": "for-the-emperor",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "For The Emperor!",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Stratagems",
+   "For The Emperor!"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/for-the-emperor"
+ },
+ {
+  "id": "relentless-assault",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Relentless Assault",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Stratagems",
+   "Relentless Assault"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/relentless-assault"
+ },
+ {
+  "id": "point-blank-brutality",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Point-Blank Brutality",
+  "section": [
+   "Tacticus Firestorm Force",
+   "Stratagems",
+   "Point-Blank Brutality"
+  ],
+  "href": "/codices/space-marines/detachments/tacticus-firestorm-force/rules/point-blank-brutality"
+ },
+ {
+  "id": "shadow-masters",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Shadow Masters",
+  "section": [
+   "Phobos Shadow Force",
+   "Shadow Masters"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/shadow-masters"
+ },
+ {
+  "id": "venator-omni-auspex",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Venator Omni-auspex",
+  "section": [
+   "Phobos Shadow Force",
+   "Enhancements",
+   "Venator Omni-auspex"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/venator-omni-auspex"
+ },
+ {
+  "id": "execute-and-redeploy",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Execute and Redeploy",
+  "section": [
+   "Phobos Shadow Force",
+   "Enhancements",
+   "Execute and Redeploy"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/execute-and-redeploy"
+ },
+ {
+  "id": "strike-from-the-shadows",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Strike From The Shadows",
+  "section": [
+   "Phobos Shadow Force",
+   "Stratagems",
+   "Strike From The Shadows"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/strike-from-the-shadows"
+ },
+ {
+  "id": "mortis-snares",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mortis Snares",
+  "section": [
+   "Phobos Shadow Force",
+   "Stratagems",
+   "Mortis Snares"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/mortis-snares"
+ },
+ {
+  "id": "tactical-withdrawal",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Tactical Withdrawal",
+  "section": [
+   "Phobos Shadow Force",
+   "Stratagems",
+   "Tactical Withdrawal"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shadow-force/rules/tactical-withdrawal"
+ },
+ {
+  "id": "vanguard-ambushers",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Vanguard Ambushers",
+  "section": [
+   "Phobos Shock Force",
+   "Vanguard Ambushers"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/vanguard-ambushers"
+ },
+ {
+  "id": "seal-of-shrouding",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Seal of Shrouding",
+  "section": [
+   "Phobos Shock Force",
+   "Enhancements",
+   "Seal of Shrouding"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/seal-of-shrouding"
+ },
+ {
+  "id": "venator-omni-auspex",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Venator Omni-auspex",
+  "section": [
+   "Phobos Shock Force",
+   "Enhancements",
+   "Venator Omni-auspex"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/venator-omni-auspex"
+ },
+ {
+  "id": "strike-from-the-shadows",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Strike From The Shadows",
+  "section": [
+   "Phobos Shock Force",
+   "Stratagems",
+   "Strike From The Shadows"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/strike-from-the-shadows"
+ },
+ {
+  "id": "transhuman-reactions",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Transhuman Reactions",
+  "section": [
+   "Phobos Shock Force",
+   "Stratagems",
+   "Transhuman Reactions"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/transhuman-reactions"
+ },
+ {
+  "id": "umbral-evasion",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Umbral Evasion",
+  "section": [
+   "Phobos Shock Force",
+   "Stratagems",
+   "Umbral Evasion"
+  ],
+  "href": "/codices/space-marines/detachments/phobos-shock-force/rules/umbral-evasion"
+ },
+ {
+  "id": "walking-fortress",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Walking Fortress",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Walking Fortress"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/walking-fortress"
+ },
+ {
+  "id": "indefatigable-fortitude",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Indefatigable Fortitude",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Enhancements",
+   "Indefatigable Fortitude"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/indefatigable-fortitude"
+ },
+ {
+  "id": "relentless-advance",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Relentless Advance",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Enhancements",
+   "Relentless Advance"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/relentless-advance"
+ },
+ {
+  "id": "annihilating-force",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Annihilating Force",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Stratagems",
+   "Annihilating Force"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/annihilating-force"
+ },
+ {
+  "id": "purgation-push",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Purgation Push",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Stratagems",
+   "Purgation Push"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/purgation-push"
+ },
+ {
+  "id": "armoured-impact",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armoured Impact",
+  "section": [
+   "Gravis Linebreaker Force",
+   "Stratagems",
+   "Armoured Impact"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-linebreaker-force/rules/armoured-impact"
+ },
+ {
+  "id": "indomitable-defence",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Indomitable Defence",
+  "section": [
+   "Gravis Siege Force",
+   "Indomitable Defence"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/indomitable-defence"
+ },
+ {
+  "id": "immovable-conquerors",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Immovable Conquerors",
+  "section": [
+   "Gravis Siege Force",
+   "Enhancements",
+   "Immovable Conquerors"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/immovable-conquerors"
+ },
+ {
+  "id": "narthecis-gauntlet",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Narthecis Gauntlet",
+  "section": [
+   "Gravis Siege Force",
+   "Enhancements",
+   "Narthecis Gauntlet"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/narthecis-gauntlet"
+ },
+ {
+  "id": "annihilating-force",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Annihilating Force",
+  "section": [
+   "Gravis Siege Force",
+   "Stratagems",
+   "Annihilating Force"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/annihilating-force"
+ },
+ {
+  "id": "stand-unyielding",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Stand Unyielding",
+  "section": [
+   "Gravis Siege Force",
+   "Stratagems",
+   "Stand Unyielding"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/stand-unyielding"
+ },
+ {
+  "id": "suppression-volleys",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Suppression Volleys",
+  "section": [
+   "Gravis Siege Force",
+   "Stratagems",
+   "Suppression Volleys"
+  ],
+  "href": "/codices/space-marines/detachments/gravis-siege-force/rules/suppression-volleys"
+ },
+ {
+  "id": "lightning-fast-strike",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Lightning-fast Strike",
+  "section": [
+   "Stormlance Task Force",
+   "Detachment Rules",
+   "Lightning-fast Strike"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/lightning-fast-strike"
+ },
+ {
+  "id": "supercharged-engines",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Supercharged Engines",
+  "section": [
+   "Stormlance Task Force",
+   "Enhancements",
+   "Supercharged Engines"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/supercharged-engines"
+ },
+ {
+  "id": "auspex-triangulation-shrines",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Auspex Triangulation Shrines",
+  "section": [
+   "Stormlance Task Force",
+   "Enhancements",
+   "Auspex Triangulation Shrines"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/auspex-triangulation-shrines"
+ },
+ {
+  "id": "wind-swift-evasion",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Wind-Swift Evasion",
+  "section": [
+   "Stormlance Task Force",
+   "Stratagems",
+   "Wind-Swift Evasion"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/wind-swift-evasion"
+ },
+ {
+  "id": "sudden-onslaught",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Sudden Onslaught",
+  "section": [
+   "Stormlance Task Force",
+   "Stratagems",
+   "Sudden Onslaught"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/sudden-onslaught"
+ },
+ {
+  "id": "hurtling-targets",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hurtling Targets",
+  "section": [
+   "Stormlance Task Force",
+   "Stratagems",
+   "Hurtling Targets"
+  ],
+  "href": "/codices/space-marines/detachments/stormlance-task-force/rules/hurtling-targets"
+ },
+ {
+  "id": "enduring-vengeance",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Enduring Vengeance",
+  "section": [
+   "Ironclad Champions",
+   "Enduring Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/enduring-vengeance"
+ },
+ {
+  "id": "artificer-sarcophagus",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Artificer Sarcophagus",
+  "section": [
+   "Ironclad Champions",
+   "Enhancements",
+   "Artificer Sarcophagus"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/artificer-sarcophagus"
+ },
+ {
+  "id": "venerable-champion-aura",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Venerable Champion (Aura)",
+  "section": [
+   "Ironclad Champions",
+   "Enhancements",
+   "Venerable Champion (Aura)"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/venerable-champion-aura"
+ },
+ {
+  "id": "adamantine-terror",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Adamantine Terror",
+  "section": [
+   "Ironclad Champions",
+   "Stratagems",
+   "Adamantine Terror"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/adamantine-terror"
+ },
+ {
+  "id": "mercy-is-weakness",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mercy Is Weakness",
+  "section": [
+   "Ironclad Champions",
+   "Stratagems",
+   "Mercy Is Weakness"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/mercy-is-weakness"
+ },
+ {
+  "id": "upstoppable-advance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Upstoppable Advance",
+  "section": [
+   "Ironclad Champions",
+   "Stratagems",
+   "Upstoppable Advance"
+  ],
+  "href": "/codices/space-marines/detachments/ironclad-champions/rules/upstoppable-advance"
+ },
+ {
+  "id": "combined-deployment",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Combined Deployment",
+  "section": [
+   "Gauntlet Task Force",
+   "Combined Deployment"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/combined-deployment"
+ },
+ {
+  "id": "linebreaker-onslaught",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Linebreaker Onslaught",
+  "section": [
+   "Gauntlet Task Force",
+   "Enhancements",
+   "Linebreaker Onslaught"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/linebreaker-onslaught"
+ },
+ {
+  "id": "damocles-class-uplink",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Damocles-class Uplink",
+  "section": [
+   "Gauntlet Task Force",
+   "Enhancements",
+   "Damocles-class Uplink"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/damocles-class-uplink"
+ },
+ {
+  "id": "aggressive-disembarkation",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Aggressive Disembarkation",
+  "section": [
+   "Gauntlet Task Force",
+   "Stratagems",
+   "Aggressive Disembarkation"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/aggressive-disembarkation"
+ },
+ {
+  "id": "duty-is-never-done",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Duty Is Never Done",
+  "section": [
+   "Gauntlet Task Force",
+   "Stratagems",
+   "Duty Is Never Done"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/duty-is-never-done"
+ },
+ {
+  "id": "storm-and-secure",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Storm And Secure",
+  "section": [
+   "Gauntlet Task Force",
+   "Stratagems",
+   "Storm And Secure"
+  ],
+  "href": "/codices/space-marines/detachments/gauntlet-task-force/rules/storm-and-secure"
+ },
+ {
+  "id": "ironstorm-auto-targeters",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Ironstorm Auto-targeters",
+  "section": [
+   "Ironstorm Spearhead",
+   "Detachment Rules",
+   "Ironstorm Auto-targeters"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/ironstorm-auto-targeters"
+ },
+ {
+  "id": "redoubtable-machine-spirit",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Redoubtable Machine Spirit",
+  "section": [
+   "Ironstorm Spearhead",
+   "Enhancements",
+   "Redoubtable Machine Spirit"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/redoubtable-machine-spirit"
+ },
+ {
+  "id": "gunnery-honours",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Gunnery Honours",
+  "section": [
+   "Ironstorm Spearhead",
+   "Enhancements",
+   "Gunnery Honours"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/gunnery-honours"
+ },
+ {
+  "id": "layered-ceramite",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Layered Ceramite",
+  "section": [
+   "Ironstorm Spearhead",
+   "Stratagems",
+   "Layered Ceramite"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/layered-ceramite"
+ },
+ {
+  "id": "might-of-the-machine-spirit",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Might Of The Machine Spirit",
+  "section": [
+   "Ironstorm Spearhead",
+   "Stratagems",
+   "Might Of The Machine Spirit"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/might-of-the-machine-spirit"
+ },
+ {
+  "id": "headhunter-doctrine",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Headhunter Doctrine",
+  "section": [
+   "Ironstorm Spearhead",
+   "Stratagems",
+   "Headhunter Doctrine"
+  ],
+  "href": "/codices/space-marines/detachments/ironstorm-spearhead/rules/headhunter-doctrine"
+ },
+ {
+  "id": "armoured-wrath",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Armoured Wrath",
+  "section": [
+   "Medusa s Wrath",
+   "Armoured Wrath"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/armoured-wrath"
+ },
+ {
+  "id": "target-augury-web",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Target Augury Web",
+  "section": [
+   "Medusa s Wrath",
+   "Enhancements",
+   "Target Augury Web"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/target-augury-web"
+ },
+ {
+  "id": "adept-of-the-omnissiah",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Adept of the Omnissiah",
+  "section": [
+   "Medusa s Wrath",
+   "Enhancements",
+   "Adept of the Omnissiah"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/adept-of-the-omnissiah"
+ },
+ {
+  "id": "master-of-the-machine-war",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Master of the Machine War",
+  "section": [
+   "Medusa s Wrath",
+   "Enhancements",
+   "Master of the Machine War"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/master-of-the-machine-war"
+ },
+ {
+  "id": "the-flesh-is-weak",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "The Flesh is Weak",
+  "section": [
+   "Medusa s Wrath",
+   "Enhancements",
+   "The Flesh is Weak"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/the-flesh-is-weak"
+ },
+ {
+  "id": "methodical-brutality",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Methodical Brutality",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Methodical Brutality"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/methodical-brutality"
+ },
+ {
+  "id": "spirits-of-iron",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Spirits Of Iron",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Spirits Of Iron"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/spirits-of-iron"
+ },
+ {
+  "id": "vengeful-animus",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Vengeful Animus",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Vengeful Animus"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/vengeful-animus"
+ },
+ {
+  "id": "ancient-fury",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Ancient Fury",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Ancient Fury"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/ancient-fury"
+ },
+ {
+  "id": "unbowed-conviction",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unbowed Conviction",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Unbowed Conviction"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/unbowed-conviction"
+ },
+ {
+  "id": "power-of-the-machine-spirit",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Power Of The Machine Spirit",
+  "section": [
+   "Medusa s Wrath",
+   "Stratagems",
+   "Power Of The Machine Spirit"
+  ],
+  "href": "/codices/space-marines/detachments/medusa-s-wrath/rules/power-of-the-machine-spirit"
+ },
+ {
+  "id": "adaptive-defence",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Adaptive Defence",
+  "section": [
+   "Ceramite Sentinels",
+   "Detachment Rules",
+   "Adaptive Defence"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/adaptive-defence"
+ },
+ {
+  "id": "honour-indefatigable",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Honour Indefatigable",
+  "section": [
+   "Ceramite Sentinels",
+   "Enhancements",
+   "Honour Indefatigable"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/honour-indefatigable"
+ },
+ {
+  "id": "castellum-omnivox",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Castellum Omnivox",
+  "section": [
+   "Ceramite Sentinels",
+   "Enhancements",
+   "Castellum Omnivox"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/castellum-omnivox"
+ },
+ {
+  "id": "defensive-mastery",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Defensive Mastery",
+  "section": [
+   "Ceramite Sentinels",
+   "Enhancements",
+   "Defensive Mastery"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/defensive-mastery"
+ },
+ {
+  "id": "spy-skull-data-link",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Spy-skull Data Link",
+  "section": [
+   "Ceramite Sentinels",
+   "Enhancements",
+   "Spy-skull Data Link"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/spy-skull-data-link"
+ },
+ {
+  "id": "unyielding-might",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unyielding Might",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Unyielding Might"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/unyielding-might"
+ },
+ {
+  "id": "stand-to-the-end",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Stand To The End",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Stand To The End"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/stand-to-the-end"
+ },
+ {
+  "id": "augmented-targeting",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Augmented Targeting",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Augmented Targeting"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/augmented-targeting"
+ },
+ {
+  "id": "establish-supremacy",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Establish Supremacy",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Establish Supremacy"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/establish-supremacy"
+ },
+ {
+  "id": "priority-strike",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Priority Strike",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Priority Strike"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/priority-strike"
+ },
+ {
+  "id": "evasive-repositioning",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Evasive Repositioning",
+  "section": [
+   "Ceramite Sentinels",
+   "Stratagems",
+   "Evasive Repositioning"
+  ],
+  "href": "/codices/space-marines/detachments/ceramite-sentinels/rules/evasive-repositioning"
+ },
+ {
+  "id": "mastered-doctrines",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Mastered Doctrines",
+  "section": [
+   "Blade of Ultramar",
+   "Detachment Rules",
+   "Mastered Doctrines"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/mastered-doctrines"
+ },
+ {
+  "id": "student-of-the-codex",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Student of the Codex",
+  "section": [
+   "Blade of Ultramar",
+   "Enhancements",
+   "Student of the Codex"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/student-of-the-codex"
+ },
+ {
+  "id": "armour-of-antoninus",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Armour of Antoninus",
+  "section": [
+   "Blade of Ultramar",
+   "Enhancements",
+   "Armour of Antoninus"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/armour-of-antoninus"
+ },
+ {
+  "id": "oath-of-macragge",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Oath of Macragge",
+  "section": [
+   "Blade of Ultramar",
+   "Enhancements",
+   "Oath of Macragge"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/oath-of-macragge"
+ },
+ {
+  "id": "veteran-of-behemoth",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Veteran of Behemoth",
+  "section": [
+   "Blade of Ultramar",
+   "Enhancements",
+   "Veteran of Behemoth"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/veteran-of-behemoth"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/armour-of-contempt"
+ },
+ {
+  "id": "exemplary-vigilance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Exemplary Vigilance",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Exemplary Vigilance"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/exemplary-vigilance"
+ },
+ {
+  "id": "ultramarian-adaptivity",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Ultramarian Adaptivity",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Ultramarian Adaptivity"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/ultramarian-adaptivity"
+ },
+ {
+  "id": "courage-and-honour",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Courage And Honour!",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Courage And Honour!"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/courage-and-honour"
+ },
+ {
+  "id": "practical-tactics",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Practical Tactics",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Practical Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/practical-tactics"
+ },
+ {
+  "id": "tactical-foresight",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Tactical Foresight",
+  "section": [
+   "Blade of Ultramar",
+   "Stratagems",
+   "Tactical Foresight"
+  ],
+  "href": "/codices/space-marines/detachments/blade-of-ultramar/rules/tactical-foresight"
+ },
+ {
+  "id": "shadow-tactics",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Shadow Tactics",
+  "section": [
+   "Shadowmark Talon",
+   "Detachment Rules",
+   "Shadow Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/shadow-tactics"
+ },
+ {
+  "id": "blackwing-shroud",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Blackwing Shroud",
+  "section": [
+   "Shadowmark Talon",
+   "Enhancements",
+   "Blackwing Shroud"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/blackwing-shroud"
+ },
+ {
+  "id": "umbral-raptor",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Umbral Raptor",
+  "section": [
+   "Shadowmark Talon",
+   "Enhancements",
+   "Umbral Raptor"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/umbral-raptor"
+ },
+ {
+  "id": "hunters-instincts",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Hunter's Instincts",
+  "section": [
+   "Shadowmark Talon",
+   "Enhancements",
+   "Hunter's Instincts"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/hunters-instincts"
+ },
+ {
+  "id": "coronal-susurrant",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Coronal Susurrant",
+  "section": [
+   "Shadowmark Talon",
+   "Enhancements",
+   "Coronal Susurrant"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/coronal-susurrant"
+ },
+ {
+  "id": "into-darkness",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Into Darkness",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Into Darkness"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/into-darkness"
+ },
+ {
+  "id": "raptorial-vigilance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Raptorial Vigilance",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Raptorial Vigilance"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/raptorial-vigilance"
+ },
+ {
+  "id": "murderous-fusillade",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Murderous Fusillade",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Murderous Fusillade"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/murderous-fusillade"
+ },
+ {
+  "id": "suppressed-weapons",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Suppressed Weapons",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Suppressed Weapons"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/suppressed-weapons"
+ },
+ {
+  "id": "feint-and-thrust",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Feint And Thrust",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Feint And Thrust"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/feint-and-thrust"
+ },
+ {
+  "id": "lay-low-the-tyrants",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Lay Low The Tyrants",
+  "section": [
+   "Shadowmark Talon",
+   "Stratagems",
+   "Lay Low The Tyrants"
+  ],
+  "href": "/codices/space-marines/detachments/shadowmark-talon/rules/lay-low-the-tyrants"
+ },
+ {
+  "id": "vulkans-quest",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Vulkan's Quest",
+  "section": [
+   "Forgefather’s Seekers",
+   "Detachment Rules",
+   "Vulkan's Quest"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/vulkans-quest"
+ },
+ {
+  "id": "forged-in-battle",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Forged in Battle",
+  "section": [
+   "Forgefather’s Seekers",
+   "Enhancements",
+   "Forged in Battle"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/forged-in-battle"
+ },
+ {
+  "id": "adamantine-mantle",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Adamantine Mantle",
+  "section": [
+   "Forgefather’s Seekers",
+   "Enhancements",
+   "Adamantine Mantle"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/adamantine-mantle"
+ },
+ {
+  "id": "war-tempered-artifice",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "War Tempered Artifice",
+  "section": [
+   "Forgefather’s Seekers",
+   "Enhancements",
+   "War Tempered Artifice"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/war-tempered-artifice"
+ },
+ {
+  "id": "immolator",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Immolator",
+  "section": [
+   "Forgefather’s Seekers",
+   "Enhancements",
+   "Immolator"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/immolator"
+ },
+ {
+  "id": "blazing-earth",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Blazing Earth",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Blazing Earth"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/blazing-earth"
+ },
+ {
+  "id": "wrath-and-ruin",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Wrath And Ruin",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Wrath And Ruin"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/wrath-and-ruin"
+ },
+ {
+  "id": "forged-in-fire",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Forged In Fire",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Forged In Fire"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/forged-in-fire"
+ },
+ {
+  "id": "immolation-protocols",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Immolation Protocols",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Immolation Protocols"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/immolation-protocols"
+ },
+ {
+  "id": "crucible-of-battle",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Crucible Of Battle",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Crucible Of Battle"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/crucible-of-battle"
+ },
+ {
+  "id": "burning-vengeance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Burning Vengeance",
+  "section": [
+   "Forgefather’s Seekers",
+   "Stratagems",
+   "Burning Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/forgefather-s-seekers/rules/burning-vengeance"
+ },
+ {
+  "id": "storm-swift-onslaught",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Storm-swift Onslaught",
+  "section": [
+   "Spearpoint Task Force",
+   "Detachment Rules",
+   "Storm-swift Onslaught"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/storm-swift-onslaught"
+ },
+ {
+  "id": "stormseers-wisdom",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Stormseer's Wisdom",
+  "section": [
+   "Spearpoint Task Force",
+   "Enhancements",
+   "Stormseer's Wisdom"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/stormseers-wisdom"
+ },
+ {
+  "id": "chogorian-huntmaster",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Chogorian Huntmaster",
+  "section": [
+   "Spearpoint Task Force",
+   "Enhancements",
+   "Chogorian Huntmaster"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/chogorian-huntmaster"
+ },
+ {
+  "id": "hunters-eye",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Hunter's Eye",
+  "section": [
+   "Spearpoint Task Force",
+   "Enhancements",
+   "Hunter's Eye"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/hunters-eye"
+ },
+ {
+  "id": "spearpoint-paragon",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Spearpoint Paragon",
+  "section": [
+   "Spearpoint Task Force",
+   "Enhancements",
+   "Spearpoint Paragon"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/spearpoint-paragon"
+ },
+ {
+  "id": "evasive-manoeuvers",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Evasive Manoeuvers",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Evasive Manoeuvers"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/evasive-manoeuvers"
+ },
+ {
+  "id": "mobile-lethality",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Mobile Lethality",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Mobile Lethality"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/mobile-lethality"
+ },
+ {
+  "id": "flawless-riders",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Flawless Riders",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Flawless Riders"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/flawless-riders"
+ },
+ {
+  "id": "spear-thrust-and-sabre-swing",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Spear Thrust And Sabre Swing",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Spear Thrust And Sabre Swing"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/spear-thrust-and-sabre-swing"
+ },
+ {
+  "id": "withdraw-and-regroup",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Withdraw And Regroup",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Withdraw And Regroup"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/withdraw-and-regroup"
+ },
+ {
+  "id": "hunters-instincts",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hunter'S Instincts",
+  "section": [
+   "Spearpoint Task Force",
+   "Stratagems",
+   "Hunter'S Instincts"
+  ],
+  "href": "/codices/space-marines/detachments/spearpoint-task-force/rules/hunters-instincts"
+ },
+ {
+  "id": "purge-and-sanctify",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Purge and Sanctify",
+  "section": [
+   "Fist of the God-Emperor",
+   "Purge and Sanctify"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/purge-and-sanctify"
+ },
+ {
+  "id": "righteous-fervour",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Righteous Fervour",
+  "section": [
+   "Fist of the God-Emperor",
+   "Enhancements",
+   "Righteous Fervour"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/righteous-fervour"
+ },
+ {
+  "id": "oathbound-exemplar",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Oathbound Exemplar",
+  "section": [
+   "Fist of the God-Emperor",
+   "Enhancements",
+   "Oathbound Exemplar"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/oathbound-exemplar"
+ },
+ {
+  "id": "doctrinal-flexibility",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Doctrinal Flexibility",
+  "section": [
+   "Fist of the God-Emperor",
+   "Stratagems",
+   "Doctrinal Flexibility"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/doctrinal-flexibility"
+ },
+ {
+  "id": "angels-defiant",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Angels Defiant",
+  "section": [
+   "Fist of the God-Emperor",
+   "Stratagems",
+   "Angels Defiant"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/angels-defiant"
+ },
+ {
+  "id": "avowed-destruction",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Avowed Destruction",
+  "section": [
+   "Fist of the God-Emperor",
+   "Stratagems",
+   "Avowed Destruction"
+  ],
+  "href": "/codices/space-marines/detachments/fist-of-the-god-emperor/rules/avowed-destruction"
+ },
+ {
+  "id": "faith-fuelled-resolve",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Faith-fuelled Resolve",
+  "section": [
+   "Marshal’s Household",
+   "Detachment Rules",
+   "Faith-fuelled Resolve"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/faith-fuelled-resolve"
+ },
+ {
+  "id": "fervent-exemplars",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Fervent Exemplars",
+  "section": [
+   "Marshal’s Household",
+   "Enhancements",
+   "Fervent Exemplars"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/fervent-exemplars"
+ },
+ {
+  "id": "inheritors-of-sigismund",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Inheritors of Sigismund",
+  "section": [
+   "Marshal’s Household",
+   "Enhancements",
+   "Inheritors of Sigismund"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/inheritors-of-sigismund"
+ },
+ {
+  "id": "slayers-of-abominations",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Slayers Of Abominations",
+  "section": [
+   "Marshal’s Household",
+   "Stratagems",
+   "Slayers Of Abominations"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/slayers-of-abominations"
+ },
+ {
+  "id": "unsparing-execution",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unsparing Execution",
+  "section": [
+   "Marshal’s Household",
+   "Stratagems",
+   "Unsparing Execution"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/unsparing-execution"
+ },
+ {
+  "id": "blade-of-detestation",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Blade Of Detestation",
+  "section": [
+   "Marshal’s Household",
+   "Stratagems",
+   "Blade Of Detestation"
+  ],
+  "href": "/codices/space-marines/detachments/marshal-s-household/rules/blade-of-detestation"
+ },
+ {
+  "id": "templar-vows",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Templar Vows",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Templar Vows"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/templar-vows"
+ },
+ {
+  "id": "augury-servo-host",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Augury Servo-host",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Enhancements",
+   "Augury Servo-host"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/augury-servo-host"
+ },
+ {
+  "id": "consecrating-aura",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Consecrating Aura",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Enhancements",
+   "Consecrating Aura"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/consecrating-aura"
+ },
+ {
+  "id": "incendiary-animus",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Incendiary Animus",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Enhancements",
+   "Incendiary Animus"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/incendiary-animus"
+ },
+ {
+  "id": "zealous-vanguard",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Zealous Vanguard",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Enhancements",
+   "Zealous Vanguard"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/zealous-vanguard"
+ },
+ {
+  "id": "dread-crusaders",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dread Crusaders",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "Dread Crusaders"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/dread-crusaders"
+ },
+ {
+  "id": "for-the-emperors-honour",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "For The Emperor'S Honour!",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "For The Emperor'S Honour!"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/for-the-emperors-honour"
+ },
+ {
+  "id": "heresy-begets-retribution",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Heresy Begets Retribution",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "Heresy Begets Retribution"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/heresy-begets-retribution"
+ },
+ {
+  "id": "spoor-of-the-unholy",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Spoor Of The Unholy",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "Spoor Of The Unholy"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/spoor-of-the-unholy"
+ },
+ {
+  "id": "pious-enmity",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Pious Enmity",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "Pious Enmity"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/pious-enmity"
+ },
+ {
+  "id": "devout-push",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Devout Push",
+  "section": [
+   "Vow-sworn Crusaders",
+   "Stratagems",
+   "Devout Push"
+  ],
+  "href": "/codices/space-marines/detachments/vow-sworn-crusaders/rules/devout-push"
+ },
+ {
+  "id": "legacy-of-the-angel",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Legacy of the Angel",
+  "section": [
+   "Angelic Inheritors",
+   "Detachment Rules",
+   "Legacy of the Angel"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/legacy-of-the-angel"
+ },
+ {
+  "id": "prescient-flash",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Prescient Flash",
+  "section": [
+   "Angelic Inheritors",
+   "Enhancements",
+   "Prescient Flash"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/prescient-flash"
+ },
+ {
+  "id": "blazing-icon",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Blazing Icon",
+  "section": [
+   "Angelic Inheritors",
+   "Enhancements",
+   "Blazing Icon"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/blazing-icon"
+ },
+ {
+  "id": "ordained-sacrifice",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Ordained Sacrifice",
+  "section": [
+   "Angelic Inheritors",
+   "Enhancements",
+   "Ordained Sacrifice"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/ordained-sacrifice"
+ },
+ {
+  "id": "unto-death",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Unto Death",
+  "section": [
+   "Angelic Inheritors",
+   "Enhancements",
+   "Unto Death"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/unto-death"
+ },
+ {
+  "id": "focused-fury",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Focused Fury",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "Focused Fury"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/focused-fury"
+ },
+ {
+  "id": "strike-now-for-glory",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Strike Now For Glory",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "Strike Now For Glory"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/strike-now-for-glory"
+ },
+ {
+  "id": "instant-of-grace",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Instant Of Grace",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "Instant Of Grace"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/instant-of-grace"
+ },
+ {
+  "id": "measured-strategist",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Measured Strategist",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "Measured Strategist"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/measured-strategist"
+ },
+ {
+  "id": "unto-the-burning-skies",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unto The Burning Skies",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "Unto The Burning Skies"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/unto-the-burning-skies"
+ },
+ {
+  "id": "in-the-shadow-of-great-wings",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "In The Shadow Of Great Wings",
+  "section": [
+   "Angelic Inheritors",
+   "Stratagems",
+   "In The Shadow Of Great Wings"
+  ],
+  "href": "/codices/space-marines/detachments/angelic-inheritors/rules/in-the-shadow-of-great-wings"
+ },
+ {
+  "id": "wrath-of-angels",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Wrath of Angels",
+  "section": [
+   "Encarmine Speartip",
+   "Detachment Rules",
+   "Wrath of Angels"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/wrath-of-angels"
+ },
+ {
+  "id": "shadow-of-abomination",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Shadow of Abomination",
+  "section": [
+   "Encarmine Speartip",
+   "Enhancements",
+   "Shadow of Abomination"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/shadow-of-abomination"
+ },
+ {
+  "id": "angelic-executioner",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Angelic Executioner",
+  "section": [
+   "Encarmine Speartip",
+   "Enhancements",
+   "Angelic Executioner"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/angelic-executioner"
+ },
+ {
+  "id": "judgement-of-the-golden-host",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Judgement Of The Golden Host",
+  "section": [
+   "Encarmine Speartip",
+   "Stratagems",
+   "Judgement Of The Golden Host"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/judgement-of-the-golden-host"
+ },
+ {
+  "id": "inexorable-valour",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Inexorable Valour",
+  "section": [
+   "Encarmine Speartip",
+   "Stratagems",
+   "Inexorable Valour"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/inexorable-valour"
+ },
+ {
+  "id": "blinding-blurs-of-vengeance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Blinding Blurs Of Vengeance",
+  "section": [
+   "Encarmine Speartip",
+   "Stratagems",
+   "Blinding Blurs Of Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/encarmine-speartip/rules/blinding-blurs-of-vengeance"
+ },
+ {
+  "id": "sanguinius-fury",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Sanguinius' Fury",
+  "section": [
+   "Wrath of the Doomed",
+   "Detachment Rules",
+   "Sanguinius' Fury"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/sanguinius-fury"
+ },
+ {
+  "id": "instinctive-interception",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Instinctive Interception",
+  "section": [
+   "Wrath of the Doomed",
+   "Enhancements",
+   "Instinctive Interception"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/instinctive-interception"
+ },
+ {
+  "id": "on-the-archtraitors-bridge",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "On the Archtraitor's Bridge",
+  "section": [
+   "Wrath of the Doomed",
+   "Enhancements",
+   "On the Archtraitor's Bridge"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/on-the-archtraitors-bridge"
+ },
+ {
+  "id": "death-begets-vengeance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Death Begets Vengeance",
+  "section": [
+   "Wrath of the Doomed",
+   "Stratagems",
+   "Death Begets Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/death-begets-vengeance"
+ },
+ {
+  "id": "no-barrier-to-retribution",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "No Barrier To Retribution",
+  "section": [
+   "Wrath of the Doomed",
+   "Stratagems",
+   "No Barrier To Retribution"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/no-barrier-to-retribution"
+ },
+ {
+  "id": "rage-fuelled-response",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Rage-Fuelled Response",
+  "section": [
+   "Wrath of the Doomed",
+   "Stratagems",
+   "Rage-Fuelled Response"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-doomed/rules/rage-fuelled-response"
+ },
+ {
+  "id": "black-winged-vigilance",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Black-winged Vigilance",
+  "section": [
+   "Darkflight Pursuit",
+   "Detachment Rules",
+   "Black-winged Vigilance"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/black-winged-vigilance"
+ },
+ {
+  "id": "thundercowl-turbines",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Thundercowl Turbines",
+  "section": [
+   "Darkflight Pursuit",
+   "Enhancements",
+   "Thundercowl Turbines"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/thundercowl-turbines"
+ },
+ {
+  "id": "nightforged-battery-upgarde",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Nightforged Battery (Upgarde)",
+  "section": [
+   "Darkflight Pursuit",
+   "Enhancements",
+   "Nightforged Battery (Upgarde)"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/nightforged-battery-upgarde"
+ },
+ {
+  "id": "skyborne-surveillance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Skyborne Surveillance",
+  "section": [
+   "Darkflight Pursuit",
+   "Stratagems",
+   "Skyborne Surveillance"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/skyborne-surveillance"
+ },
+ {
+  "id": "we-are-vengeance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "We Are Vengeance",
+  "section": [
+   "Darkflight Pursuit",
+   "Stratagems",
+   "We Are Vengeance"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/we-are-vengeance"
+ },
+ {
+  "id": "wings-of-shadow",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Wings Of Shadow",
+  "section": [
+   "Darkflight Pursuit",
+   "Stratagems",
+   "Wings Of Shadow"
+  ],
+  "href": "/codices/space-marines/detachments/darkflight-pursuit/rules/wings-of-shadow"
+ },
+ {
+  "id": "vowed-target",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Vowed Target",
+  "section": [
+   "Inner Circle Task Force",
+   "Detachment Rules",
+   "Vowed Target"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/vowed-target"
+ },
+ {
+  "id": "singular-will",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Singular Will",
+  "section": [
+   "Inner Circle Task Force",
+   "Enhancements",
+   "Singular Will"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/singular-will"
+ },
+ {
+  "id": "champion-of-the-deathwing",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Champion of the Deathwing",
+  "section": [
+   "Inner Circle Task Force",
+   "Enhancements",
+   "Champion of the Deathwing"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/champion-of-the-deathwing"
+ },
+ {
+  "id": "duty-unto-death",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Duty Unto Death",
+  "section": [
+   "Inner Circle Task Force",
+   "Stratagems",
+   "Duty Unto Death"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/duty-unto-death"
+ },
+ {
+  "id": "relic-teleportarium",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Relic Teleportarium",
+  "section": [
+   "Inner Circle Task Force",
+   "Stratagems",
+   "Relic Teleportarium"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/relic-teleportarium"
+ },
+ {
+  "id": "wrath-of-the-lion",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Wrath Of The Lion",
+  "section": [
+   "Inner Circle Task Force",
+   "Stratagems",
+   "Wrath Of The Lion"
+  ],
+  "href": "/codices/space-marines/detachments/inner-circle-task-force/rules/wrath-of-the-lion"
+ },
+ {
+  "id": "dutiful-tenacity",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Dutiful Tenacity",
+  "section": [
+   "Wrath of the Rock",
+   "Detachment Rules",
+   "Dutiful Tenacity"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/dutiful-tenacity"
+ },
+ {
+  "id": "tempered-in-battle-aura",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Tempered in Battle (Aura)",
+  "section": [
+   "Wrath of the Rock",
+   "Enhancements",
+   "Tempered in Battle (Aura)"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/tempered-in-battle-aura"
+ },
+ {
+  "id": "lord-of-the-ravenwing",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Lord of the Ravenwing",
+  "section": [
+   "Wrath of the Rock",
+   "Enhancements",
+   "Lord of the Ravenwing"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/lord-of-the-ravenwing"
+ },
+ {
+  "id": "deathwing-assault",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Deathwing Assault",
+  "section": [
+   "Wrath of the Rock",
+   "Enhancements",
+   "Deathwing Assault"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/deathwing-assault"
+ },
+ {
+  "id": "ancient-weapons",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Ancient Weapons",
+  "section": [
+   "Wrath of the Rock",
+   "Enhancements",
+   "Ancient Weapons"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/ancient-weapons"
+ },
+ {
+  "id": "in-sacrifice-victory",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "In Sacrifice, Victory",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "In Sacrifice, Victory"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/in-sacrifice-victory"
+ },
+ {
+  "id": "lions-will",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Lion'S Will",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "Lion'S Will"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/lions-will"
+ },
+ {
+  "id": "inescapable-justice",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Inescapable Justice",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "Inescapable Justice"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/inescapable-justice"
+ },
+ {
+  "id": "tactical-mastery",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Tactical Mastery",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "Tactical Mastery"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/tactical-mastery"
+ },
+ {
+  "id": "knights-of-iron",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Knights Of Iron",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "Knights Of Iron"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/knights-of-iron"
+ },
+ {
+  "id": "relics-of-the-dark-age",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Relics Of The Dark Age",
+  "section": [
+   "Wrath of the Rock",
+   "Stratagems",
+   "Relics Of The Dark Age"
+  ],
+  "href": "/codices/space-marines/detachments/wrath-of-the-rock/rules/relics-of-the-dark-age"
+ },
+ {
+  "id": "the-great-wolf-watches",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "The Great Wolf Watches",
+  "section": [
+   "Champions of Fenris",
+   "Detachment Rules",
+   "The Great Wolf Watches"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/the-great-wolf-watches"
+ },
+ {
+  "id": "preyslayer",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Preyslayer",
+  "section": [
+   "Champions of Fenris",
+   "Enhancements",
+   "Preyslayer"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/preyslayer"
+ },
+ {
+  "id": "a-giant-amongst-giants",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "A Giant Amongst Giants",
+  "section": [
+   "Champions of Fenris",
+   "Enhancements",
+   "A Giant Amongst Giants"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/a-giant-amongst-giants"
+ },
+ {
+  "id": "champions-guidance",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Champion'S Guidance",
+  "section": [
+   "Champions of Fenris",
+   "Stratagems",
+   "Champion'S Guidance"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/champions-guidance"
+ },
+ {
+  "id": "heroic-resolve",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Heroic Resolve",
+  "section": [
+   "Champions of Fenris",
+   "Stratagems",
+   "Heroic Resolve"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/heroic-resolve"
+ },
+ {
+  "id": "birth-of-a-saga",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Birth Of A Saga",
+  "section": [
+   "Champions of Fenris",
+   "Stratagems",
+   "Birth Of A Saga"
+  ],
+  "href": "/codices/space-marines/detachments/champions-of-fenris/rules/birth-of-a-saga"
+ },
+ {
+  "id": "legendary-slayers",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Legendary Slayers",
+  "section": [
+   "Saga of the Beastslayer",
+   "Detachment Rules",
+   "Legendary Slayers"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/legendary-slayers"
+ },
+ {
+  "id": "hunters-guile",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Hunter's Guile",
+  "section": [
+   "Saga of the Beastslayer",
+   "Enhancements",
+   "Hunter's Guile"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/hunters-guile"
+ },
+ {
+  "id": "wolf-touched",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Wolf-Touched",
+  "section": [
+   "Saga of the Beastslayer",
+   "Enhancements",
+   "Wolf-Touched"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/wolf-touched"
+ },
+ {
+  "id": "unbridled-feroicity",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Unbridled Feroicity",
+  "section": [
+   "Saga of the Beastslayer",
+   "Stratagems",
+   "Unbridled Feroicity"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/unbridled-feroicity"
+ },
+ {
+  "id": "co-ordinated-strike",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Co-Ordinated Strike",
+  "section": [
+   "Saga of the Beastslayer",
+   "Stratagems",
+   "Co-Ordinated Strike"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/co-ordinated-strike"
+ },
+ {
+  "id": "impetuosity",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Impetuosity",
+  "section": [
+   "Saga of the Beastslayer",
+   "Stratagems",
+   "Impetuosity"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-beastslayer/rules/impetuosity"
+ },
+ {
+  "id": "master-of-wolves",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Master of Wolves",
+  "section": [
+   "Saga of the Great Wolf",
+   "Detachment Rules",
+   "Master of Wolves"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/master-of-wolves"
+ },
+ {
+  "id": "howlmaw",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Howlmaw",
+  "section": [
+   "Saga of the Great Wolf",
+   "Enhancements",
+   "Howlmaw"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/howlmaw"
+ },
+ {
+  "id": "grimnars-mark",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Grimnar's Mark",
+  "section": [
+   "Saga of the Great Wolf",
+   "Enhancements",
+   "Grimnar's Mark"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/grimnars-mark"
+ },
+ {
+  "id": "chariots-of-the-storm",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Chariots of the Storm",
+  "section": [
+   "Saga of the Great Wolf",
+   "Enhancements",
+   "Chariots of the Storm"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/chariots-of-the-storm"
+ },
+ {
+  "id": "skjalds-foretelling",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Skjald's Foretelling",
+  "section": [
+   "Saga of the Great Wolf",
+   "Enhancements",
+   "Skjald's Foretelling"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/skjalds-foretelling"
+ },
+ {
+  "id": "eye-of-the-pack",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Eye Of The Pack",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Eye Of The Pack"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/eye-of-the-pack"
+ },
+ {
+  "id": "wolf-totems",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Wolf Totems",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Wolf Totems"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/wolf-totems"
+ },
+ {
+  "id": "fangs-of-the-pack",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Fangs Of The Pack",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Fangs Of The Pack"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/fangs-of-the-pack"
+ },
+ {
+  "id": "fenrisian-ferocity",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Fenrisian Ferocity",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Fenrisian Ferocity"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/fenrisian-ferocity"
+ },
+ {
+  "id": "grimnars-command",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Grimnar'S Command",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Grimnar'S Command"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/grimnars-command"
+ },
+ {
+  "id": "battle-instincts",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Battle Instincts",
+  "section": [
+   "Saga of the Great Wolf",
+   "Stratagems",
+   "Battle Instincts"
+  ],
+  "href": "/codices/space-marines/detachments/saga-of-the-great-wolf/rules/battle-instincts"
+ },
+ {
+  "id": "mission-tactics",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Mission Tactics",
+  "section": [
+   "Black Spear Task Force",
+   "Detachment Rules",
+   "Mission Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/mission-tactics"
+ },
+ {
+  "id": "the-thief-of-secrets",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "The Thief of Secrets",
+  "section": [
+   "Black Spear Task Force",
+   "Enhancements",
+   "The Thief of Secrets"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/the-thief-of-secrets"
+ },
+ {
+  "id": "beacon-angelis",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Beacon Angelis",
+  "section": [
+   "Black Spear Task Force",
+   "Enhancements",
+   "Beacon Angelis"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/beacon-angelis"
+ },
+ {
+  "id": "the-tome-of-ectoclades",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "The Tome of Ectoclades",
+  "section": [
+   "Black Spear Task Force",
+   "Enhancements",
+   "The Tome of Ectoclades"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/the-tome-of-ectoclades"
+ },
+ {
+  "id": "osseus-key-aura",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Osseus Key (Aura)",
+  "section": [
+   "Black Spear Task Force",
+   "Enhancements",
+   "Osseus Key (Aura)"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/osseus-key-aura"
+ },
+ {
+  "id": "armour-of-contempt",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Armour Of Contempt",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Armour Of Contempt"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/armour-of-contempt"
+ },
+ {
+  "id": "kraken-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Kraken Rounds",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Kraken Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/kraken-rounds"
+ },
+ {
+  "id": "hellfire-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hellfire Rounds",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Hellfire Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/hellfire-rounds"
+ },
+ {
+  "id": "dragonfire-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dragonfire Rounds",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Dragonfire Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/dragonfire-rounds"
+ },
+ {
+  "id": "adaptive-tactics",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Adaptive Tactics",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Adaptive Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/adaptive-tactics"
+ },
+ {
+  "id": "site-to-site-teleportation",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Site-To-Site Teleportation",
+  "section": [
+   "Black Spear Task Force",
+   "Stratagems",
+   "Site-To-Site Teleportation"
+  ],
+  "href": "/codices/space-marines/detachments/black-spear-task-force/rules/site-to-site-teleportation"
+ },
+ {
+  "id": "mission-tactics",
+  "layer": "codex",
+  "kind": "detachment_rule",
+  "name": "Mission Tactics",
+  "section": [
+   "Deathwatch Support",
+   "Mission Tactics"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/mission-tactics"
+ },
+ {
+  "id": "beacon-angelis",
+  "layer": "codex",
+  "kind": "enhancement",
+  "name": "Beacon Angelis",
+  "section": [
+   "Deathwatch Support",
+   "Enhancements",
+   "Beacon Angelis"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/beacon-angelis"
+ },
+ {
+  "id": "kraken-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Kraken Rounds",
+  "section": [
+   "Deathwatch Support",
+   "Stratagems",
+   "Kraken Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/kraken-rounds"
+ },
+ {
+  "id": "dragonfire-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Dragonfire Rounds",
+  "section": [
+   "Deathwatch Support",
+   "Stratagems",
+   "Dragonfire Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/dragonfire-rounds"
+ },
+ {
+  "id": "hellfire-rounds",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Hellfire Rounds",
+  "section": [
+   "Deathwatch Support",
+   "Stratagems",
+   "Hellfire Rounds"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/hellfire-rounds"
+ },
+ {
+  "id": "blackstar-extraction",
+  "layer": "codex",
+  "kind": "stratagem",
+  "name": "Blackstar Extraction",
+  "section": [
+   "Deathwatch Support",
+   "Stratagems",
+   "Blackstar Extraction"
+  ],
+  "href": "/codices/space-marines/detachments/deathwatch-support/rules/blackstar-extraction"
+ },
+ {
+  "id": "bladeguard-ancient",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Bladeguard Ancient",
+  "section": [
+   "Datasheets",
+   "Bladeguard Ancient"
+  ],
+  "href": "/codices/space-marines/rules/bladeguard-ancient"
+ },
+ {
+  "id": "bladeguard-veteran-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Bladeguard Veteran Squad",
+  "section": [
+   "Datasheets",
+   "Bladeguard Veteran Squad"
+  ],
+  "href": "/codices/space-marines/rules/bladeguard-veteran-squad"
+ },
+ {
+  "id": "sternguard-veteran-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sternguard Veteran Squad",
+  "section": [
+   "Datasheets",
+   "Sternguard Veteran Squad"
+  ],
+  "href": "/codices/space-marines/rules/sternguard-veteran-squad"
+ },
+ {
+  "id": "vanguard-veteran-squad-with-jump-packs",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Vanguard Veteran Squad With Jump Packs",
+  "section": [
+   "Datasheets",
+   "Vanguard Veteran Squad With Jump Packs"
+  ],
+  "href": "/codices/space-marines/rules/vanguard-veteran-squad-with-jump-packs"
+ },
+ {
+  "id": "land-raider",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Raider",
+  "section": [
+   "Datasheets",
+   "Land Raider"
+  ],
+  "href": "/codices/space-marines/rules/land-raider"
+ },
+ {
+  "id": "land-raider-crusader",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Raider Crusader",
+  "section": [
+   "Datasheets",
+   "Land Raider Crusader"
+  ],
+  "href": "/codices/space-marines/rules/land-raider-crusader"
+ },
+ {
+  "id": "land-raider-redeemer",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Raider Redeemer",
+  "section": [
+   "Datasheets",
+   "Land Raider Redeemer"
+  ],
+  "href": "/codices/space-marines/rules/land-raider-redeemer"
+ },
+ {
+  "id": "repulsor-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Repulsor",
+  "section": [
+   "Datasheets",
+   "Repulsor"
+  ],
+  "href": "/codices/space-marines/rules/repulsor-1"
+ },
+ {
+  "id": "repulsor-executioner-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Repulsor Executioner",
+  "section": [
+   "Datasheets",
+   "Repulsor Executioner"
+  ],
+  "href": "/codices/space-marines/rules/repulsor-executioner-1"
+ },
+ {
+  "id": "scout-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Scout Squad",
+  "section": [
+   "Datasheets",
+   "Scout Squad"
+  ],
+  "href": "/codices/space-marines/rules/scout-squad"
+ },
+ {
+  "id": "apothecary-biologis",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Apothecary Biologis",
+  "section": [
+   "Datasheets",
+   "Apothecary Biologis"
+  ],
+  "href": "/codices/space-marines/rules/apothecary-biologis"
+ },
+ {
+  "id": "iron-father-feirros",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Iron Father Feirros",
+  "section": [
+   "Datasheets",
+   "Iron Father Feirros"
+  ],
+  "href": "/codices/space-marines/rules/iron-father-feirros"
+ },
+ {
+  "id": "darnath-lysander",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Darnath Lysander",
+  "section": [
+   "Datasheets",
+   "Darnath Lysander"
+  ],
+  "href": "/codices/space-marines/rules/darnath-lysander"
+ },
+ {
+  "id": "tor-garadon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Tor Garadon",
+  "section": [
+   "Datasheets",
+   "Tor Garadon"
+  ],
+  "href": "/codices/space-marines/rules/tor-garadon"
+ },
+ {
+  "id": "marneus-calgar",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Marneus Calgar",
+  "section": [
+   "Datasheets",
+   "Marneus Calgar"
+  ],
+  "href": "/codices/space-marines/rules/marneus-calgar"
+ },
+ {
+  "id": "aethon-shaan",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Aethon Shaan",
+  "section": [
+   "Datasheets",
+   "Aethon Shaan"
+  ],
+  "href": "/codices/space-marines/rules/aethon-shaan"
+ },
+ {
+  "id": "vulkan-he-stan",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Vulkan He’stan",
+  "section": [
+   "Datasheets",
+   "Vulkan He’stan"
+  ],
+  "href": "/codices/space-marines/rules/vulkan-he-stan"
+ },
+ {
+  "id": "infernus-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Infernus Squad",
+  "section": [
+   "Datasheets",
+   "Infernus Squad"
+  ],
+  "href": "/codices/space-marines/rules/infernus-squad"
+ },
+ {
+  "id": "suboden-khan",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Suboden Khan",
+  "section": [
+   "Datasheets",
+   "Suboden Khan"
+  ],
+  "href": "/codices/space-marines/rules/suboden-khan"
+ },
+ {
+  "id": "crusader-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Crusader Squad",
+  "section": [
+   "Datasheets",
+   "Crusader Squad"
+  ],
+  "href": "/codices/space-marines/rules/crusader-squad"
+ },
+ {
+  "id": "sword-brethren-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sword Brethren Squad",
+  "section": [
+   "Datasheets",
+   "Sword Brethren Squad"
+  ],
+  "href": "/codices/space-marines/rules/sword-brethren-squad"
+ },
+ {
+  "id": "judiciar",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Judiciar",
+  "section": [
+   "Datasheets",
+   "Judiciar"
+  ],
+  "href": "/codices/space-marines/rules/judiciar"
+ },
+ {
+  "id": "the-sanguinor",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "The Sanguinor",
+  "section": [
+   "Datasheets",
+   "The Sanguinor"
+  ],
+  "href": "/codices/space-marines/rules/the-sanguinor"
+ },
+ {
+  "id": "sanguinary-guard",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sanguinary Guard",
+  "section": [
+   "Datasheets",
+   "Sanguinary Guard"
+  ],
+  "href": "/codices/space-marines/rules/sanguinary-guard"
+ },
+ {
+  "id": "death-company-dreadnought",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Death Company Dreadnought",
+  "section": [
+   "Datasheets",
+   "Death Company Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/death-company-dreadnought"
+ },
+ {
+  "id": "outrider-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Outrider Squad",
+  "section": [
+   "Datasheets",
+   "Outrider Squad"
+  ],
+  "href": "/codices/space-marines/rules/outrider-squad"
+ },
+ {
+  "id": "land-speeder-vengeance",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Speeder Vengeance",
+  "section": [
+   "Datasheets",
+   "Land Speeder Vengeance"
+  ],
+  "href": "/codices/space-marines/rules/land-speeder-vengeance"
+ },
+ {
+  "id": "blood-claws",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Blood Claws",
+  "section": [
+   "Datasheets",
+   "Blood Claws"
+  ],
+  "href": "/codices/space-marines/rules/blood-claws"
+ },
+ {
+  "id": "thunderwolf-cavalry",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Thunderwolf Cavalry",
+  "section": [
+   "Datasheets",
+   "Thunderwolf Cavalry"
+  ],
+  "href": "/codices/space-marines/rules/thunderwolf-cavalry"
+ },
+ {
+  "id": "wulfen-with-storm-shields",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wulfen with Storm Shields",
+  "section": [
+   "Datasheets",
+   "Wulfen with Storm Shields"
+  ],
+  "href": "/codices/space-marines/rules/wulfen-with-storm-shields"
+ },
+ {
+  "id": "logan-grimnar",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Logan Grimnar",
+  "section": [
+   "Datasheets",
+   "Logan Grimnar"
+  ],
+  "href": "/codices/space-marines/rules/logan-grimnar"
+ },
+ {
+  "id": "kill-team-cassius",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kill Team Cassius",
+  "section": [
+   "Datasheets",
+   "Kill Team Cassius"
+  ],
+  "href": "/codices/space-marines/rules/kill-team-cassius"
+ },
+ {
+  "id": "watch-master",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Watch Master",
+  "section": [
+   "Datasheets",
+   "Watch Master"
+  ],
+  "href": "/codices/space-marines/rules/watch-master"
+ },
+ {
+  "id": "assault-intercessor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Assault Intercessor Squad",
+  "section": [
+   "Datasheets",
+   "Assault Intercessor Squad"
+  ],
+  "href": "/codices/space-marines/rules/assault-intercessor-squad"
+ },
+ {
+  "id": "deathwatch-veterans",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deathwatch Veterans",
+  "section": [
+   "Datasheets",
+   "Deathwatch Veterans"
+  ],
+  "href": "/codices/space-marines/rules/deathwatch-veterans"
+ },
+ {
+  "id": "grey-hunters",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Grey Hunters",
+  "section": [
+   "Datasheets",
+   "Grey Hunters"
+  ],
+  "href": "/codices/space-marines/rules/grey-hunters"
+ },
+ {
+  "id": "heavy-intercessor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Heavy Intercessor Squad",
+  "section": [
+   "Datasheets",
+   "Heavy Intercessor Squad"
+  ],
+  "href": "/codices/space-marines/rules/heavy-intercessor-squad"
+ },
+ {
+  "id": "intercessor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Intercessor Squad",
+  "section": [
+   "Datasheets",
+   "Intercessor Squad"
+  ],
+  "href": "/codices/space-marines/rules/intercessor-squad"
+ },
+ {
+  "id": "aggressor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Aggressor Squad",
+  "section": [
+   "Datasheets",
+   "Aggressor Squad"
+  ],
+  "href": "/codices/space-marines/rules/aggressor-squad"
+ },
+ {
+  "id": "inner-circle-companions",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Inner Circle Companions",
+  "section": [
+   "Datasheets",
+   "Inner Circle Companions"
+  ],
+  "href": "/codices/space-marines/rules/inner-circle-companions"
+ },
+ {
+  "id": "hellblaster-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Hellblaster Squad",
+  "section": [
+   "Datasheets",
+   "Hellblaster Squad"
+  ],
+  "href": "/codices/space-marines/rules/hellblaster-squad"
+ },
+ {
+  "id": "assault-intercessors-with-jump-packs",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Assault Intercessors With Jump Packs",
+  "section": [
+   "Datasheets",
+   "Assault Intercessors With Jump Packs"
+  ],
+  "href": "/codices/space-marines/rules/assault-intercessors-with-jump-packs"
+ },
+ {
+  "id": "death-company-marines-with-jump-packs",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Death Company Marines With Jump Packs",
+  "section": [
+   "Datasheets",
+   "Death Company Marines With Jump Packs"
+  ],
+  "href": "/codices/space-marines/rules/death-company-marines-with-jump-packs"
+ },
+ {
+  "id": "fenrisian-wolves",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Fenrisian Wolves",
+  "section": [
+   "Datasheets",
+   "Fenrisian Wolves"
+  ],
+  "href": "/codices/space-marines/rules/fenrisian-wolves"
+ },
+ {
+  "id": "chief-librarian-tigurius",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chief Librarian Tigurius",
+  "section": [
+   "Datasheets",
+   "Chief Librarian Tigurius"
+  ],
+  "href": "/codices/space-marines/rules/chief-librarian-tigurius"
+ },
+ {
+  "id": "roboute-guilliman",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Roboute Guilliman",
+  "section": [
+   "Datasheets",
+   "Roboute Guilliman"
+  ],
+  "href": "/codices/space-marines/rules/roboute-guilliman"
+ },
+ {
+  "id": "chief-librarian-mephiston",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chief Librarian Mephiston",
+  "section": [
+   "Datasheets",
+   "Chief Librarian Mephiston"
+  ],
+  "href": "/codices/space-marines/rules/chief-librarian-mephiston"
+ },
+ {
+  "id": "kayvaan-shrike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kayvaan Shrike",
+  "section": [
+   "Datasheets",
+   "Kayvaan Shrike"
+  ],
+  "href": "/codices/space-marines/rules/kayvaan-shrike"
+ },
+ {
+  "id": "lieutenant-with-combi-weapon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lieutenant With Combi-weapon",
+  "section": [
+   "Datasheets",
+   "Lieutenant With Combi-weapon"
+  ],
+  "href": "/codices/space-marines/rules/lieutenant-with-combi-weapon"
+ },
+ {
+  "id": "incursor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Incursor Squad",
+  "section": [
+   "Datasheets",
+   "Incursor Squad"
+  ],
+  "href": "/codices/space-marines/rules/incursor-squad"
+ },
+ {
+  "id": "infiltrator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Infiltrator Squad",
+  "section": [
+   "Datasheets",
+   "Infiltrator Squad"
+  ],
+  "href": "/codices/space-marines/rules/infiltrator-squad"
+ },
+ {
+  "id": "reiver-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Reiver Squad",
+  "section": [
+   "Datasheets",
+   "Reiver Squad"
+  ],
+  "href": "/codices/space-marines/rules/reiver-squad"
+ },
+ {
+  "id": "arjac-rockfist",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Arjac Rockfist",
+  "section": [
+   "Datasheets",
+   "Arjac Rockfist"
+  ],
+  "href": "/codices/space-marines/rules/arjac-rockfist"
+ },
+ {
+  "id": "belial",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Belial",
+  "section": [
+   "Datasheets",
+   "Belial"
+  ],
+  "href": "/codices/space-marines/rules/belial"
+ },
+ {
+  "id": "njal-stormcaller",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Njal Stormcaller",
+  "section": [
+   "Datasheets",
+   "Njal Stormcaller"
+  ],
+  "href": "/codices/space-marines/rules/njal-stormcaller"
+ },
+ {
+  "id": "ancient-in-terminator-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ancient In Terminator Armour",
+  "section": [
+   "Datasheets",
+   "Ancient In Terminator Armour"
+  ],
+  "href": "/codices/space-marines/rules/ancient-in-terminator-armour"
+ },
+ {
+  "id": "chaplain-in-terminator-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chaplain In Terminator Armour",
+  "section": [
+   "Datasheets",
+   "Chaplain In Terminator Armour"
+  ],
+  "href": "/codices/space-marines/rules/chaplain-in-terminator-armour"
+ },
+ {
+  "id": "deathwing-knights",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deathwing Knights",
+  "section": [
+   "Datasheets",
+   "Deathwing Knights"
+  ],
+  "href": "/codices/space-marines/rules/deathwing-knights"
+ },
+ {
+  "id": "deathwing-terminator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deathwing Terminator Squad",
+  "section": [
+   "Datasheets",
+   "Deathwing Terminator Squad"
+  ],
+  "href": "/codices/space-marines/rules/deathwing-terminator-squad"
+ },
+ {
+  "id": "terminator-assault-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Terminator Assault Squad",
+  "section": [
+   "Datasheets",
+   "Terminator Assault Squad"
+  ],
+  "href": "/codices/space-marines/rules/terminator-assault-squad"
+ },
+ {
+  "id": "terminator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Terminator Squad",
+  "section": [
+   "Datasheets",
+   "Terminator Squad"
+  ],
+  "href": "/codices/space-marines/rules/terminator-squad"
+ },
+ {
+  "id": "adrax-agatone",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Adrax Agatone",
+  "section": [
+   "Datasheets",
+   "Adrax Agatone"
+  ],
+  "href": "/codices/space-marines/rules/adrax-agatone"
+ },
+ {
+  "id": "caanok-var",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Caanok Var",
+  "section": [
+   "Datasheets",
+   "Caanok Var"
+  ],
+  "href": "/codices/space-marines/rules/caanok-var"
+ },
+ {
+  "id": "captain-titus",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain Titus",
+  "section": [
+   "Datasheets",
+   "Captain Titus"
+  ],
+  "href": "/codices/space-marines/rules/captain-titus"
+ },
+ {
+  "id": "cato-sicarius",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Cato Sicarius",
+  "section": [
+   "Datasheets",
+   "Cato Sicarius"
+  ],
+  "href": "/codices/space-marines/rules/cato-sicarius"
+ },
+ {
+  "id": "kaius-konorius",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kaius Konorius",
+  "section": [
+   "Datasheets",
+   "Kaius Konorius"
+  ],
+  "href": "/codices/space-marines/rules/kaius-konorius"
+ },
+ {
+  "id": "kor-sarro-khan",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kor’sarro Khan",
+  "section": [
+   "Datasheets",
+   "Kor’sarro Khan"
+  ],
+  "href": "/codices/space-marines/rules/kor-sarro-khan"
+ },
+ {
+  "id": "victrix-honour-guard",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Victrix Honour Guard",
+  "section": [
+   "Datasheets",
+   "Victrix Honour Guard"
+  ],
+  "href": "/codices/space-marines/rules/victrix-honour-guard"
+ },
+ {
+  "id": "wardens-of-ultramar-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wardens of Ultramar",
+  "section": [
+   "Datasheets",
+   "Wardens of Ultramar"
+  ],
+  "href": "/codices/space-marines/rules/wardens-of-ultramar-1"
+ },
+ {
+  "id": "chaplain-grimaldus",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chaplain Grimaldus",
+  "section": [
+   "Datasheets",
+   "Chaplain Grimaldus"
+  ],
+  "href": "/codices/space-marines/rules/chaplain-grimaldus"
+ },
+ {
+  "id": "high-marshal-helbrecht",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "High Marshal Helbrecht",
+  "section": [
+   "Datasheets",
+   "High Marshal Helbrecht"
+  ],
+  "href": "/codices/space-marines/rules/high-marshal-helbrecht"
+ },
+ {
+  "id": "astorath",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Astorath",
+  "section": [
+   "Datasheets",
+   "Astorath"
+  ],
+  "href": "/codices/space-marines/rules/astorath"
+ },
+ {
+  "id": "commander-dante",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Commander Dante",
+  "section": [
+   "Datasheets",
+   "Commander Dante"
+  ],
+  "href": "/codices/space-marines/rules/commander-dante"
+ },
+ {
+  "id": "lemartes",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lemartes",
+  "section": [
+   "Datasheets",
+   "Lemartes"
+  ],
+  "href": "/codices/space-marines/rules/lemartes"
+ },
+ {
+  "id": "asmodai",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Asmodai",
+  "section": [
+   "Datasheets",
+   "Asmodai"
+  ],
+  "href": "/codices/space-marines/rules/asmodai"
+ },
+ {
+  "id": "azrael",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Azrael",
+  "section": [
+   "Datasheets",
+   "Azrael"
+  ],
+  "href": "/codices/space-marines/rules/azrael"
+ },
+ {
+  "id": "ezekiel",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ezekiel",
+  "section": [
+   "Datasheets",
+   "Ezekiel"
+  ],
+  "href": "/codices/space-marines/rules/ezekiel"
+ },
+ {
+  "id": "lazarus",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lazarus",
+  "section": [
+   "Datasheets",
+   "Lazarus"
+  ],
+  "href": "/codices/space-marines/rules/lazarus"
+ },
+ {
+  "id": "watch-captain-artemis",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Watch Captain Artemis",
+  "section": [
+   "Datasheets",
+   "Watch Captain Artemis"
+  ],
+  "href": "/codices/space-marines/rules/watch-captain-artemis"
+ },
+ {
+  "id": "ragnar-blackmane",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ragnar Blackmane",
+  "section": [
+   "Datasheets",
+   "Ragnar Blackmane"
+  ],
+  "href": "/codices/space-marines/rules/ragnar-blackmane"
+ },
+ {
+  "id": "ulrik-the-slayer",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ulrik The Slayer",
+  "section": [
+   "Datasheets",
+   "Ulrik The Slayer"
+  ],
+  "href": "/codices/space-marines/rules/ulrik-the-slayer"
+ },
+ {
+  "id": "lion-el-jonson",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lion El’jonson",
+  "section": [
+   "Datasheets",
+   "Lion El’jonson"
+  ],
+  "href": "/codices/space-marines/rules/lion-el-jonson"
+ },
+ {
+  "id": "sammael",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sammael",
+  "section": [
+   "Datasheets",
+   "Sammael"
+  ],
+  "href": "/codices/space-marines/rules/sammael"
+ },
+ {
+  "id": "bjorn-the-fell-handed",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Bjorn The Fell-handed",
+  "section": [
+   "Datasheets",
+   "Bjorn The Fell-handed"
+  ],
+  "href": "/codices/space-marines/rules/bjorn-the-fell-handed"
+ },
+ {
+  "id": "murderfang",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Murderfang",
+  "section": [
+   "Datasheets",
+   "Murderfang"
+  ],
+  "href": "/codices/space-marines/rules/murderfang"
+ },
+ {
+  "id": "ancient",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ancient",
+  "section": [
+   "Datasheets",
+   "Ancient"
+  ],
+  "href": "/codices/space-marines/rules/ancient"
+ },
+ {
+  "id": "apothecary",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Apothecary",
+  "section": [
+   "Datasheets",
+   "Apothecary"
+  ],
+  "href": "/codices/space-marines/rules/apothecary"
+ },
+ {
+  "id": "captain",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain",
+  "section": [
+   "Datasheets",
+   "Captain"
+  ],
+  "href": "/codices/space-marines/rules/captain"
+ },
+ {
+  "id": "captain-in-gravis-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain In Gravis Armour",
+  "section": [
+   "Datasheets",
+   "Captain In Gravis Armour"
+  ],
+  "href": "/codices/space-marines/rules/captain-in-gravis-armour"
+ },
+ {
+  "id": "captain-in-phobos-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain In Phobos Armour",
+  "section": [
+   "Datasheets",
+   "Captain In Phobos Armour"
+  ],
+  "href": "/codices/space-marines/rules/captain-in-phobos-armour"
+ },
+ {
+  "id": "captain-in-terminator-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain In Terminator Armour",
+  "section": [
+   "Datasheets",
+   "Captain In Terminator Armour"
+  ],
+  "href": "/codices/space-marines/rules/captain-in-terminator-armour"
+ },
+ {
+  "id": "captain-with-jump-pack",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain With Jump Pack",
+  "section": [
+   "Datasheets",
+   "Captain With Jump Pack"
+  ],
+  "href": "/codices/space-marines/rules/captain-with-jump-pack"
+ },
+ {
+  "id": "chaplain",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chaplain",
+  "section": [
+   "Datasheets",
+   "Chaplain"
+  ],
+  "href": "/codices/space-marines/rules/chaplain"
+ },
+ {
+  "id": "chaplain-with-jump-pack",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chaplain With Jump Pack",
+  "section": [
+   "Datasheets",
+   "Chaplain With Jump Pack"
+  ],
+  "href": "/codices/space-marines/rules/chaplain-with-jump-pack"
+ },
+ {
+  "id": "librarian",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Librarian",
+  "section": [
+   "Datasheets",
+   "Librarian"
+  ],
+  "href": "/codices/space-marines/rules/librarian"
+ },
+ {
+  "id": "librarian-in-phobos-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Librarian In Phobos Armour",
+  "section": [
+   "Datasheets",
+   "Librarian In Phobos Armour"
+  ],
+  "href": "/codices/space-marines/rules/librarian-in-phobos-armour"
+ },
+ {
+  "id": "librarian-in-terminator-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Librarian In Terminator Armour",
+  "section": [
+   "Datasheets",
+   "Librarian In Terminator Armour"
+  ],
+  "href": "/codices/space-marines/rules/librarian-in-terminator-armour"
+ },
+ {
+  "id": "lieutenant",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lieutenant",
+  "section": [
+   "Datasheets",
+   "Lieutenant"
+  ],
+  "href": "/codices/space-marines/rules/lieutenant"
+ },
+ {
+  "id": "lieutenant-in-phobos-armour",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Lieutenant In Phobos Armour",
+  "section": [
+   "Datasheets",
+   "Lieutenant In Phobos Armour"
+  ],
+  "href": "/codices/space-marines/rules/lieutenant-in-phobos-armour"
+ },
+ {
+  "id": "techmarine",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Techmarine",
+  "section": [
+   "Datasheets",
+   "Techmarine"
+  ],
+  "href": "/codices/space-marines/rules/techmarine"
+ },
+ {
+  "id": "castellan",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Castellan",
+  "section": [
+   "Datasheets",
+   "Castellan"
+  ],
+  "href": "/codices/space-marines/rules/castellan"
+ },
+ {
+  "id": "crusade-ancient",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Crusade Ancient",
+  "section": [
+   "Datasheets",
+   "Crusade Ancient"
+  ],
+  "href": "/codices/space-marines/rules/crusade-ancient"
+ },
+ {
+  "id": "emperor-s-champion",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Emperor’s Champion",
+  "section": [
+   "Datasheets",
+   "Emperor’s Champion"
+  ],
+  "href": "/codices/space-marines/rules/emperor-s-champion"
+ },
+ {
+  "id": "execrator",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Execrator",
+  "section": [
+   "Datasheets",
+   "Execrator"
+  ],
+  "href": "/codices/space-marines/rules/execrator"
+ },
+ {
+  "id": "marshal",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Marshal",
+  "section": [
+   "Datasheets",
+   "Marshal"
+  ],
+  "href": "/codices/space-marines/rules/marshal"
+ },
+ {
+  "id": "blood-angels-captain",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Blood Angels Captain",
+  "section": [
+   "Datasheets",
+   "Blood Angels Captain"
+  ],
+  "href": "/codices/space-marines/rules/blood-angels-captain"
+ },
+ {
+  "id": "nephilim-jetfighter",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Nephilim Jetfighter",
+  "section": [
+   "Datasheets",
+   "Nephilim Jetfighter"
+  ],
+  "href": "/codices/space-marines/rules/nephilim-jetfighter"
+ },
+ {
+  "id": "ravenwing-dark-talon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ravenwing Dark Talon",
+  "section": [
+   "Datasheets",
+   "Ravenwing Dark Talon"
+  ],
+  "href": "/codices/space-marines/rules/ravenwing-dark-talon"
+ },
+ {
+  "id": "stormhawk-interceptor",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Stormhawk Interceptor",
+  "section": [
+   "Datasheets",
+   "Stormhawk Interceptor"
+  ],
+  "href": "/codices/space-marines/rules/stormhawk-interceptor"
+ },
+ {
+  "id": "stormtalon-gunship",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Stormtalon Gunship",
+  "section": [
+   "Datasheets",
+   "Stormtalon Gunship"
+  ],
+  "href": "/codices/space-marines/rules/stormtalon-gunship"
+ },
+ {
+  "id": "company-heroes",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Company Heroes",
+  "section": [
+   "Datasheets",
+   "Company Heroes"
+  ],
+  "href": "/codices/space-marines/rules/company-heroes"
+ },
+ {
+  "id": "firestrike-servo-turrets",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Firestrike Servo-turrets",
+  "section": [
+   "Datasheets",
+   "Firestrike Servo-turrets"
+  ],
+  "href": "/codices/space-marines/rules/firestrike-servo-turrets"
+ },
+ {
+  "id": "rapier-carrier",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Rapier Carrier",
+  "section": [
+   "Datasheets",
+   "Rapier Carrier"
+  ],
+  "href": "/codices/space-marines/rules/rapier-carrier"
+ },
+ {
+  "id": "tarantula-sentry-battery",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Tarantula Sentry Battery",
+  "section": [
+   "Datasheets",
+   "Tarantula Sentry Battery"
+  ],
+  "href": "/codices/space-marines/rules/tarantula-sentry-battery"
+ },
+ {
+  "id": "decimus-kill-team",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Decimus Kill Team",
+  "section": [
+   "Datasheets",
+   "Decimus Kill Team"
+  ],
+  "href": "/codices/space-marines/rules/decimus-kill-team"
+ },
+ {
+  "id": "wolf-guard-headtakers",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wolf Guard Headtakers",
+  "section": [
+   "Datasheets",
+   "Wolf Guard Headtakers"
+  ],
+  "href": "/codices/space-marines/rules/wolf-guard-headtakers"
+ },
+ {
+  "id": "impulsor-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Impulsor",
+  "section": [
+   "Datasheets",
+   "Impulsor"
+  ],
+  "href": "/codices/space-marines/rules/impulsor-1"
+ },
+ {
+  "id": "gladiator-lancer-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Lancer",
+  "section": [
+   "Datasheets",
+   "Gladiator Lancer"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-lancer-1"
+ },
+ {
+  "id": "gladiator-reaper-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Reaper",
+  "section": [
+   "Datasheets",
+   "Gladiator Reaper"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-reaper-1"
+ },
+ {
+  "id": "gladiator-valiant-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Valiant",
+  "section": [
+   "Datasheets",
+   "Gladiator Valiant"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-valiant-1"
+ },
+ {
+  "id": "death-company-captain",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Death Company Captain",
+  "section": [
+   "Datasheets",
+   "Death Company Captain"
+  ],
+  "href": "/codices/space-marines/rules/death-company-captain"
+ },
+ {
+  "id": "death-company-captain-with-jump-pack",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Death Company Captain with jump pack",
+  "section": [
+   "Datasheets",
+   "Death Company Captain with jump pack"
+  ],
+  "href": "/codices/space-marines/rules/death-company-captain-with-jump-pack"
+ },
+ {
+  "id": "sanguinary-priest",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sanguinary Priest",
+  "section": [
+   "Datasheets",
+   "Sanguinary Priest"
+  ],
+  "href": "/codices/space-marines/rules/sanguinary-priest"
+ },
+ {
+  "id": "death-company-marines",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Death Company Marines",
+  "section": [
+   "Datasheets",
+   "Death Company Marines"
+  ],
+  "href": "/codices/space-marines/rules/death-company-marines"
+ },
+ {
+  "id": "baal-predator",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Baal Predator",
+  "section": [
+   "Datasheets",
+   "Baal Predator"
+  ],
+  "href": "/codices/space-marines/rules/baal-predator"
+ },
+ {
+  "id": "captain-on-bike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Captain On Bike",
+  "section": [
+   "Datasheets",
+   "Captain On Bike"
+  ],
+  "href": "/codices/space-marines/rules/captain-on-bike"
+ },
+ {
+  "id": "centurion-assault-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Centurion Assault Squad",
+  "section": [
+   "Datasheets",
+   "Centurion Assault Squad"
+  ],
+  "href": "/codices/space-marines/rules/centurion-assault-squad"
+ },
+ {
+  "id": "centurion-devastator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Centurion Devastator Squad",
+  "section": [
+   "Datasheets",
+   "Centurion Devastator Squad"
+  ],
+  "href": "/codices/space-marines/rules/centurion-devastator-squad"
+ },
+ {
+  "id": "chaplain-on-bike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Chaplain On Bike",
+  "section": [
+   "Datasheets",
+   "Chaplain On Bike"
+  ],
+  "href": "/codices/space-marines/rules/chaplain-on-bike"
+ },
+ {
+  "id": "ravenwing-black-knights",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ravenwing Black Knights",
+  "section": [
+   "Datasheets",
+   "Ravenwing Black Knights"
+  ],
+  "href": "/codices/space-marines/rules/ravenwing-black-knights"
+ },
+ {
+  "id": "ravenwing-command-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ravenwing Command Squad",
+  "section": [
+   "Datasheets",
+   "Ravenwing Command Squad"
+  ],
+  "href": "/codices/space-marines/rules/ravenwing-command-squad"
+ },
+ {
+  "id": "ravenwing-darkshroud",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ravenwing Darkshroud",
+  "section": [
+   "Datasheets",
+   "Ravenwing Darkshroud"
+  ],
+  "href": "/codices/space-marines/rules/ravenwing-darkshroud"
+ },
+ {
+  "id": "deathwatch-terminator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Deathwatch Terminator Squad",
+  "section": [
+   "Datasheets",
+   "Deathwatch Terminator Squad"
+  ],
+  "href": "/codices/space-marines/rules/deathwatch-terminator-squad"
+ },
+ {
+  "id": "fortis-kill-team",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Fortis Kill Team",
+  "section": [
+   "Datasheets",
+   "Fortis Kill Team"
+  ],
+  "href": "/codices/space-marines/rules/fortis-kill-team"
+ },
+ {
+  "id": "indomitor-kill-team",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Indomitor Kill Team",
+  "section": [
+   "Datasheets",
+   "Indomitor Kill Team"
+  ],
+  "href": "/codices/space-marines/rules/indomitor-kill-team"
+ },
+ {
+  "id": "spectrus-kill-team",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Spectrus Kill Team",
+  "section": [
+   "Datasheets",
+   "Spectrus Kill Team"
+  ],
+  "href": "/codices/space-marines/rules/spectrus-kill-team"
+ },
+ {
+  "id": "talonstrike-kill-team",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Talonstrike Kill Team",
+  "section": [
+   "Datasheets",
+   "Talonstrike Kill Team"
+  ],
+  "href": "/codices/space-marines/rules/talonstrike-kill-team"
+ },
+ {
+  "id": "corvus-blackstar",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Corvus Blackstar",
+  "section": [
+   "Datasheets",
+   "Corvus Blackstar"
+  ],
+  "href": "/codices/space-marines/rules/corvus-blackstar"
+ },
+ {
+  "id": "repulsor",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Repulsor",
+  "section": [
+   "Datasheets",
+   "Repulsor"
+  ],
+  "href": "/codices/space-marines/rules/repulsor"
+ },
+ {
+  "id": "repulsor-executioner",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Repulsor Executioner",
+  "section": [
+   "Datasheets",
+   "Repulsor Executioner"
+  ],
+  "href": "/codices/space-marines/rules/repulsor-executioner"
+ },
+ {
+  "id": "ballistus-dreadnought",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Ballistus Dreadnought",
+  "section": [
+   "Datasheets",
+   "Ballistus Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/ballistus-dreadnought"
+ },
+ {
+  "id": "brutalis-dreadnought-ul",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Brutalis Dreadnought",
+  "section": [
+   "Datasheets",
+   "Brutalis Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/brutalis-dreadnought-ul"
+ },
+ {
+  "id": "redemptor-dreadnought",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Redemptor Dreadnought",
+  "section": [
+   "Datasheets",
+   "Redemptor Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/redemptor-dreadnought"
+ },
+ {
+  "id": "dreadnought",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Dreadnought",
+  "section": [
+   "Datasheets",
+   "Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/dreadnought"
+ },
+ {
+  "id": "venerable-dreadnought",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Venerable Dreadnought",
+  "section": [
+   "Datasheets",
+   "Venerable Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/venerable-dreadnought"
+ },
+ {
+  "id": "drop-pod",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Drop Pod",
+  "section": [
+   "Datasheets",
+   "Drop Pod"
+  ],
+  "href": "/codices/space-marines/rules/drop-pod"
+ },
+ {
+  "id": "impulsor",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Impulsor",
+  "section": [
+   "Datasheets",
+   "Impulsor"
+  ],
+  "href": "/codices/space-marines/rules/impulsor"
+ },
+ {
+  "id": "rhino",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Rhino",
+  "section": [
+   "Datasheets",
+   "Rhino"
+  ],
+  "href": "/codices/space-marines/rules/rhino"
+ },
+ {
+  "id": "razorback",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Razorback",
+  "section": [
+   "Datasheets",
+   "Razorback"
+  ],
+  "href": "/codices/space-marines/rules/razorback"
+ },
+ {
+  "id": "relic-razorback",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Relic Razorback",
+  "section": [
+   "Datasheets",
+   "Relic Razorback"
+  ],
+  "href": "/codices/space-marines/rules/relic-razorback"
+ },
+ {
+  "id": "terrax-pattern-termite",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Terrax-pattern Termite",
+  "section": [
+   "Datasheets",
+   "Terrax-pattern Termite"
+  ],
+  "href": "/codices/space-marines/rules/terrax-pattern-termite"
+ },
+ {
+  "id": "venerable-dreadnought-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Venerable Dreadnought",
+  "section": [
+   "Datasheets",
+   "Venerable Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/venerable-dreadnought-1"
+ },
+ {
+  "id": "wulfen-dreadnought-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wulfen Dreadnought",
+  "section": [
+   "Datasheets",
+   "Wulfen Dreadnought"
+  ],
+  "href": "/codices/space-marines/rules/wulfen-dreadnought-1"
+ },
+ {
+  "id": "desolation-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Desolation Squad",
+  "section": [
+   "Datasheets",
+   "Desolation Squad"
+  ],
+  "href": "/codices/space-marines/rules/desolation-squad"
+ },
+ {
+  "id": "eliminator-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Eliminator Squad",
+  "section": [
+   "Datasheets",
+   "Eliminator Squad"
+  ],
+  "href": "/codices/space-marines/rules/eliminator-squad"
+ },
+ {
+  "id": "eradicator-squad-with-heavy-bolters",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Eradicator Squad with Heavy Bolters",
+  "section": [
+   "Datasheets",
+   "Eradicator Squad with Heavy Bolters"
+  ],
+  "href": "/codices/space-marines/rules/eradicator-squad-with-heavy-bolters"
+ },
+ {
+  "id": "eradicator-squad-with-melta-rifles",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Eradicator Squad with Melta Rifles",
+  "section": [
+   "Datasheets",
+   "Eradicator Squad with Melta Rifles"
+  ],
+  "href": "/codices/space-marines/rules/eradicator-squad-with-melta-rifles"
+ },
+ {
+  "id": "inceptor-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Inceptor Squad",
+  "section": [
+   "Datasheets",
+   "Inceptor Squad"
+  ],
+  "href": "/codices/space-marines/rules/inceptor-squad"
+ },
+ {
+  "id": "thunderhawk-gunship",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Thunderhawk Gunship",
+  "section": [
+   "Datasheets",
+   "Thunderhawk Gunship"
+  ],
+  "href": "/codices/space-marines/rules/thunderhawk-gunship"
+ },
+ {
+  "id": "stormraven-gunship",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Stormraven Gunship",
+  "section": [
+   "Datasheets",
+   "Stormraven Gunship"
+  ],
+  "href": "/codices/space-marines/rules/stormraven-gunship"
+ },
+ {
+  "id": "land-speeder",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Speeder",
+  "section": [
+   "Datasheets",
+   "Land Speeder"
+  ],
+  "href": "/codices/space-marines/rules/land-speeder"
+ },
+ {
+  "id": "storm-speeder-hailstrike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Storm Speeder Hailstrike",
+  "section": [
+   "Datasheets",
+   "Storm Speeder Hailstrike"
+  ],
+  "href": "/codices/space-marines/rules/storm-speeder-hailstrike"
+ },
+ {
+  "id": "storm-speeder-hammerstrike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Storm Speeder Hammerstrike",
+  "section": [
+   "Datasheets",
+   "Storm Speeder Hammerstrike"
+  ],
+  "href": "/codices/space-marines/rules/storm-speeder-hammerstrike"
+ },
+ {
+  "id": "storm-speeder-thunderstrike",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Storm Speeder Thunderstrike",
+  "section": [
+   "Datasheets",
+   "Storm Speeder Thunderstrike"
+  ],
+  "href": "/codices/space-marines/rules/storm-speeder-thunderstrike"
+ },
+ {
+  "id": "hammerfall-bunker",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Hammerfall Bunker",
+  "section": [
+   "Datasheets",
+   "Hammerfall Bunker"
+  ],
+  "href": "/codices/space-marines/rules/hammerfall-bunker"
+ },
+ {
+  "id": "invader-atvs",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Invader ATVs",
+  "section": [
+   "Datasheets",
+   "Invader ATVs"
+  ],
+  "href": "/codices/space-marines/rules/invader-atvs"
+ },
+ {
+  "id": "astraeus",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Astraeus",
+  "section": [
+   "Datasheets",
+   "Astraeus"
+  ],
+  "href": "/codices/space-marines/rules/astraeus"
+ },
+ {
+  "id": "falchion",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Falchion",
+  "section": [
+   "Datasheets",
+   "Falchion"
+  ],
+  "href": "/codices/space-marines/rules/falchion"
+ },
+ {
+  "id": "mastodon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Mastodon",
+  "section": [
+   "Datasheets",
+   "Mastodon"
+  ],
+  "href": "/codices/space-marines/rules/mastodon"
+ },
+ {
+  "id": "land-raider-excelsior",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Land Raider Excelsior",
+  "section": [
+   "Datasheets",
+   "Land Raider Excelsior"
+  ],
+  "href": "/codices/space-marines/rules/land-raider-excelsior"
+ },
+ {
+  "id": "rhino-primaris",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Rhino Primaris",
+  "section": [
+   "Datasheets",
+   "Rhino Primaris"
+  ],
+  "href": "/codices/space-marines/rules/rhino-primaris"
+ },
+ {
+  "id": "gladiator-lancer",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Lancer",
+  "section": [
+   "Datasheets",
+   "Gladiator Lancer"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-lancer"
+ },
+ {
+  "id": "gladiator-reaper",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Reaper",
+  "section": [
+   "Datasheets",
+   "Gladiator Reaper"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-reaper"
+ },
+ {
+  "id": "gladiator-valiant",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Gladiator Valiant",
+  "section": [
+   "Datasheets",
+   "Gladiator Valiant"
+  ],
+  "href": "/codices/space-marines/rules/gladiator-valiant"
+ },
+ {
+  "id": "cerberus",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Cerberus",
+  "section": [
+   "Datasheets",
+   "Cerberus"
+  ],
+  "href": "/codices/space-marines/rules/cerberus"
+ },
+ {
+  "id": "kratos",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Kratos",
+  "section": [
+   "Datasheets",
+   "Kratos"
+  ],
+  "href": "/codices/space-marines/rules/kratos"
+ },
+ {
+  "id": "predator-annihilator",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Predator Annihilator",
+  "section": [
+   "Datasheets",
+   "Predator Annihilator"
+  ],
+  "href": "/codices/space-marines/rules/predator-annihilator"
+ },
+ {
+  "id": "predator-destructor",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Predator Destructor",
+  "section": [
+   "Datasheets",
+   "Predator Destructor"
+  ],
+  "href": "/codices/space-marines/rules/predator-destructor"
+ },
+ {
+  "id": "sicaran",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Sicaran",
+  "section": [
+   "Datasheets",
+   "Sicaran"
+  ],
+  "href": "/codices/space-marines/rules/sicaran"
+ },
+ {
+  "id": "tarantula-air-defence-battery",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Tarantula Air Defence Battery",
+  "section": [
+   "Datasheets",
+   "Tarantula Air Defence Battery"
+  ],
+  "href": "/codices/space-marines/rules/tarantula-air-defence-battery"
+ },
+ {
+  "id": "typhon",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Typhon",
+  "section": [
+   "Datasheets",
+   "Typhon"
+  ],
+  "href": "/codices/space-marines/rules/typhon"
+ },
+ {
+  "id": "vindicator",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Vindicator",
+  "section": [
+   "Datasheets",
+   "Vindicator"
+  ],
+  "href": "/codices/space-marines/rules/vindicator"
+ },
+ {
+  "id": "whirlwind",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Whirlwind",
+  "section": [
+   "Datasheets",
+   "Whirlwind"
+  ],
+  "href": "/codices/space-marines/rules/whirlwind"
+ },
+ {
+  "id": "iron-priest",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Iron Priest",
+  "section": [
+   "Datasheets",
+   "Iron Priest"
+  ],
+  "href": "/codices/space-marines/rules/iron-priest"
+ },
+ {
+  "id": "wolf-guard-battle-leader",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wolf Guard Battle Leader",
+  "section": [
+   "Datasheets",
+   "Wolf Guard Battle Leader"
+  ],
+  "href": "/codices/space-marines/rules/wolf-guard-battle-leader"
+ },
+ {
+  "id": "wolf-priest",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wolf Priest",
+  "section": [
+   "Datasheets",
+   "Wolf Priest"
+  ],
+  "href": "/codices/space-marines/rules/wolf-priest"
+ },
+ {
+  "id": "scout-bike-squad",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Scout Bike Squad",
+  "section": [
+   "Datasheets",
+   "Scout Bike Squad"
+  ],
+  "href": "/codices/space-marines/rules/scout-bike-squad"
+ },
+ {
+  "id": "wolf-scouts-1",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wolf Scouts",
+  "section": [
+   "Datasheets",
+   "Wolf Scouts"
+  ],
+  "href": "/codices/space-marines/rules/wolf-scouts-1"
+ },
+ {
+  "id": "invictor-tactical-warsuit",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Invictor Tactical Warsuit",
+  "section": [
+   "Datasheets",
+   "Invictor Tactical Warsuit"
+  ],
+  "href": "/codices/space-marines/rules/invictor-tactical-warsuit"
+ },
+ {
+  "id": "wolf-guard-terminators",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wolf Guard Terminators",
+  "section": [
+   "Datasheets",
+   "Wolf Guard Terminators"
+  ],
+  "href": "/codices/space-marines/rules/wolf-guard-terminators"
+ },
+ {
+  "id": "wulfen",
+  "layer": "codex",
+  "kind": "datasheet",
+  "name": "Wulfen",
+  "section": [
+   "Datasheets",
+   "Wulfen"
+  ],
+  "href": "/codices/space-marines/rules/wulfen"
+ }
+]

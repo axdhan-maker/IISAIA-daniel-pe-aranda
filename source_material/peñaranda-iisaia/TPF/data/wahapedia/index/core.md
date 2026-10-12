@@ -1,0 +1,375 @@
+# Core rules (Warhammer 40,000, 11th edition)
+Full rule: GET /core/rules/{id}. Ids in backticks.
+
+- Introduction `introduction`
+- BASIC RULES
+  - 01 Core Concepts `core-concepts`
+    - 01.01 Armies `armies`
+    - 01.02 Units and Models `units-and-models`
+    - 01.03 Active Player and Opposing Player `active-player-and-opposing-player`
+    - 01.04 Measuring Distances `measuring-distances`
+    - 01.05 Dice `dice`
+    - 01.06 Leadership Rolls `leadership-rolls`
+      - 01.06.01 Leadership Test `leadership-test`
+    - 01.07 Battle-shock Rolls `battle-shock-rolls`
+  - 02 Datasheets `datasheets`
+    - 02.01 1. Datasheet Name `1-datasheet-name`
+    - 02.02 2. Profiles `2-profiles`
+    - 02.03 3. Abilities `3-abilities`
+    - 02.04 4. Weapons `4-weapons`
+    - 02.05 5. Keywords `5-keywords`
+    - 02.06 6. Unit Composition and Other Rules `6-unit-composition-and-other-rules`
+    - 02.07 7. Wargear Options `7-wargear-options`
+  - 03 Moving `moving`
+    - 03.01 Moving Units `moving-units`
+      - Moving a Model in a Straight Line `moving-a-model-in-a-straight-line`
+      - Rotating a Model `rotating-a-model`
+      - Ending a Move `ending-a-move`
+    - 03.02 Set Up `set-up`
+    - 03.03 Coherency `coherency`
+      - 03.03.01 What Is Coherency `what-is-coherency`
+    - 03.04 Engagement `engagement`
+  - 04 Making Attacks `making-attacks`
+    - 04.01 1. Select Weapons `1-select-weapons`
+    - 04.02 2. Select Targets `2-select-targets`
+    - 04.03 3. Resolve Attacks `3-resolve-attacks`
+    - Identical Attacks `identical-attacks`
+    - Splitting Melee Attacks `splitting-melee-attacks`
+  - 05 Attack Sequence `attack-sequence`
+    - 05.01 1. Hit Roll `1-hit-roll`
+      - 05.01.01 Critical Hits and Critical Wounds `critical-hits-and-critical-wounds`
+    - 05.02 2. Wound Roll `2-wound-roll`
+    - 05.03 3. Save Rolls `3-save-rolls`
+      - 05.03.01 Saving Throw `saving-throw`
+      - 05.03.02 Attacks Modified during Hit and Wound rolls `attacks-modified-during-hit-and-wound-rolls`
+    - 05.04 4. Inflict Damage `4-inflict-damage`
+      - 05.04.03 Suffers Damage `suffers-damage`
+    - Attack Sequence Examples `attack-sequence-examples`
+  - 06 Other Concepts `other-concepts`
+    - 06.01 Visibility `visibility`
+      - 06.01.01 Describing Visible Units `describing-visible-units`
+    - 06.02 Mortal Wounds `mortal-wounds`
+    - 06.03 Hazard Rolls `hazard-rolls`
+      - 06.03.01 Hazardous Test `hazardous-test`
+- THE BATTLE ROUND
+  - 07 The Battle Round `the-battle-round-1`
+    - 07.01 1. Start of Battle Round `1-start-of-battle-round`
+    - 07.02 2. Player Turns `2-player-turns`
+    - 07.03 3. End of Battle Round `3-end-of-battle-round`
+  - 08 Command Phase `command-phase`
+    - 08.01 1. Start of Command Phase `1-start-of-command-phase`
+    - 08.02 2. Gain Core CP `2-gain-core-cp`
+    - 08.03 3. Battle-shock Step `3-battle-shock-step`
+    - 08.04 4. Command Abilities `4-command-abilities`
+    - 08.05 5. End of Command Phase `5-end-of-command-phase`
+  - 09 Movement Phase `movement-phase`
+    - 09.01 1. Start of Movement Phase `1-start-of-movement-phase`
+    - 09.02 2. Move Units Step `2-move-units-step`
+    - 09.03 3. End of Movement Phase `3-end-of-movement-phase`
+      - 09.04 Remain Stationary `remain-stationary`
+      - 09.05 Normal Move `normal-move`
+      - 09.06 Advance Move `advance-move`
+      - 09.07 Fall-Back Move `fall-back-move`
+    - 09.07.01 Desperate Escape Test `desperate-escape-test`
+    - 09.07.01 Desperate Escape `desperate-escape`
+    - Selecting Modes `selecting-modes`
+  - 10 Shooting Phase `shooting-phase`
+    - 10.01 1. Start of Shooting Phase `1-start-of-shooting-phase`
+    - 10.02 2. Shoot `2-shoot`
+    - 10.03 3. End of Shooting Phase `3-end-of-shooting-phase`
+      - 10.04 Normal Shooting `normal-shooting`
+      - 10.05 Assault Shooting `assault-shooting`
+      - 10.06 Close-Quarters Shooting `close-quarters-shooting`
+      - 10.07 Indirect Shooting `indirect-shooting`
+  - 11 Charge Phase `charge-phase`
+    - 11.01 1. Start of Charge Phase `1-start-of-charge-phase`
+    - 11.02 2. Charge Step `2-charge-step`
+    - 11.03 3. End of Charge Phase `3-end-of-charge-phase`
+      - 11.04 Charge Move `charge-move`
+  - 12 Fight Phase `fight-phase`
+    - 12.01 1. Start of Fight Phase `1-start-of-fight-phase`
+    - 12.02 2. Pile In `2-pile-in`
+      - 12.03 Pile-In Move `pile-in-move`
+    - 12.04 3. Fight Step `3-fight-step`
+      - When a Unit is Selected to Fight `when-a-unit-is-selected-to-fight`
+      - 12.05 Normal Fight `normal-fight`
+      - 12.06 Overrun Fight `overrun-fight`
+    - 12.07 4. Consolidate `4-consolidate`
+      - 12.08 Consolidation Move `consolidation-move`
+    - 12.09 5. End of Fight Phase `5-end-of-fight-phase`
+- BATTLEFIELDS AND TACTICS
+  - 13 Terrain `terrain`
+    - 13.01 Placing Terrain `placing-terrain`
+    - 13.02 Terrain Categories `terrain-categories`
+      - 13.03 Exposed `exposed`
+      - 13.04 Light `light`
+      - 13.05 Dense `dense`
+    - 13.06 Terrain and Movement `terrain-and-movement`
+      - Moving Vertically `moving-vertically`
+      - Setting Up or Ending a Move `setting-up-or-ending-a-move`
+    - 13.07 Terrain and Visibility `terrain-and-visibility`
+      - 13.08 Benefit of Cover `benefit-of-cover`
+      - 13.09 Hidden `hidden`
+        - 13.09.01 Hidden and the First Turn `hidden-and-the-first-turn`
+      - 13.10 Obscuring `obscuring`
+      - 13.11 Solid `solid`
+        - 13.11.01 Gone to Ground `gone-to-ground`
+  - 14 Objectives `objectives`
+    - 14.01 Terrain Objectives `terrain-objectives`
+      - 14.01.01 Objectives Not Within A Terrain Area `objectives-not-within-a-terrain-area`
+    - 14.02 Level of Control `level-of-control`
+      - 14.02.01 Controlling an Objective at the End of a Phase `controlling-an-objective-at-the-end-of-a-phase`
+    - 14.03 Secured Objectives `secured-objectives`
+  - 15 Stratagems `stratagems`
+    - 15.01 Using Stratagems `using-stratagems`
+    - Core Stratagems `core-stratagems`
+      - Stratagems Key `stratagems-key`
+      - 15.02 Command Re-Roll `command-re-roll`
+      - 15.03 Epic Challenge `epic-challenge`
+      - 15.04 Insane Bravery `insane-bravery`
+      - 15.05 Explosives `explosives`
+      - 15.06 Crushing Impact `crushing-impact`
+      - 15.07 Rapid Ingress `rapid-ingress`
+      - 15.08 Fire Overwatch `fire-overwatch`
+      - 15.09 Snap Shooting `snap-shooting`
+      - 15.10 Smokescreen `smokescreen`
+      - 15.11 Heroic Intervention `heroic-intervention`
+      - 15.12 Counteroffensive `counteroffensive`
+  - 16 Actions `actions`
+    - 16.01 Performing Actions `performing-actions`
+      - Starting an Action `starting-an-action`
+      - Completing an Action `completing-an-action`
+- ADVANCED RULES
+  - 17 Monsters and Vehicles `monsters-and-vehicles`
+    - 17.01 Moving Monsters and Vehicles `moving-monsters-and-vehicles`
+    - 17.02 Frame `frame`
+    - 17.03 Shooting at Engaged Monsters and Vehicles `shooting-at-engaged-monsters-and-vehicles`
+  - 18 Transports `transports`
+    - 18.01 Transport Capacity `transport-capacity`
+    - 18.02 Embarking `embarking`
+      - 18.02.01 Able To Embark `able-to-embark`
+    - 18.03 Disembarking `disembarking`
+      - 18.04 Disembark Move `disembark-move`
+      - 18.05 Emergency Disembark Move `emergency-disembark-move`
+      - 18.06 Assault Disembark Move `assault-disembark-move`
+      - 18.07 Shock Disembark Move `shock-disembark-move`
+  - Attached Units
+    - 19.01 Forming Attached Units `forming-attached-units`
+    - 19.02 Attacking Attached Units `attacking-attached-units`
+    - 19.03 Keywords in Attached Units `keywords-in-attached-units`
+    - 19.04 Abilities in Attached Units `abilities-in-attached-units`
+  - 20 Strategic Reserves `strategic-reserves`
+    - 20.01 Placing Units in Strategic Reserves `placing-units-in-strategic-reserves`
+    - 20.01.02 Strategic Reserves at the End of the Battle `strategic-reserves-at-the-end-of-the-battle`
+    - 20.02 Repositioned Units `repositioned-units`
+    - 20.03 Arriving from Strategic Reserves `arriving-from-strategic-reserves`
+      - 20.04 Ingress Move `ingress-move`
+  - 21 Flying and Surging `flying-and-surging`
+    - 21.01 Surge Moves `surge-moves`
+      - 21.02 Surge Move `surge-move`
+    - 21.03 Flying Models `flying-models`
+  - 22 Other Rules and Abilities `other-rules-and-abilities`
+    - 22.01 Aura Abilities `aura-abilities`
+    - 22.02 Faction Abilities `faction-abilities`
+    - 22.03 Psychic Abilities `psychic-abilities`
+    - 22.04 Wargear Abilities `wargear-abilities`
+    - 22.05 Plunging Fire `plunging-fire`
+  - 23 Aircraft `aircraft`
+    - 23.01 Deployment `deployment`
+    - 23.02 Movement `movement`
+    - 23.03 Shooting `shooting`
+    - 23.04 Charging and Fighting `charging-and-fighting`
+- REFERENCE
+  - 24 Core Abilities `core-abilities`
+    - 24.01 Abilities `abilities`
+    - 24.02 Duplicated Abilities `duplicated-abilities`
+      - 24.32 Scout Move `scout-move`
+  - 25 Muster Armies `muster-armies`
+    - 25.01 Start Your Army Roster `start-your-army-roster`
+    - 25.02 Select Army Faction `select-army-faction`
+    - 25.03 Select Battle Size `select-battle-size`
+    - 25.04 Fill Your Army Roster `fill-your-army-roster`
+      - Select Detachments `select-detachments`
+      - Select Units `select-units`
+      - Attach Leaders and Support Units `attach-leaders-and-support-units`
+      - Select Enhancements `select-enhancements`
+- Rules Appendix
+  - Core Concepts
+    - Armies
+      - 01.01.01 You `appendix-you`
+    - Units and Models
+      - 01.02.01 Starting Strength and Half-Strength `appendix-starting-strength-and-half-strength`
+      - 01.02.02 Persisting Rules Effects `appendix-persisting-rules-effects`
+      - 01.02.03 Revived and Adding Models to a Unit `appendix-revived-and-adding-models-to-a-unit`
+      - 01.02.04 Not On The Battlefield `appendix-not-on-the-battlefield`
+      - 01.02.05 Other Model / Unit `appendix-other-model-unit`
+      - 01.02.06 Splitting Units `appendix-splitting-units`
+      - 01.02.07 Describing Units `appendix-describing-units`
+      - 01.02.08 A (Unit/Model/Object) `appendix-a-unit-model-object`
+      - 01.02.09 Tokens `appendix-tokens`
+      - 01.02.10 Adding a new unit to your army `appendix-adding-a-new-unit-to-your-army`
+      - 01.02.11 All Types of Model `appendix-all-types-of-model`
+    - Active Player and Opposing Player
+      - 01.03.01 Player’s Rules `appendix-player-s-rules`
+      - 01.03.02 Rules Sequencing `appendix-rules-sequencing`
+    - Measuring Distances
+      - 01.04.01 Within / Wholly Within `appendix-within-wholly-within`
+      - 01.04.02 Closest Or Nearest Model/Unit `appendix-closest-or-nearest-model-unit`
+      - 01.04.03 As Close As Possible `appendix-as-close-as-possible`
+      - 01.04.04 Base Contact or Base to Base Contact `appendix-base-contact-or-base-to-base-contact`
+      - 01.04.05 Table Quarters `appendix-table-quarters`
+    - Dice
+      - 01.05.01 Automatically Successful/Passes/Hits/Wounds `appendix-automatically-successful-passes-hits-wounds`
+      - 01.05.02 Re-rolls `appendix-re-rolls`
+      - 01.05.03 Modifying Dice Rolls `appendix-modifying-dice-rolls`
+      - 01.05.04 Ignoring Roll Modifiers `appendix-ignoring-roll-modifiers`
+      - 01.05.05 Roll Off `appendix-roll-off`
+      - 01.05.06 Doubles Or Triples `appendix-doubles-or-triples`
+      - 01.05.07 Highest or Lowest Dice Result `appendix-highest-or-lowest-dice-result`
+      - 01.05.08 Treated As, Set To (Dice Roll) `appendix-treated-as-set-to-dice-roll`
+    - Battle-shock Rolls
+      - 01.07.01 Battlefield Morale `appendix-battlefield-morale`
+      - 01.07.02 Battle-shock Test `appendix-battle-shock-test`
+  - Datasheets
+    - 1. Datasheet Name
+      - 02.01.01 Datasheet Name and Keywords `appendix-datasheet-name-and-keywords`
+    - 2. Profiles
+      - What are Modifiers? `appendix-what-are-modifiers`
+      - Applying Modifiers `appendix-applying-modifiers`
+      - When Modifying Dice Rolls `appendix-when-modifying-dice-rolls`
+      - Other Modified Rules `appendix-other-modified-rules`
+      - 02.02.02 Ignore Modifiers `appendix-ignore-modifiers`
+      - 02.02.03 Random Characteristics `appendix-random-characteristics`
+      - 02.02.04 Healing Or Regaining Lost Wounds `appendix-healing-or-regaining-lost-wounds`
+      - 02.02.05 Full Wounds Remaining `appendix-full-wounds-remaining`
+      - 02.02.06 Characteristic Modifiers & Modified Characteristics `appendix-characteristic-modifiers-modified-characteristics`
+    - 3. Abilities
+      - 02.03.01 Rules With Multiple Conditions And Effects `appendix-rules-with-multiple-conditions-and-effects`
+    - 4. Weapons
+      - 02.04.01 Weapons With No Strength `appendix-weapons-with-no-strength`
+    - 5. Keywords
+      - 02.05.01 Using Keywords & Mixed Keywords in Units `appendix-using-keywords-mixed-keywords-in-units`
+    - 6. Unit Composition and Other Rules
+      - 02.06.01 Bearer `appendix-bearer`
+      - 02.06.02 Unit's Equipment `appendix-unit-s-equipment`
+  - Moving
+    - Moving Units
+      - 03.01.01 Different Move Characteristics `appendix-different-move-characteristics`
+      - 03.01.02 Moving Over Or Through Models `appendix-moving-over-or-through-models`
+      - 03.01.03 Random Movement `appendix-random-movement`
+      - 03.01.04 When Moving Up To `appendix-when-moving-up-to`
+    - Set Up
+      - 03.02.01 If You Cannot Set Up a Unit `appendix-if-you-cannot-set-up-a-unit`
+      - 03.02.02 Setting Up Large Models `appendix-setting-up-large-models`
+      - 03.02.03 Redeployments `appendix-redeployments`
+    - Engagement
+      - 03.04.01 What Is Engagement `appendix-what-is-engagement`
+  - Making Attacks
+    - 1. Select Weapons
+      - 04.01.01 Models Without Ranged/Melee Weapons `appendix-models-without-ranged-melee-weapons`
+      - 04.01.02 Sidearms `appendix-sidearms`
+      - 04.01.03 Multiple Weapon Profiles `appendix-multiple-weapon-profiles`
+      - 04.01.04 Attack Characteristics and Abilities `appendix-attack-characteristics-and-abilities`
+      - 04.01.05 Selected to Attack `appendix-selected-to-attack`
+    - 2. Select Targets
+      - 04.02.01 Selecting Targets `appendix-selecting-targets`
+      - 04.02.02 Against An Attack `appendix-against-an-attack`
+      - 04.02.03 Single Target `appendix-single-target`
+    - 3. Resolve Attacks
+      - 04.03.01 Identical Attacks `appendix-identical-attacks`
+      - 04.03.02 Splitting Melee Attacks `appendix-splitting-melee-attacks`
+      - 04.03.03 Target No Longer Eligible Or Viable `appendix-target-no-longer-eligible-or-viable`
+      - 04.03.04 Shot `appendix-shot`
+      - 04.03.05 Fought `appendix-fought`
+      - 04.03.06 Finished Making Its Attacks `appendix-finished-making-its-attacks`
+  - Attack Sequence
+    - 2. Wound Rolls
+      - 05.02.01 Multiple Toughness Characteristics `appendix-multiple-toughness-characteristics`
+    - 4. Inflict Damage
+      - 05.04.01 Current Allocation Group `appendix-current-allocation-group`
+      - 05.04.02 Modifying Damage `appendix-modifying-damage`
+      - 05.04.04 Destroyed `appendix-destroyed`
+      - 05.04.05 Fight On Death `appendix-fight-on-death`
+      - 05.04.06 Measuring To A Destroyed Model Or Unit `appendix-measuring-to-a-destroyed-model-or-unit`
+  - Other Concepts
+    - Visibility
+      - 06.01.01 Describing Visible Units `appendix-describing-visible-units`
+    - Mortal Wounds
+      - 06.02.01 Normal Damage `appendix-normal-damage`
+    - Hazard Rolls
+      - 06.03.01 Hazardous Test `appendix-hazardous-test`
+  - The Battle Round
+    - 2. Player Turns
+      - 07.02.01 Out Of Phase Rules `appendix-out-of-phase-rules`
+      - 07.02.02 Battle Round/Turn/Phase Definitions `appendix-battle-round-turn-phase-definitions`
+  - Command Phase
+    - 2. Gain Core CP
+      - 08.02.01 Command Points `appendix-command-points`
+    - 3. Battle-shock
+      - 08.03.01 Multiple Battle-shock Rolls `appendix-multiple-battle-shock-rolls`
+  - Movement Phase
+    - 2. Move Units
+      - 09.02.01 Selecting Units To Move `appendix-selecting-units-to-move`
+      - 09.02.02 Selecting Modes `appendix-selecting-modes`
+      - 09.02.03 Reinforcements Step `appendix-reinforcements-step`
+      - 09.05.01 More Than One Normal Move in a Phase `appendix-more-than-one-normal-move-in-a-phase`
+  - Charge Phase
+    - 2. Charge
+      - 11.02.01 Failed Charges `appendix-failed-charges`
+  - Fight Phase
+    - 3. Fight
+      - 12.04.01 Eligible to fight, but unable to fight `appendix-eligible-to-fight-but-unable-to-fight`
+  - Terrain
+    - Terrain Categories
+      - 13.02.01 Creating Your Own Battlefield `appendix-creating-your-own-battlefield`
+    - Terrain and Movement
+      - 13.06.01 Solid Terrain and Movement `appendix-solid-terrain-and-movement`
+    - Hidden
+      - 13.09.01 Hidden and the First Turn `appendix-hidden-and-the-first-turn`
+    - Solid
+      - 13.11.01 Gone to Ground `appendix-gone-to-ground`
+  - Objectives
+    - Terrain Objectives
+      - 14.01.01 Objectives Not Within A Terrain Area `appendix-objectives-not-within-a-terrain-area`
+      - 14.02.01 Controlling an Objective at the End of a Phase `appendix-controlling-an-objective-at-the-end-of-a-phase`
+  - Stratagems
+    - Using Stratagems
+      - 15.01.01 Modifying CP Cost `appendix-modifying-cp-cost`
+      - 15.01.02 Affected By A Stratagem `appendix-affected-by-a-stratagem`
+      - 15.01.03 Stratagem Definitions `appendix-stratagem-definitions`
+  - Monsters and Vehicles
+    - Shooting at Engaged Monsters and Vehicles
+      - 17.03.01 Shooting While Engaged With Monsters/Vehicles `appendix-shooting-while-engaged-with-monsters-vehicles`
+  - Transports
+    - Embarking
+      - 18.02.01 Able To Embark `appendix-able-to-embark`
+      - 18.04.01 Rapid Disembark And Limitations `appendix-rapid-disembark-and-limitations`
+  - Attached Units
+    - Forming Attached Units
+      - 19.01.01 Attached Units After Their Bodyguard Unit is Destroyed `appendix-attached-units-after-their-bodyguard-unit-is-destroyed`
+    - Abilities in Attached Units
+      - 19.04.01 Only In Death Does Duty End `appendix-only-in-death-does-duty-end`
+  - Strategic Reserves
+    - Placing Units in Strategic Reserves
+      - 20.01.01 Reserves `appendix-reserves`
+    - 20.01.02 Strategic Reserves at the End of the Battle `appendix-strategic-reserves-at-the-end-of-the-battle`
+    - Arriving from Strategic Reserves
+      - 20.03.01 Set Up As Reinforcements `appendix-set-up-as-reinforcements`
+  - Core Abilities
+    - Abilities
+      - 22.03.01 Psychic Abilities with a Psychic Level `appendix-psychic-abilities-with-a-psychic-level`
+      - 24.01.01 With The 'X' Ability `appendix-with-the-x-ability`
+    - [EXTRA ATTACKS]
+      - 24.11.01 Only [EXTRA ATTACKS] weapons `appendix-only-extra-attacks-weapons`
+    - Lone Operative
+      - 24.24.01 Attached units and Lone Operative `appendix-attached-units-and-lone-operative`
+    - [ONE SHOT]
+      - 24.26.01 Multiple [ONE SHOT] Weapons `appendix-multiple-one-shot-weapons`
+      - 24.28.01 Precision and Devastating Wounds `appendix-precision-and-devastating-wounds`
+      - 24.37.01 [TORRENT] `appendix-torrent`
+  - Universal Rules Updates `appendix-universal-rules-updates`
+    - Modifying a Stratagem’s CP Cost `appendix-modifying-a-stratagem-s-cp-cost`
+    - Stratagems That Can Be Used More Than Once Per Phase/Turn `appendix-stratagems-that-can-be-used-more-than-once-per-phase-turn`
+    - Stratagems That Prevent Units From Being Targeted `appendix-stratagems-that-prevent-units-from-being-targeted`
+    - Stratagems That Add New Units To Your Army `appendix-stratagems-that-add-new-units-to-your-army`
+    - Move Types For Disembarking Units `appendix-move-types-for-disembarking-units`
