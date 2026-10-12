@@ -1,0 +1,26 @@
+# entorno local
+.venv/
+**/__pycache__/
+*.pyc
+*.log
+
+# secretos: en el despliegue llegan como variables de entorno
+.env
+.streamlit/secrets.toml
+
+# datos locales que no van en la imagen
+data/*.db
+data/*.db-*
+data/admin_credentials.json
+data/cookie_secret
+data/wahapedia/raw/
+
+# el PDF del MVP ya no se usa
+rules/
+empty.txt
+
+# listas de prueba (.rosz): sirven para desarrollar, no van en la imagen
+samples/
+
+# exploracion (grafo de reglas): fuera de la imagen
+exploracion/

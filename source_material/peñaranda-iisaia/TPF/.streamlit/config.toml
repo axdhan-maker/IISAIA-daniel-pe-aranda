@@ -1,0 +1,53 @@
+# Paleta y tipografia tomadas del sistema de diseño de Lamborghini.com:
+# escenario oscuro monocromo con un unico acento Giallo Vivo, esquinas rectas,
+# sin sombras y jerarquia por escala (nunca por peso de fuente).
+[theme]
+base = "dark"
+
+primaryColor = "#ffc000"           # Giallo Vivo: un solo acento por pantalla
+backgroundColor = "#202020"        # Carbony Black
+secondaryBackgroundColor = "#181818"  # Carbon Deep
+codeBackgroundColor = "#000000"    # Pure Black
+textColor = "#ffffff"              # Pearl White
+linkColor = "#ffc000"
+borderColor = "#494949"            # Graphite Border
+dataframeBorderColor = "#494949"
+dataframeHeaderBackgroundColor = "#181818"
+
+yellowColor = "#ffc000"
+orangeColor = "#917300"            # Giallo Ombra
+grayColor = "#7d7d7d"              # Steel Mid
+
+# LamboType es exclusiva de la marca: Archivo es la grotesca libre mas cercana
+# (ancha, de terminaciones rectas, "engineered, not cramped").
+font = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap"
+headingFont = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap"
+baseFontSize = 16
+baseFontWeight = 400
+headingFontSizes = ["54px", "32px", "27px", "18px", "16px", "12px"]
+headingFontWeights = [400, 400, 400, 400, 400, 400]
+linkUnderline = false
+
+# "Hard edges are non-negotiable": radio 0 en todos los elementos.
+baseRadius = "none"
+buttonRadius = "none"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#181818"
+secondaryBackgroundColor = "#202020"
+codeBackgroundColor = "#000000"
+textColor = "#ffffff"
+borderColor = "#494949"
+primaryColor = "#ffc000"
+
+# barra superior minima: sin el boton "Deploy" ni las opciones de desarrollo
+[client]
+toolbarMode = "minimal"
+
+# sirve ./static en /app/static/ (el logo que usa Auth0 en su pantalla de login)
+[server]
+enableStaticServing = true
+# las listas .rosz pesan unos KB: 1 MB alcanza y corta archivos abusivos
+maxUploadSize = 1

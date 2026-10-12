@@ -1,0 +1,22 @@
+# Puerta de entrada del contenedor: un solo puerto publico ($PORT) para las
+# dos apps de Streamlit, que escuchan solo dentro del contenedor.
+#   /admin/...  -> panel de admin (Streamlit con baseUrlPath "admin")
+#   el resto    -> app de jugadores
+# El HTTPS lo pone la plataforma (Fly.io, Railway...), no Caddy.
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT} {
+	encode gzip
+
+	redir /admin /admin/ 308
+	handle /admin/* {
+		reverse_proxy 127.0.0.1:{$ADMIN_PORT}
+	}
+
+	handle {
+		reverse_proxy 127.0.0.1:{$APP_PORT}
+	}
+}
